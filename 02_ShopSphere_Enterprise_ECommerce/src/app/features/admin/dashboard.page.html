@@ -1,0 +1,76 @@
+<header class="admin-head">
+  <div>
+    <h1>Dashboard</h1>
+    <p>Store performance over the last 12 months (mock order data).</p>
+  </div>
+  <a mat-flat-button routerLink="/admin/products"><mat-icon>add</mat-icon> Add product</a>
+</header>
+
+@if (resource.state().status === 'error') {
+  <app-error-state [message]="resource.state().error ?? ''" (retry)="resource.retry()" />
+} @else if (stats(); as s) {
+  <section class="kpis" aria-label="Key metrics">
+    <div class="kpi"><mat-icon>payments</mat-icon><span>Total revenue</span><strong>{{ s.revenue | currency: 'USD' : 'symbol' : '1.0-0' }}</strong><small>Excludes cancelled orders</small></div>
+    <div class="kpi"><mat-icon>receipt_long</mat-icon><span>Total orders</span><strong>{{ s.orderCount | number }}</strong><small>{{ s.customerCount }} unique customers</small></div>
+    <div class="kpi"><mat-icon>shopping_cart</mat-icon><span>Avg. order value</span><strong>{{ s.avgOrderValue | currency: 'USD' }}</strong><small>Paid orders only</small></div>
+    <div class="kpi"><mat-icon>inventory_2</mat-icon><span>Total products</span><strong>{{ s.productCount }}</strong><small class="warn">{{ s.lowStockCount }} low · {{ s.outOfStockCount }} out of stock</small></div>
+  </section>
+
+  <section class="charts">
+    <div class="panel wide">
+      <h2>Revenue &amp; orders</h2>
+      <div echarts [options]="revenueChart()" class="chart" [autoResize]="true"></div>
+    </div>
+    <div class="panel">
+      <h2>Orders by status</h2>
+      <div echarts [options]="statusChart()" class="chart" [autoResize]="true"></div>
+    </div>
+    <div class="panel">
+      <h2>Sales by category</h2>
+      <div echarts [options]="categoryChart()" class="chart" [autoResize]="true"></div>
+    </div>
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Inventory alerts</h2>
+        <a routerLink="/admin/inventory">Manage</a>
+      </div>
+      <ul class="mini-list">
+        @for (p of s.lowStock; track p.id) {
+          <li>
+            <img [src]="p.images[0]" alt="" appImgFallback width="40" height="40" />
+            <span>{{ p.name }}</span>
+            <span class="badge" [class.danger]="p.stock <= 0" [class.warning]="p.stock > 0">{{ p.stock <= 0 ? 'Out' : p.stock + ' left' }}</span>
+          </li>
+        } @empty {
+          <li class="muted">All products are well stocked.</li>
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Recent orders</h2>
+      <a routerLink="/admin/orders">View all</a>
+    </div>
+    <div class="table-wrap">
+      <table class="simple-table">
+        <thead><tr><th>Order</th><th>Customer</th><th>Date</th><th>Items</th><th>Total</th><th>Status</th></tr></thead>
+        <tbody>
+          @for (o of s.recentOrders; track o.id) {
+            <tr>
+              <td><strong>{{ o.number }}</strong></td>
+              <td>{{ o.customer.firstName }} {{ o.customer.lastName }}</td>
+              <td>{{ o.createdAt | date: 'mediumDate' }}</td>
+              <td>{{ o.items.length }}</td>
+              <td>{{ o.total | currency: 'USD' }}</td>
+              <td><app-order-status-badge [status]="o.status" /></td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+} @else {
+  <p class="muted">Loading dashboard…</p>
+}

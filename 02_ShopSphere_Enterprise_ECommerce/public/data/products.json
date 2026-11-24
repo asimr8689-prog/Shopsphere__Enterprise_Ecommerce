@@ -1,0 +1,3304 @@
+[
+ {
+  "id": "p-001",
+  "slug": "aurora-studio-pro-headphones",
+  "name": "Aurora Studio Pro Headphones",
+  "brand": "Aurora",
+  "categoryId": "audio",
+  "shortDescription": "Audio essential by Aurora — 50 mm planar, 30 hours.",
+  "description": "The Aurora Studio Pro Headphones blends thoughtful engineering with a refined, minimal design. Featuring driver (50 mm planar) and battery (30 hours), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 144.99,
+  "compareAtPrice": null,
+  "rating": 4.2,
+  "reviewCount": 2301,
+  "stock": 120,
+  "sold": 8855,
+  "images": [
+   "images/products/aurora-studio-pro-headphones-1.svg",
+   "images/products/aurora-studio-pro-headphones-2.svg",
+   "images/products/aurora-studio-pro-headphones-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Driver",
+    "value": "50 mm planar"
+   },
+   {
+    "label": "Battery",
+    "value": "30 hours"
+   },
+   {
+    "label": "Noise cancelling",
+    "value": "Passive"
+   },
+   {
+    "label": "Connectivity",
+    "value": "Bluetooth 5.4, USB-C"
+   },
+   {
+    "label": "Weight",
+    "value": "250 g"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-1-0",
+    "author": "Omar S.",
+    "rating": 5,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-09-07",
+    "verified": true
+   },
+   {
+    "id": "r-1-1",
+    "author": "Emma W.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-01-09",
+    "verified": true
+   },
+   {
+    "id": "r-1-2",
+    "author": "Omar S.",
+    "rating": 3,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-03-18",
+    "verified": true
+   },
+   {
+    "id": "r-1-3",
+    "author": "Daniel R.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-06-04",
+    "verified": true
+   },
+   {
+    "id": "r-1-4",
+    "author": "Fatima Z.",
+    "rating": 4,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-02-20",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-05-30"
+ },
+ {
+  "id": "p-002",
+  "slug": "pulse-buds-anc",
+  "name": "Pulse Buds ANC",
+  "brand": "Lumen & Co",
+  "categoryId": "audio",
+  "shortDescription": "Audio essential by Lumen & Co — 50 mm planar, 40 hours.",
+  "description": "The Pulse Buds ANC blends thoughtful engineering with a refined, minimal design. Featuring driver (50 mm planar) and battery (40 hours), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 174.99,
+  "compareAtPrice": null,
+  "rating": 4.0,
+  "reviewCount": 1992,
+  "stock": 3,
+  "sold": 3790,
+  "images": [
+   "images/products/pulse-buds-anc-1.svg",
+   "images/products/pulse-buds-anc-2.svg",
+   "images/products/pulse-buds-anc-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Driver",
+    "value": "50 mm planar"
+   },
+   {
+    "label": "Battery",
+    "value": "40 hours"
+   },
+   {
+    "label": "Noise cancelling",
+    "value": "Hybrid ANC"
+   },
+   {
+    "label": "Connectivity",
+    "value": "Bluetooth 5.4, USB-C"
+   },
+   {
+    "label": "Weight",
+    "value": "250 g"
+   }
+  ],
+  "tags": [
+   "featured",
+   "trending",
+   "bestseller"
+  ],
+  "reviews": [
+   {
+    "id": "r-2-0",
+    "author": "Sofia M.",
+    "rating": 3,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-01-07",
+    "verified": false
+   },
+   {
+    "id": "r-2-1",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-04-26",
+    "verified": true
+   },
+   {
+    "id": "r-2-2",
+    "author": "Hamza A.",
+    "rating": 3,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-01-19",
+    "verified": true
+   },
+   {
+    "id": "r-2-3",
+    "author": "Priya N.",
+    "rating": 5,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-02-20",
+    "verified": true
+   },
+   {
+    "id": "r-2-4",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-01-14",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-03-04"
+ },
+ {
+  "id": "p-003",
+  "slug": "solace-arc-bluetooth-speaker",
+  "name": "Solace Arc Bluetooth Speaker",
+  "brand": "Solace",
+  "categoryId": "audio",
+  "shortDescription": "Audio essential by Solace — 50 mm planar, 30 hours.",
+  "description": "The Solace Arc Bluetooth Speaker blends thoughtful engineering with a refined, minimal design. Featuring driver (50 mm planar) and battery (30 hours), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 219.99,
+  "compareAtPrice": null,
+  "rating": 4.3,
+  "reviewCount": 420,
+  "stock": 120,
+  "sold": 7223,
+  "images": [
+   "images/products/solace-arc-bluetooth-speaker-1.svg",
+   "images/products/solace-arc-bluetooth-speaker-2.svg",
+   "images/products/solace-arc-bluetooth-speaker-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Driver",
+    "value": "50 mm planar"
+   },
+   {
+    "label": "Battery",
+    "value": "30 hours"
+   },
+   {
+    "label": "Noise cancelling",
+    "value": "Hybrid ANC"
+   },
+   {
+    "label": "Connectivity",
+    "value": "Bluetooth 5.4, USB-C"
+   },
+   {
+    "label": "Weight",
+    "value": "5.4 g per bud"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-3-0",
+    "author": "Priya N.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-01-16",
+    "verified": false
+   },
+   {
+    "id": "r-3-1",
+    "author": "Kenji O.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-02-15",
+    "verified": false
+   },
+   {
+    "id": "r-3-2",
+    "author": "Omar S.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-03-22",
+    "verified": false
+   },
+   {
+    "id": "r-3-3",
+    "author": "Mei L.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-10-13",
+    "verified": false
+   },
+   {
+    "id": "r-3-4",
+    "author": "Hamza A.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-02-04",
+    "verified": false
+   }
+  ],
+  "createdAt": "2026-09-21"
+ },
+ {
+  "id": "p-004",
+  "slug": "nordvik-fold-wireless-headphones",
+  "name": "Nordvik Fold Wireless Headphones",
+  "brand": "Nordvik",
+  "categoryId": "audio",
+  "shortDescription": "Audio essential by Nordvik — 40 mm dynamic, 30 hours.",
+  "description": "The Nordvik Fold Wireless Headphones blends thoughtful engineering with a refined, minimal design. Featuring driver (40 mm dynamic) and battery (30 hours), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 174.99,
+  "compareAtPrice": null,
+  "rating": 3.8,
+  "reviewCount": 570,
+  "stock": 40,
+  "sold": 8982,
+  "images": [
+   "images/products/nordvik-fold-wireless-headphones-1.svg",
+   "images/products/nordvik-fold-wireless-headphones-2.svg",
+   "images/products/nordvik-fold-wireless-headphones-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Driver",
+    "value": "40 mm dynamic"
+   },
+   {
+    "label": "Battery",
+    "value": "30 hours"
+   },
+   {
+    "label": "Noise cancelling",
+    "value": "Hybrid ANC"
+   },
+   {
+    "label": "Connectivity",
+    "value": "Bluetooth 5.4, USB-C"
+   },
+   {
+    "label": "Weight",
+    "value": "620 g"
+   }
+  ],
+  "tags": [
+   "featured",
+   "trending"
+  ],
+  "reviews": [
+   {
+    "id": "r-4-0",
+    "author": "Daniel R.",
+    "rating": 5,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-02-26",
+    "verified": true
+   },
+   {
+    "id": "r-4-1",
+    "author": "Daniel R.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-04-23",
+    "verified": true
+   },
+   {
+    "id": "r-4-2",
+    "author": "Hamza A.",
+    "rating": 3,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-08-16",
+    "verified": true
+   },
+   {
+    "id": "r-4-3",
+    "author": "Emma W.",
+    "rating": 3,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-01-05",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-04-25"
+ },
+ {
+  "id": "p-005",
+  "slug": "kestrel-pods-lite",
+  "name": "Kestrel Pods Lite",
+  "brand": "Kestrel",
+  "categoryId": "audio",
+  "shortDescription": "Audio essential by Kestrel — 40 mm dynamic, 40 hours.",
+  "description": "The Kestrel Pods Lite blends thoughtful engineering with a refined, minimal design. Featuring driver (40 mm dynamic) and battery (40 hours), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 204.99,
+  "compareAtPrice": null,
+  "rating": 4.1,
+  "reviewCount": 1395,
+  "stock": 7,
+  "sold": 7557,
+  "images": [
+   "images/products/kestrel-pods-lite-1.svg",
+   "images/products/kestrel-pods-lite-2.svg",
+   "images/products/kestrel-pods-lite-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Driver",
+    "value": "40 mm dynamic"
+   },
+   {
+    "label": "Battery",
+    "value": "40 hours"
+   },
+   {
+    "label": "Noise cancelling",
+    "value": "Passive"
+   },
+   {
+    "label": "Connectivity",
+    "value": "Bluetooth 5.3"
+   },
+   {
+    "label": "Weight",
+    "value": "5.4 g per bud"
+   }
+  ],
+  "tags": [
+   "bestseller"
+  ],
+  "reviews": [
+   {
+    "id": "r-5-0",
+    "author": "Daniel R.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-06-03",
+    "verified": true
+   },
+   {
+    "id": "r-5-1",
+    "author": "Emma W.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-05-26",
+    "verified": true
+   },
+   {
+    "id": "r-5-2",
+    "author": "Omar S.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-02-05",
+    "verified": true
+   },
+   {
+    "id": "r-5-3",
+    "author": "Daniel R.",
+    "rating": 3,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-04-13",
+    "verified": false
+   },
+   {
+    "id": "r-5-4",
+    "author": "Ayesha K.",
+    "rating": 3,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-05-02",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-04-30"
+ },
+ {
+  "id": "p-006",
+  "slug": "vantage-air-14-laptop",
+  "name": "Vantage Air 14 Laptop",
+  "brand": "Vantage",
+  "categoryId": "computing",
+  "shortDescription": "Laptops essential by Vantage — 16-core 4.2 ghz, 64 gb.",
+  "description": "The Vantage Air 14 Laptop blends thoughtful engineering with a refined, minimal design. Featuring processor (16-core 4.2 GHz) and memory (64 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 1509.99,
+  "compareAtPrice": 1964.99,
+  "rating": 4.9,
+  "reviewCount": 1266,
+  "stock": 25,
+  "sold": 3107,
+  "images": [
+   "images/products/vantage-air-14-laptop-1.svg",
+   "images/products/vantage-air-14-laptop-2.svg",
+   "images/products/vantage-air-14-laptop-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Processor",
+    "value": "16-core 4.2 GHz"
+   },
+   {
+    "label": "Memory",
+    "value": "64 GB"
+   },
+   {
+    "label": "Storage",
+    "value": "1 TB SSD"
+   },
+   {
+    "label": "Display",
+    "value": "14\" 2.8K OLED"
+   },
+   {
+    "label": "Battery",
+    "value": "14 hours"
+   }
+  ],
+  "tags": [
+   "trending",
+   "new"
+  ],
+  "reviews": [
+   {
+    "id": "r-6-0",
+    "author": "Ayesha K.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-01-24",
+    "verified": false
+   },
+   {
+    "id": "r-6-1",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-07-25",
+    "verified": true
+   },
+   {
+    "id": "r-6-2",
+    "author": "Fatima Z.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-08-24",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-06-26"
+ },
+ {
+  "id": "p-007",
+  "slug": "nordvik-creator-16-laptop",
+  "name": "Nordvik Creator 16 Laptop",
+  "brand": "Nordvik",
+  "categoryId": "computing",
+  "shortDescription": "Laptops essential by Nordvik — 16-core 4.2 ghz, 64 gb.",
+  "description": "The Nordvik Creator 16 Laptop blends thoughtful engineering with a refined, minimal design. Featuring processor (16-core 4.2 GHz) and memory (64 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 1054.99,
+  "compareAtPrice": null,
+  "rating": 4.4,
+  "reviewCount": 904,
+  "stock": 7,
+  "sold": 1837,
+  "images": [
+   "images/products/nordvik-creator-16-laptop-1.svg",
+   "images/products/nordvik-creator-16-laptop-2.svg",
+   "images/products/nordvik-creator-16-laptop-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Processor",
+    "value": "16-core 4.2 GHz"
+   },
+   {
+    "label": "Memory",
+    "value": "64 GB"
+   },
+   {
+    "label": "Storage",
+    "value": "2 TB SSD"
+   },
+   {
+    "label": "Display",
+    "value": "13.3\" 2.5K"
+   },
+   {
+    "label": "Battery",
+    "value": "10 hours"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-7-0",
+    "author": "Mei L.",
+    "rating": 4,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-03-04",
+    "verified": true
+   },
+   {
+    "id": "r-7-1",
+    "author": "Emma W.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-08-29",
+    "verified": true
+   },
+   {
+    "id": "r-7-2",
+    "author": "Omar S.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-09-11",
+    "verified": true
+   },
+   {
+    "id": "r-7-3",
+    "author": "Fatima Z.",
+    "rating": 4,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-03-11",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-05-24"
+ },
+ {
+  "id": "p-008",
+  "slug": "pulse-book-13",
+  "name": "Pulse Book 13",
+  "brand": "Kestrel",
+  "categoryId": "computing",
+  "shortDescription": "Laptops essential by Kestrel — 12-core 3.8 ghz, 16 gb.",
+  "description": "The Pulse Book 13 blends thoughtful engineering with a refined, minimal design. Featuring processor (12-core 3.8 GHz) and memory (16 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 1544.99,
+  "compareAtPrice": null,
+  "rating": 4.2,
+  "reviewCount": 2316,
+  "stock": 3,
+  "sold": 5779,
+  "images": [
+   "images/products/pulse-book-13-1.svg",
+   "images/products/pulse-book-13-2.svg",
+   "images/products/pulse-book-13-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Processor",
+    "value": "12-core 3.8 GHz"
+   },
+   {
+    "label": "Memory",
+    "value": "16 GB"
+   },
+   {
+    "label": "Storage",
+    "value": "1 TB SSD"
+   },
+   {
+    "label": "Display",
+    "value": "14\" 2.8K OLED"
+   },
+   {
+    "label": "Battery",
+    "value": "18 hours"
+   }
+  ],
+  "tags": [
+   "new"
+  ],
+  "reviews": [
+   {
+    "id": "r-8-0",
+    "author": "Daniel R.",
+    "rating": 4,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-08-23",
+    "verified": true
+   },
+   {
+    "id": "r-8-1",
+    "author": "Daniel R.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-08-03",
+    "verified": true
+   },
+   {
+    "id": "r-8-2",
+    "author": "Fatima Z.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-07-27",
+    "verified": true
+   },
+   {
+    "id": "r-8-3",
+    "author": "Noah T.",
+    "rating": 3,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-06-10",
+    "verified": true
+   },
+   {
+    "id": "r-8-4",
+    "author": "Sofia M.",
+    "rating": 4,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-08-08",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-06-11"
+ },
+ {
+  "id": "p-009",
+  "slug": "kestrel-workstation-17",
+  "name": "Kestrel Workstation 17",
+  "brand": "Kestrel",
+  "categoryId": "computing",
+  "shortDescription": "Laptops essential by Kestrel — 8-core 3.4 ghz, 32 gb.",
+  "description": "The Kestrel Workstation 17 blends thoughtful engineering with a refined, minimal design. Featuring processor (8-core 3.4 GHz) and memory (32 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 1609.99,
+  "compareAtPrice": null,
+  "rating": 4.5,
+  "reviewCount": 479,
+  "stock": 0,
+  "sold": 2696,
+  "images": [
+   "images/products/kestrel-workstation-17-1.svg",
+   "images/products/kestrel-workstation-17-2.svg",
+   "images/products/kestrel-workstation-17-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Processor",
+    "value": "8-core 3.4 GHz"
+   },
+   {
+    "label": "Memory",
+    "value": "32 GB"
+   },
+   {
+    "label": "Storage",
+    "value": "512 GB SSD"
+   },
+   {
+    "label": "Display",
+    "value": "13.3\" 2.5K"
+   },
+   {
+    "label": "Battery",
+    "value": "18 hours"
+   }
+  ],
+  "tags": [
+   "trending"
+  ],
+  "reviews": [
+   {
+    "id": "r-9-0",
+    "author": "Lucas B.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-04-06",
+    "verified": true
+   },
+   {
+    "id": "r-9-1",
+    "author": "Fatima Z.",
+    "rating": 3,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-03-25",
+    "verified": true
+   },
+   {
+    "id": "r-9-2",
+    "author": "Fatima Z.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-02-15",
+    "verified": true
+   },
+   {
+    "id": "r-9-3",
+    "author": "Ayesha K.",
+    "rating": 5,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-04-30",
+    "verified": true
+   },
+   {
+    "id": "r-9-4",
+    "author": "Kenji O.",
+    "rating": 4,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-06-07",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-03-04"
+ },
+ {
+  "id": "p-010",
+  "slug": "terra-slim-15-laptop",
+  "name": "Terra Slim 15 Laptop",
+  "brand": "Terra",
+  "categoryId": "computing",
+  "shortDescription": "Laptops essential by Terra — 12-core 3.8 ghz, 64 gb.",
+  "description": "The Terra Slim 15 Laptop blends thoughtful engineering with a refined, minimal design. Featuring processor (12-core 3.8 GHz) and memory (64 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 689.99,
+  "compareAtPrice": null,
+  "rating": 4.4,
+  "reviewCount": 1104,
+  "stock": 3,
+  "sold": 5622,
+  "images": [
+   "images/products/terra-slim-15-laptop-1.svg",
+   "images/products/terra-slim-15-laptop-2.svg",
+   "images/products/terra-slim-15-laptop-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Processor",
+    "value": "12-core 3.8 GHz"
+   },
+   {
+    "label": "Memory",
+    "value": "64 GB"
+   },
+   {
+    "label": "Storage",
+    "value": "512 GB SSD"
+   },
+   {
+    "label": "Display",
+    "value": "13.3\" 2.5K"
+   },
+   {
+    "label": "Battery",
+    "value": "10 hours"
+   }
+  ],
+  "tags": [
+   "bestseller"
+  ],
+  "reviews": [
+   {
+    "id": "r-10-0",
+    "author": "Ayesha K.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-05-28",
+    "verified": true
+   },
+   {
+    "id": "r-10-1",
+    "author": "Priya N.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-03-31",
+    "verified": true
+   },
+   {
+    "id": "r-10-2",
+    "author": "Mei L.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-07-09",
+    "verified": true
+   },
+   {
+    "id": "r-10-3",
+    "author": "Fatima Z.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-01-25",
+    "verified": true
+   },
+   {
+    "id": "r-10-4",
+    "author": "Omar S.",
+    "rating": 3,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-08-15",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-09-24"
+ },
+ {
+  "id": "p-011",
+  "slug": "aurora-one-pro-smartphone",
+  "name": "Aurora One Pro Smartphone",
+  "brand": "Aurora",
+  "categoryId": "phones",
+  "shortDescription": "Phones essential by Aurora — 11\" lcd 90 hz, 256 gb.",
+  "description": "The Aurora One Pro Smartphone blends thoughtful engineering with a refined, minimal design. Featuring display (11\" LCD 90 Hz) and storage (256 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 464.99,
+  "compareAtPrice": null,
+  "rating": 4.3,
+  "reviewCount": 362,
+  "stock": 120,
+  "sold": 4939,
+  "images": [
+   "images/products/aurora-one-pro-smartphone-1.svg",
+   "images/products/aurora-one-pro-smartphone-2.svg",
+   "images/products/aurora-one-pro-smartphone-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "11\" LCD 90 Hz"
+   },
+   {
+    "label": "Storage",
+    "value": "256 GB"
+   },
+   {
+    "label": "Camera",
+    "value": "50 MP triple"
+   },
+   {
+    "label": "Battery",
+    "value": "8200 mAh"
+   },
+   {
+    "label": "5G",
+    "value": "Yes"
+   }
+  ],
+  "tags": [
+   "bestseller"
+  ],
+  "reviews": [
+   {
+    "id": "r-11-0",
+    "author": "Ayesha K.",
+    "rating": 4,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-03-03",
+    "verified": true
+   },
+   {
+    "id": "r-11-1",
+    "author": "Kenji O.",
+    "rating": 5,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-08-13",
+    "verified": true
+   },
+   {
+    "id": "r-11-2",
+    "author": "Emma W.",
+    "rating": 4,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-07-02",
+    "verified": true
+   },
+   {
+    "id": "r-11-3",
+    "author": "Lucas B.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-04-21",
+    "verified": true
+   },
+   {
+    "id": "r-11-4",
+    "author": "Fatima Z.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-03-01",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-07-10"
+ },
+ {
+  "id": "p-012",
+  "slug": "vantage-x-phone",
+  "name": "Vantage X Phone",
+  "brand": "Vantage",
+  "categoryId": "phones",
+  "shortDescription": "Phones essential by Vantage — 6.7\" oled 120 hz, 256 gb.",
+  "description": "The Vantage X Phone blends thoughtful engineering with a refined, minimal design. Featuring display (6.7\" OLED 120 Hz) and storage (256 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 549.99,
+  "compareAtPrice": null,
+  "rating": 4.4,
+  "reviewCount": 1481,
+  "stock": 12,
+  "sold": 2235,
+  "images": [
+   "images/products/vantage-x-phone-1.svg",
+   "images/products/vantage-x-phone-2.svg",
+   "images/products/vantage-x-phone-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "6.7\" OLED 120 Hz"
+   },
+   {
+    "label": "Storage",
+    "value": "256 GB"
+   },
+   {
+    "label": "Camera",
+    "value": "48 MP dual"
+   },
+   {
+    "label": "Battery",
+    "value": "8200 mAh"
+   },
+   {
+    "label": "5G",
+    "value": "Wi-Fi only"
+   }
+  ],
+  "tags": [
+   "trending",
+   "bestseller"
+  ],
+  "reviews": [
+   {
+    "id": "r-12-0",
+    "author": "Kenji O.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-07-10",
+    "verified": true
+   },
+   {
+    "id": "r-12-1",
+    "author": "Priya N.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-04-11",
+    "verified": false
+   },
+   {
+    "id": "r-12-2",
+    "author": "Emma W.",
+    "rating": 3,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-08-10",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-07-18"
+ },
+ {
+  "id": "p-013",
+  "slug": "lumen-tab-11",
+  "name": "Lumen Tab 11",
+  "brand": "Kestrel",
+  "categoryId": "phones",
+  "shortDescription": "Phones essential by Kestrel — 11\" lcd 90 hz, 128 gb.",
+  "description": "The Lumen Tab 11 blends thoughtful engineering with a refined, minimal design. Featuring display (11\" LCD 90 Hz) and storage (128 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 1414.99,
+  "compareAtPrice": null,
+  "rating": 4.4,
+  "reviewCount": 499,
+  "stock": 3,
+  "sold": 5738,
+  "images": [
+   "images/products/lumen-tab-11-1.svg",
+   "images/products/lumen-tab-11-2.svg",
+   "images/products/lumen-tab-11-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "11\" LCD 90 Hz"
+   },
+   {
+    "label": "Storage",
+    "value": "128 GB"
+   },
+   {
+    "label": "Camera",
+    "value": "48 MP dual"
+   },
+   {
+    "label": "Battery",
+    "value": "4300 mAh"
+   },
+   {
+    "label": "5G",
+    "value": "Wi-Fi only"
+   }
+  ],
+  "tags": [
+   "trending",
+   "bestseller"
+  ],
+  "reviews": [
+   {
+    "id": "r-13-0",
+    "author": "Priya N.",
+    "rating": 4,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-02-26",
+    "verified": false
+   },
+   {
+    "id": "r-13-1",
+    "author": "Mei L.",
+    "rating": 5,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-01-27",
+    "verified": true
+   },
+   {
+    "id": "r-13-2",
+    "author": "Emma W.",
+    "rating": 4,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-05-21",
+    "verified": true
+   },
+   {
+    "id": "r-13-3",
+    "author": "Fatima Z.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-02-08",
+    "verified": true
+   },
+   {
+    "id": "r-13-4",
+    "author": "Daniel R.",
+    "rating": 4,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-04-21",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-08-31"
+ },
+ {
+  "id": "p-014",
+  "slug": "kestrel-mini-phone",
+  "name": "Kestrel Mini Phone",
+  "brand": "Kestrel",
+  "categoryId": "phones",
+  "shortDescription": "Phones essential by Kestrel — 6.1\" oled, 256 gb.",
+  "description": "The Kestrel Mini Phone blends thoughtful engineering with a refined, minimal design. Featuring display (6.1\" OLED) and storage (256 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 529.99,
+  "compareAtPrice": null,
+  "rating": 4.2,
+  "reviewCount": 650,
+  "stock": 40,
+  "sold": 7276,
+  "images": [
+   "images/products/kestrel-mini-phone-1.svg",
+   "images/products/kestrel-mini-phone-2.svg",
+   "images/products/kestrel-mini-phone-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "6.1\" OLED"
+   },
+   {
+    "label": "Storage",
+    "value": "256 GB"
+   },
+   {
+    "label": "Camera",
+    "value": "13 MP"
+   },
+   {
+    "label": "Battery",
+    "value": "4300 mAh"
+   },
+   {
+    "label": "5G",
+    "value": "Yes"
+   }
+  ],
+  "tags": [
+   "trending"
+  ],
+  "reviews": [
+   {
+    "id": "r-14-0",
+    "author": "Noah T.",
+    "rating": 4,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-03-10",
+    "verified": true
+   },
+   {
+    "id": "r-14-1",
+    "author": "Hamza A.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-09-15",
+    "verified": true
+   },
+   {
+    "id": "r-14-2",
+    "author": "Mei L.",
+    "rating": 4,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-07-06",
+    "verified": true
+   },
+   {
+    "id": "r-14-3",
+    "author": "Lucas B.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-05-13",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "p-015",
+  "slug": "pulse-note-tablet-12",
+  "name": "Pulse Note Tablet 12",
+  "brand": "Pulse Labs",
+  "categoryId": "phones",
+  "shortDescription": "Phones essential by Pulse Labs — 11\" lcd 90 hz, 128 gb.",
+  "description": "The Pulse Note Tablet 12 blends thoughtful engineering with a refined, minimal design. Featuring display (11\" LCD 90 Hz) and storage (128 GB), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 849.99,
+  "compareAtPrice": 979.99,
+  "rating": 4.5,
+  "reviewCount": 263,
+  "stock": 120,
+  "sold": 6589,
+  "images": [
+   "images/products/pulse-note-tablet-12-1.svg",
+   "images/products/pulse-note-tablet-12-2.svg",
+   "images/products/pulse-note-tablet-12-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "11\" LCD 90 Hz"
+   },
+   {
+    "label": "Storage",
+    "value": "128 GB"
+   },
+   {
+    "label": "Camera",
+    "value": "48 MP dual"
+   },
+   {
+    "label": "Battery",
+    "value": "4300 mAh"
+   },
+   {
+    "label": "5G",
+    "value": "Wi-Fi only"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-15-0",
+    "author": "Sofia M.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-03-16",
+    "verified": true
+   },
+   {
+    "id": "r-15-1",
+    "author": "Lucas B.",
+    "rating": 4,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-07-02",
+    "verified": true
+   },
+   {
+    "id": "r-15-2",
+    "author": "Sofia M.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-06-14",
+    "verified": true
+   },
+   {
+    "id": "r-15-3",
+    "author": "Ayesha K.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-04-08",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-03-30"
+ },
+ {
+  "id": "p-016",
+  "slug": "pulse-watch-series-5",
+  "name": "Pulse Watch Series 5",
+  "brand": "Aurora",
+  "categoryId": "wearables",
+  "shortDescription": "Wearables essential by Aurora — 1.9\" amoled, 36 hours.",
+  "description": "The Pulse Watch Series 5 blends thoughtful engineering with a refined, minimal design. Featuring display (1.9\" AMOLED) and battery (36 hours), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 194.99,
+  "compareAtPrice": null,
+  "rating": 4.3,
+  "reviewCount": 409,
+  "stock": 40,
+  "sold": 2593,
+  "images": [
+   "images/products/pulse-watch-series-5-1.svg",
+   "images/products/pulse-watch-series-5-2.svg",
+   "images/products/pulse-watch-series-5-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "1.9\" AMOLED"
+   },
+   {
+    "label": "Battery",
+    "value": "36 hours"
+   },
+   {
+    "label": "Water resistance",
+    "value": "IP68"
+   },
+   {
+    "label": "Sensors",
+    "value": "HR, SpO2, GPS"
+   },
+   {
+    "label": "Compatibility",
+    "value": "iOS & Android"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-16-0",
+    "author": "Fatima Z.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-01-06",
+    "verified": true
+   },
+   {
+    "id": "r-16-1",
+    "author": "Hamza A.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-02-28",
+    "verified": true
+   },
+   {
+    "id": "r-16-2",
+    "author": "Fatima Z.",
+    "rating": 3,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-07-09",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-06-18"
+ },
+ {
+  "id": "p-017",
+  "slug": "kestrel-active-band",
+  "name": "Kestrel Active Band",
+  "brand": "Kestrel",
+  "categoryId": "wearables",
+  "shortDescription": "Wearables essential by Kestrel — 1.4\" amoled, 14 days.",
+  "description": "The Kestrel Active Band blends thoughtful engineering with a refined, minimal design. Featuring display (1.4\" AMOLED) and battery (14 days), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 399.99,
+  "compareAtPrice": 524.99,
+  "rating": 4.7,
+  "reviewCount": 2116,
+  "stock": 40,
+  "sold": 6592,
+  "images": [
+   "images/products/kestrel-active-band-1.svg",
+   "images/products/kestrel-active-band-2.svg",
+   "images/products/kestrel-active-band-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "1.4\" AMOLED"
+   },
+   {
+    "label": "Battery",
+    "value": "14 days"
+   },
+   {
+    "label": "Water resistance",
+    "value": "5 ATM"
+   },
+   {
+    "label": "Sensors",
+    "value": "HR, ECG, temperature"
+   },
+   {
+    "label": "Compatibility",
+    "value": "iOS & Android"
+   }
+  ],
+  "tags": [
+   "trending",
+   "new"
+  ],
+  "reviews": [
+   {
+    "id": "r-17-0",
+    "author": "Noah T.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-09-16",
+    "verified": true
+   },
+   {
+    "id": "r-17-1",
+    "author": "Mei L.",
+    "rating": 3,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-01-16",
+    "verified": true
+   },
+   {
+    "id": "r-17-2",
+    "author": "Mei L.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-10-07",
+    "verified": true
+   },
+   {
+    "id": "r-17-3",
+    "author": "Fatima Z.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-03-02",
+    "verified": true
+   },
+   {
+    "id": "r-17-4",
+    "author": "Noah T.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-05-20",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-06-05"
+ },
+ {
+  "id": "p-018",
+  "slug": "aurora-classic-smartwatch",
+  "name": "Aurora Classic Smartwatch",
+  "brand": "Aurora",
+  "categoryId": "wearables",
+  "shortDescription": "Wearables essential by Aurora — no display, 14 days.",
+  "description": "The Aurora Classic Smartwatch blends thoughtful engineering with a refined, minimal design. Featuring display (No display) and battery (14 days), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 289.99,
+  "compareAtPrice": null,
+  "rating": 4.0,
+  "reviewCount": 136,
+  "stock": 120,
+  "sold": 7639,
+  "images": [
+   "images/products/aurora-classic-smartwatch-1.svg",
+   "images/products/aurora-classic-smartwatch-2.svg",
+   "images/products/aurora-classic-smartwatch-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "No display"
+   },
+   {
+    "label": "Battery",
+    "value": "14 days"
+   },
+   {
+    "label": "Water resistance",
+    "value": "IP68"
+   },
+   {
+    "label": "Sensors",
+    "value": "HR, SpO2, GPS"
+   },
+   {
+    "label": "Compatibility",
+    "value": "iOS & Android"
+   }
+  ],
+  "tags": [
+   "featured"
+  ],
+  "reviews": [
+   {
+    "id": "r-18-0",
+    "author": "Fatima Z.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-02-11",
+    "verified": true
+   },
+   {
+    "id": "r-18-1",
+    "author": "Noah T.",
+    "rating": 3,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-02-24",
+    "verified": false
+   },
+   {
+    "id": "r-18-2",
+    "author": "Hamza A.",
+    "rating": 4,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-05-16",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-05-04"
+ },
+ {
+  "id": "p-019",
+  "slug": "terra-trail-gps-watch",
+  "name": "Terra Trail GPS Watch",
+  "brand": "Terra",
+  "categoryId": "wearables",
+  "shortDescription": "Wearables essential by Terra — no display, 7 days.",
+  "description": "The Terra Trail GPS Watch blends thoughtful engineering with a refined, minimal design. Featuring display (No display) and battery (7 days), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 244.99,
+  "compareAtPrice": null,
+  "rating": 4.6,
+  "reviewCount": 588,
+  "stock": 0,
+  "sold": 4423,
+  "images": [
+   "images/products/terra-trail-gps-watch-1.svg",
+   "images/products/terra-trail-gps-watch-2.svg",
+   "images/products/terra-trail-gps-watch-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "No display"
+   },
+   {
+    "label": "Battery",
+    "value": "7 days"
+   },
+   {
+    "label": "Water resistance",
+    "value": "10 ATM"
+   },
+   {
+    "label": "Sensors",
+    "value": "HR, ECG, temperature"
+   },
+   {
+    "label": "Compatibility",
+    "value": "iOS & Android"
+   }
+  ],
+  "tags": [
+   "featured",
+   "trending"
+  ],
+  "reviews": [
+   {
+    "id": "r-19-0",
+    "author": "Sofia M.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-07-13",
+    "verified": true
+   },
+   {
+    "id": "r-19-1",
+    "author": "Lucas B.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-05-16",
+    "verified": true
+   },
+   {
+    "id": "r-19-2",
+    "author": "Omar S.",
+    "rating": 4,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-01-26",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "p-020",
+  "slug": "solace-sleep-ring",
+  "name": "Solace Sleep Ring",
+  "brand": "Solace",
+  "categoryId": "wearables",
+  "shortDescription": "Wearables essential by Solace — 1.4\" amoled, 36 hours.",
+  "description": "The Solace Sleep Ring blends thoughtful engineering with a refined, minimal design. Featuring display (1.4\" AMOLED) and battery (36 hours), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 154.99,
+  "compareAtPrice": 204.99,
+  "rating": 4.3,
+  "reviewCount": 1364,
+  "stock": 3,
+  "sold": 500,
+  "images": [
+   "images/products/solace-sleep-ring-1.svg",
+   "images/products/solace-sleep-ring-2.svg",
+   "images/products/solace-sleep-ring-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Display",
+    "value": "1.4\" AMOLED"
+   },
+   {
+    "label": "Battery",
+    "value": "36 hours"
+   },
+   {
+    "label": "Water resistance",
+    "value": "IP68"
+   },
+   {
+    "label": "Sensors",
+    "value": "HR, sleep"
+   },
+   {
+    "label": "Compatibility",
+    "value": "iOS & Android"
+   }
+  ],
+  "tags": [
+   "bestseller",
+   "new"
+  ],
+  "reviews": [
+   {
+    "id": "r-20-0",
+    "author": "Priya N.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-08-12",
+    "verified": true
+   },
+   {
+    "id": "r-20-1",
+    "author": "Sofia M.",
+    "rating": 4,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-10-15",
+    "verified": true
+   },
+   {
+    "id": "r-20-2",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-09-12",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-03-25"
+ },
+ {
+  "id": "p-021",
+  "slug": "lumen-m7-mirrorless-camera",
+  "name": "Lumen M7 Mirrorless Camera",
+  "brand": "Kestrel",
+  "categoryId": "cameras",
+  "shortDescription": "Cameras essential by Kestrel — 20 mp 1-inch, 6k 30p.",
+  "description": "The Lumen M7 Mirrorless Camera blends thoughtful engineering with a refined, minimal design. Featuring sensor (20 MP 1-inch) and video (6K 30p), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 1594.99,
+  "compareAtPrice": 2084.99,
+  "rating": 4.2,
+  "reviewCount": 818,
+  "stock": 120,
+  "sold": 1938,
+  "images": [
+   "images/products/lumen-m7-mirrorless-camera-1.svg",
+   "images/products/lumen-m7-mirrorless-camera-2.svg",
+   "images/products/lumen-m7-mirrorless-camera-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Sensor",
+    "value": "20 MP 1-inch"
+   },
+   {
+    "label": "Video",
+    "value": "6K 30p"
+   },
+   {
+    "label": "Stabilisation",
+    "value": "5-axis IBIS"
+   },
+   {
+    "label": "Viewfinder",
+    "value": "3.7M-dot OLED"
+   },
+   {
+    "label": "Weight",
+    "value": "690 g"
+   }
+  ],
+  "tags": [
+   "featured"
+  ],
+  "reviews": [
+   {
+    "id": "r-21-0",
+    "author": "Omar S.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-08-03",
+    "verified": true
+   },
+   {
+    "id": "r-21-1",
+    "author": "Lucas B.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-07-13",
+    "verified": true
+   },
+   {
+    "id": "r-21-2",
+    "author": "Kenji O.",
+    "rating": 5,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-03-27",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-02-10"
+ },
+ {
+  "id": "p-022",
+  "slug": "kestrel-compact-zoom",
+  "name": "Kestrel Compact Zoom",
+  "brand": "Kestrel",
+  "categoryId": "cameras",
+  "shortDescription": "Cameras essential by Kestrel — 24 mp aps-c, 4k 60p.",
+  "description": "The Kestrel Compact Zoom blends thoughtful engineering with a refined, minimal design. Featuring sensor (24 MP APS-C) and video (4K 60p), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 1399.99,
+  "compareAtPrice": null,
+  "rating": 4.2,
+  "reviewCount": 1885,
+  "stock": 7,
+  "sold": 6223,
+  "images": [
+   "images/products/kestrel-compact-zoom-1.svg",
+   "images/products/kestrel-compact-zoom-2.svg",
+   "images/products/kestrel-compact-zoom-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Sensor",
+    "value": "24 MP APS-C"
+   },
+   {
+    "label": "Video",
+    "value": "4K 60p"
+   },
+   {
+    "label": "Stabilisation",
+    "value": "Digital"
+   },
+   {
+    "label": "Viewfinder",
+    "value": "3.7M-dot OLED"
+   },
+   {
+    "label": "Weight",
+    "value": "310 g"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-22-0",
+    "author": "Omar S.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-08-02",
+    "verified": true
+   },
+   {
+    "id": "r-22-1",
+    "author": "Emma W.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-10-14",
+    "verified": true
+   },
+   {
+    "id": "r-22-2",
+    "author": "Sofia M.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-06-14",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-01-25"
+ },
+ {
+  "id": "p-023",
+  "slug": "vantage-vlog-camera",
+  "name": "Vantage Vlog Camera",
+  "brand": "Vantage",
+  "categoryId": "cameras",
+  "shortDescription": "Cameras essential by Vantage — 20 mp 1-inch, 4k 60p.",
+  "description": "The Vantage Vlog Camera blends thoughtful engineering with a refined, minimal design. Featuring sensor (20 MP 1-inch) and video (4K 60p), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 1449.99,
+  "compareAtPrice": null,
+  "rating": 4.5,
+  "reviewCount": 126,
+  "stock": 85,
+  "sold": 1762,
+  "images": [
+   "images/products/vantage-vlog-camera-1.svg",
+   "images/products/vantage-vlog-camera-2.svg",
+   "images/products/vantage-vlog-camera-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Sensor",
+    "value": "20 MP 1-inch"
+   },
+   {
+    "label": "Video",
+    "value": "4K 60p"
+   },
+   {
+    "label": "Stabilisation",
+    "value": "5-axis IBIS"
+   },
+   {
+    "label": "Viewfinder",
+    "value": "None"
+   },
+   {
+    "label": "Weight",
+    "value": "520 g"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-23-0",
+    "author": "Lucas B.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-03-04",
+    "verified": false
+   },
+   {
+    "id": "r-23-1",
+    "author": "Daniel R.",
+    "rating": 4,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-01-31",
+    "verified": true
+   },
+   {
+    "id": "r-23-2",
+    "author": "Daniel R.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-10-08",
+    "verified": false
+   }
+  ],
+  "createdAt": "2026-07-20"
+ },
+ {
+  "id": "p-024",
+  "slug": "nordvik-instant-film-camera",
+  "name": "Nordvik Instant Film Camera",
+  "brand": "Nordvik",
+  "categoryId": "cameras",
+  "shortDescription": "Cameras essential by Nordvik — 24 mp aps-c, 4k 30p.",
+  "description": "The Nordvik Instant Film Camera blends thoughtful engineering with a refined, minimal design. Featuring sensor (24 MP APS-C) and video (4K 30p), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 709.99,
+  "compareAtPrice": null,
+  "rating": 4.6,
+  "reviewCount": 483,
+  "stock": 85,
+  "sold": 7843,
+  "images": [
+   "images/products/nordvik-instant-film-camera-1.svg",
+   "images/products/nordvik-instant-film-camera-2.svg",
+   "images/products/nordvik-instant-film-camera-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Sensor",
+    "value": "24 MP APS-C"
+   },
+   {
+    "label": "Video",
+    "value": "4K 30p"
+   },
+   {
+    "label": "Stabilisation",
+    "value": "5-axis IBIS"
+   },
+   {
+    "label": "Viewfinder",
+    "value": "None"
+   },
+   {
+    "label": "Weight",
+    "value": "520 g"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-24-0",
+    "author": "Noah T.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-09-23",
+    "verified": true
+   },
+   {
+    "id": "r-24-1",
+    "author": "Kenji O.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-05-11",
+    "verified": true
+   },
+   {
+    "id": "r-24-2",
+    "author": "Lucas B.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-06-28",
+    "verified": false
+   }
+  ],
+  "createdAt": "2026-07-15"
+ },
+ {
+  "id": "p-025",
+  "slug": "aurora-full-frame-z",
+  "name": "Aurora Full-Frame Z",
+  "brand": "Aurora",
+  "categoryId": "cameras",
+  "shortDescription": "Cameras essential by Aurora — 20 mp 1-inch, 4k 60p.",
+  "description": "The Aurora Full-Frame Z blends thoughtful engineering with a refined, minimal design. Featuring sensor (20 MP 1-inch) and video (4K 60p), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 1164.99,
+  "compareAtPrice": null,
+  "rating": 4.3,
+  "reviewCount": 450,
+  "stock": 3,
+  "sold": 6854,
+  "images": [
+   "images/products/aurora-full-frame-z-1.svg",
+   "images/products/aurora-full-frame-z-2.svg",
+   "images/products/aurora-full-frame-z-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Sensor",
+    "value": "20 MP 1-inch"
+   },
+   {
+    "label": "Video",
+    "value": "4K 60p"
+   },
+   {
+    "label": "Stabilisation",
+    "value": "Optical"
+   },
+   {
+    "label": "Viewfinder",
+    "value": "None"
+   },
+   {
+    "label": "Weight",
+    "value": "520 g"
+   }
+  ],
+  "tags": [
+   "trending"
+  ],
+  "reviews": [
+   {
+    "id": "r-25-0",
+    "author": "Emma W.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-10-12",
+    "verified": true
+   },
+   {
+    "id": "r-25-1",
+    "author": "Emma W.",
+    "rating": 4,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-06-28",
+    "verified": true
+   },
+   {
+    "id": "r-25-2",
+    "author": "Ayesha K.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-01-05",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-07-25"
+ },
+ {
+  "id": "p-026",
+  "slug": "terra-cloudrunner",
+  "name": "Terra Cloudrunner",
+  "brand": "Terra",
+  "categoryId": "footwear",
+  "shortDescription": "Footwear essential by Terra — engineered mesh, carbon plate.",
+  "description": "The Terra Cloudrunner blends thoughtful engineering with a refined, minimal design. Featuring upper (Engineered mesh) and midsole (Carbon plate), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 99.99,
+  "compareAtPrice": 134.99,
+  "rating": 4.2,
+  "reviewCount": 1211,
+  "stock": 0,
+  "sold": 1532,
+  "images": [
+   "images/products/terra-cloudrunner-1.svg",
+   "images/products/terra-cloudrunner-2.svg",
+   "images/products/terra-cloudrunner-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Upper",
+    "value": "Engineered mesh"
+   },
+   {
+    "label": "Midsole",
+    "value": "Carbon plate"
+   },
+   {
+    "label": "Drop",
+    "value": "10 mm"
+   },
+   {
+    "label": "Weight",
+    "value": "280 g"
+   },
+   {
+    "label": "Use",
+    "value": "Road running"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-26-0",
+    "author": "Lucas B.",
+    "rating": 3,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-06-15",
+    "verified": true
+   },
+   {
+    "id": "r-26-1",
+    "author": "Kenji O.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-07-10",
+    "verified": false
+   },
+   {
+    "id": "r-26-2",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-08-31",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-03-28"
+ },
+ {
+  "id": "p-027",
+  "slug": "pulse-velocity-trainer",
+  "name": "Pulse Velocity Trainer",
+  "brand": "Nordvik",
+  "categoryId": "footwear",
+  "shortDescription": "Footwear essential by Nordvik — recycled knit, carbon plate.",
+  "description": "The Pulse Velocity Trainer blends thoughtful engineering with a refined, minimal design. Featuring upper (Recycled knit) and midsole (Carbon plate), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 109.99,
+  "compareAtPrice": 139.99,
+  "rating": 4.7,
+  "reviewCount": 988,
+  "stock": 3,
+  "sold": 2736,
+  "images": [
+   "images/products/pulse-velocity-trainer-1.svg",
+   "images/products/pulse-velocity-trainer-2.svg",
+   "images/products/pulse-velocity-trainer-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Upper",
+    "value": "Recycled knit"
+   },
+   {
+    "label": "Midsole",
+    "value": "Carbon plate"
+   },
+   {
+    "label": "Drop",
+    "value": "10 mm"
+   },
+   {
+    "label": "Weight",
+    "value": "240 g"
+   },
+   {
+    "label": "Use",
+    "value": "Road running"
+   }
+  ],
+  "tags": [
+   "trending",
+   "bestseller"
+  ],
+  "reviews": [
+   {
+    "id": "r-27-0",
+    "author": "Daniel R.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-06-19",
+    "verified": true
+   },
+   {
+    "id": "r-27-1",
+    "author": "Fatima Z.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-01-22",
+    "verified": true
+   },
+   {
+    "id": "r-27-2",
+    "author": "Ayesha K.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-02-18",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "p-028",
+  "slug": "nordvik-court-classic",
+  "name": "Nordvik Court Classic",
+  "brand": "Nordvik",
+  "categoryId": "footwear",
+  "shortDescription": "Footwear essential by Nordvik — full-grain leather, eva.",
+  "description": "The Nordvik Court Classic blends thoughtful engineering with a refined, minimal design. Featuring upper (Full-grain leather) and midsole (EVA), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 144.99,
+  "compareAtPrice": 174.99,
+  "rating": 4.3,
+  "reviewCount": 1020,
+  "stock": 0,
+  "sold": 5016,
+  "images": [
+   "images/products/nordvik-court-classic-1.svg",
+   "images/products/nordvik-court-classic-2.svg",
+   "images/products/nordvik-court-classic-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Upper",
+    "value": "Full-grain leather"
+   },
+   {
+    "label": "Midsole",
+    "value": "EVA"
+   },
+   {
+    "label": "Drop",
+    "value": "8 mm"
+   },
+   {
+    "label": "Weight",
+    "value": "240 g"
+   },
+   {
+    "label": "Use",
+    "value": "Trail"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-28-0",
+    "author": "Hamza A.",
+    "rating": 3,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-08-04",
+    "verified": true
+   },
+   {
+    "id": "r-28-1",
+    "author": "Noah T.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-08-24",
+    "verified": true
+   },
+   {
+    "id": "r-28-2",
+    "author": "Kenji O.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-03-01",
+    "verified": true
+   },
+   {
+    "id": "r-28-3",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-08-01",
+    "verified": true
+   },
+   {
+    "id": "r-28-4",
+    "author": "Daniel R.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-04-18",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "p-029",
+  "slug": "kestrel-trail-grip",
+  "name": "Kestrel Trail Grip",
+  "brand": "Kestrel",
+  "categoryId": "footwear",
+  "shortDescription": "Footwear essential by Kestrel — engineered mesh, eva.",
+  "description": "The Kestrel Trail Grip blends thoughtful engineering with a refined, minimal design. Featuring upper (Engineered mesh) and midsole (EVA), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 109.99,
+  "compareAtPrice": null,
+  "rating": 4.4,
+  "reviewCount": 1836,
+  "stock": 25,
+  "sold": 2030,
+  "images": [
+   "images/products/kestrel-trail-grip-1.svg",
+   "images/products/kestrel-trail-grip-2.svg",
+   "images/products/kestrel-trail-grip-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Upper",
+    "value": "Engineered mesh"
+   },
+   {
+    "label": "Midsole",
+    "value": "EVA"
+   },
+   {
+    "label": "Drop",
+    "value": "10 mm"
+   },
+   {
+    "label": "Weight",
+    "value": "320 g"
+   },
+   {
+    "label": "Use",
+    "value": "Road running"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-29-0",
+    "author": "Kenji O.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-08-01",
+    "verified": true
+   },
+   {
+    "id": "r-29-1",
+    "author": "Mei L.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-03-02",
+    "verified": false
+   },
+   {
+    "id": "r-29-2",
+    "author": "Daniel R.",
+    "rating": 3,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-02-27",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-02-19"
+ },
+ {
+  "id": "p-030",
+  "slug": "solace-everyday-knit",
+  "name": "Solace Everyday Knit",
+  "brand": "Solace",
+  "categoryId": "footwear",
+  "shortDescription": "Footwear essential by Solace — engineered mesh, nitrogen foam.",
+  "description": "The Solace Everyday Knit blends thoughtful engineering with a refined, minimal design. Featuring upper (Engineered mesh) and midsole (Nitrogen foam), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 194.99,
+  "compareAtPrice": 219.99,
+  "rating": 4.3,
+  "reviewCount": 1391,
+  "stock": 40,
+  "sold": 8829,
+  "images": [
+   "images/products/solace-everyday-knit-1.svg",
+   "images/products/solace-everyday-knit-2.svg",
+   "images/products/solace-everyday-knit-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Upper",
+    "value": "Engineered mesh"
+   },
+   {
+    "label": "Midsole",
+    "value": "Nitrogen foam"
+   },
+   {
+    "label": "Drop",
+    "value": "8 mm"
+   },
+   {
+    "label": "Weight",
+    "value": "280 g"
+   },
+   {
+    "label": "Use",
+    "value": "Road running"
+   }
+  ],
+  "tags": [
+   "bestseller"
+  ],
+  "reviews": [
+   {
+    "id": "r-30-0",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-03-19",
+    "verified": false
+   },
+   {
+    "id": "r-30-1",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-06-23",
+    "verified": true
+   },
+   {
+    "id": "r-30-2",
+    "author": "Lucas B.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-05-31",
+    "verified": true
+   },
+   {
+    "id": "r-30-3",
+    "author": "Omar S.",
+    "rating": 4,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-10-14",
+    "verified": false
+   }
+  ],
+  "createdAt": "2026-07-22"
+ },
+ {
+  "id": "p-031",
+  "slug": "nordvik-commuter-backpack",
+  "name": "Nordvik Commuter Backpack",
+  "brand": "Nordvik",
+  "categoryId": "bags",
+  "shortDescription": "Bags essential by Nordvik — 6 l, recycled nylon.",
+  "description": "The Nordvik Commuter Backpack blends thoughtful engineering with a refined, minimal design. Featuring capacity (6 L) and material (Recycled nylon), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 139.99,
+  "compareAtPrice": 179.99,
+  "rating": 4.5,
+  "reviewCount": 1454,
+  "stock": 25,
+  "sold": 6422,
+  "images": [
+   "images/products/nordvik-commuter-backpack-1.svg",
+   "images/products/nordvik-commuter-backpack-2.svg",
+   "images/products/nordvik-commuter-backpack-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Capacity",
+    "value": "6 L"
+   },
+   {
+    "label": "Material",
+    "value": "Recycled nylon"
+   },
+   {
+    "label": "Laptop sleeve",
+    "value": "None"
+   },
+   {
+    "label": "Water resistance",
+    "value": "Fully waterproof"
+   },
+   {
+    "label": "Warranty",
+    "value": "5 years"
+   }
+  ],
+  "tags": [
+   "trending"
+  ],
+  "reviews": [
+   {
+    "id": "r-31-0",
+    "author": "Lucas B.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-06-17",
+    "verified": true
+   },
+   {
+    "id": "r-31-1",
+    "author": "Ayesha K.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-05-28",
+    "verified": true
+   },
+   {
+    "id": "r-31-2",
+    "author": "Mei L.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-05-29",
+    "verified": true
+   },
+   {
+    "id": "r-31-3",
+    "author": "Priya N.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-03-16",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-09-27"
+ },
+ {
+  "id": "p-032",
+  "slug": "terra-roll-top-pack",
+  "name": "Terra Roll-Top Pack",
+  "brand": "Terra",
+  "categoryId": "bags",
+  "shortDescription": "Bags essential by Terra — 6 l, recycled nylon.",
+  "description": "The Terra Roll-Top Pack blends thoughtful engineering with a refined, minimal design. Featuring capacity (6 L) and material (Recycled nylon), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 54.99,
+  "compareAtPrice": null,
+  "rating": 4.2,
+  "reviewCount": 414,
+  "stock": 3,
+  "sold": 1126,
+  "images": [
+   "images/products/terra-roll-top-pack-1.svg",
+   "images/products/terra-roll-top-pack-2.svg",
+   "images/products/terra-roll-top-pack-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Capacity",
+    "value": "6 L"
+   },
+   {
+    "label": "Material",
+    "value": "Recycled nylon"
+   },
+   {
+    "label": "Laptop sleeve",
+    "value": "Up to 14\""
+   },
+   {
+    "label": "Water resistance",
+    "value": "Fully waterproof"
+   },
+   {
+    "label": "Warranty",
+    "value": "Lifetime"
+   }
+  ],
+  "tags": [
+   "featured",
+   "trending"
+  ],
+  "reviews": [
+   {
+    "id": "r-32-0",
+    "author": "Omar S.",
+    "rating": 5,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-04-26",
+    "verified": true
+   },
+   {
+    "id": "r-32-1",
+    "author": "Daniel R.",
+    "rating": 4,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-10-15",
+    "verified": true
+   },
+   {
+    "id": "r-32-2",
+    "author": "Hamza A.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-04-11",
+    "verified": true
+   },
+   {
+    "id": "r-32-3",
+    "author": "Ayesha K.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-04-21",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-06-24"
+ },
+ {
+  "id": "p-033",
+  "slug": "lumen-weekender-duffel",
+  "name": "Lumen Weekender Duffel",
+  "brand": "Pulse Labs",
+  "categoryId": "bags",
+  "shortDescription": "Bags essential by Pulse Labs — 22 l, waxed canvas.",
+  "description": "The Lumen Weekender Duffel blends thoughtful engineering with a refined, minimal design. Featuring capacity (22 L) and material (Waxed canvas), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 119.99,
+  "compareAtPrice": 154.99,
+  "rating": 4.1,
+  "reviewCount": 210,
+  "stock": 85,
+  "sold": 6718,
+  "images": [
+   "images/products/lumen-weekender-duffel-1.svg",
+   "images/products/lumen-weekender-duffel-2.svg",
+   "images/products/lumen-weekender-duffel-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Capacity",
+    "value": "22 L"
+   },
+   {
+    "label": "Material",
+    "value": "Waxed canvas"
+   },
+   {
+    "label": "Laptop sleeve",
+    "value": "Up to 14\""
+   },
+   {
+    "label": "Water resistance",
+    "value": "Fully waterproof"
+   },
+   {
+    "label": "Warranty",
+    "value": "Lifetime"
+   }
+  ],
+  "tags": [
+   "featured",
+   "new"
+  ],
+  "reviews": [
+   {
+    "id": "r-33-0",
+    "author": "Hamza A.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-01-19",
+    "verified": true
+   },
+   {
+    "id": "r-33-1",
+    "author": "Lucas B.",
+    "rating": 4,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-09-15",
+    "verified": true
+   },
+   {
+    "id": "r-33-2",
+    "author": "Emma W.",
+    "rating": 5,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-09-09",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-04-03"
+ },
+ {
+  "id": "p-034",
+  "slug": "vantage-tech-sling",
+  "name": "Vantage Tech Sling",
+  "brand": "Vantage",
+  "categoryId": "bags",
+  "shortDescription": "Bags essential by Vantage — 28 l, ballistic polyester.",
+  "description": "The Vantage Tech Sling blends thoughtful engineering with a refined, minimal design. Featuring capacity (28 L) and material (Ballistic polyester), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 139.99,
+  "compareAtPrice": 179.99,
+  "rating": 4.2,
+  "reviewCount": 1054,
+  "stock": 25,
+  "sold": 597,
+  "images": [
+   "images/products/vantage-tech-sling-1.svg",
+   "images/products/vantage-tech-sling-2.svg",
+   "images/products/vantage-tech-sling-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Capacity",
+    "value": "28 L"
+   },
+   {
+    "label": "Material",
+    "value": "Ballistic polyester"
+   },
+   {
+    "label": "Laptop sleeve",
+    "value": "None"
+   },
+   {
+    "label": "Water resistance",
+    "value": "Water-repellent"
+   },
+   {
+    "label": "Warranty",
+    "value": "5 years"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-34-0",
+    "author": "Lucas B.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-09-04",
+    "verified": true
+   },
+   {
+    "id": "r-34-1",
+    "author": "Sofia M.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-05-25",
+    "verified": true
+   },
+   {
+    "id": "r-34-2",
+    "author": "Lucas B.",
+    "rating": 3,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-07-06",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "p-035",
+  "slug": "solace-canvas-tote",
+  "name": "Solace Canvas Tote",
+  "brand": "Solace",
+  "categoryId": "bags",
+  "shortDescription": "Bags essential by Solace — 6 l, ballistic polyester.",
+  "description": "The Solace Canvas Tote blends thoughtful engineering with a refined, minimal design. Featuring capacity (6 L) and material (Ballistic polyester), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 124.99,
+  "compareAtPrice": 164.99,
+  "rating": 4.2,
+  "reviewCount": 1485,
+  "stock": 40,
+  "sold": 276,
+  "images": [
+   "images/products/solace-canvas-tote-1.svg",
+   "images/products/solace-canvas-tote-2.svg",
+   "images/products/solace-canvas-tote-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Capacity",
+    "value": "6 L"
+   },
+   {
+    "label": "Material",
+    "value": "Ballistic polyester"
+   },
+   {
+    "label": "Laptop sleeve",
+    "value": "Up to 14\""
+   },
+   {
+    "label": "Water resistance",
+    "value": "Fully waterproof"
+   },
+   {
+    "label": "Warranty",
+    "value": "5 years"
+   }
+  ],
+  "tags": [],
+  "reviews": [
+   {
+    "id": "r-35-0",
+    "author": "Mei L.",
+    "rating": 4,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-03-17",
+    "verified": false
+   },
+   {
+    "id": "r-35-1",
+    "author": "Sofia M.",
+    "rating": 3,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-06-16",
+    "verified": false
+   },
+   {
+    "id": "r-35-2",
+    "author": "Omar S.",
+    "rating": 5,
+    "title": "Great value",
+    "comment": "Performs like products twice the price. Setup took less than five minutes.",
+    "date": "2026-10-29",
+    "verified": true
+   },
+   {
+    "id": "r-35-3",
+    "author": "Kenji O.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-05-20",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-07-02"
+ },
+ {
+  "id": "p-036",
+  "slug": "lumen-arc-floor-lamp",
+  "name": "Lumen Arc Floor Lamp",
+  "brand": "Solace",
+  "categoryId": "home",
+  "shortDescription": "Home essential by Solace — aluminium, 160 x 40 x 40 cm.",
+  "description": "The Lumen Arc Floor Lamp blends thoughtful engineering with a refined, minimal design. Featuring material (Aluminium) and dimensions (160 x 40 x 40 cm), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 414.99,
+  "compareAtPrice": null,
+  "rating": 4.2,
+  "reviewCount": 537,
+  "stock": 120,
+  "sold": 1811,
+  "images": [
+   "images/products/lumen-arc-floor-lamp-1.svg",
+   "images/products/lumen-arc-floor-lamp-2.svg",
+   "images/products/lumen-arc-floor-lamp-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Material",
+    "value": "Aluminium"
+   },
+   {
+    "label": "Dimensions",
+    "value": "160 x 40 x 40 cm"
+   },
+   {
+    "label": "Light",
+    "value": "N/A"
+   },
+   {
+    "label": "Assembly",
+    "value": "Tool-free"
+   },
+   {
+    "label": "Warranty",
+    "value": "5 years"
+   }
+  ],
+  "tags": [
+   "featured"
+  ],
+  "reviews": [
+   {
+    "id": "r-36-0",
+    "author": "Priya N.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-04-28",
+    "verified": true
+   },
+   {
+    "id": "r-36-1",
+    "author": "Emma W.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-06-01",
+    "verified": true
+   },
+   {
+    "id": "r-36-2",
+    "author": "Priya N.",
+    "rating": 4,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-05-13",
+    "verified": true
+   },
+   {
+    "id": "r-36-3",
+    "author": "Ayesha K.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-06-20",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-08-03"
+ },
+ {
+  "id": "p-037",
+  "slug": "solace-lounge-chair",
+  "name": "Solace Lounge Chair",
+  "brand": "Solace",
+  "categoryId": "home",
+  "shortDescription": "Home essential by Solace — solid oak, 45 x 18 x 18 cm.",
+  "description": "The Solace Lounge Chair blends thoughtful engineering with a refined, minimal design. Featuring material (Solid oak) and dimensions (45 x 18 x 18 cm), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 184.99,
+  "compareAtPrice": null,
+  "rating": 4.7,
+  "reviewCount": 1875,
+  "stock": 120,
+  "sold": 6799,
+  "images": [
+   "images/products/solace-lounge-chair-1.svg",
+   "images/products/solace-lounge-chair-2.svg",
+   "images/products/solace-lounge-chair-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Material",
+    "value": "Solid oak"
+   },
+   {
+    "label": "Dimensions",
+    "value": "45 x 18 x 18 cm"
+   },
+   {
+    "label": "Light",
+    "value": "Warm white LED"
+   },
+   {
+    "label": "Assembly",
+    "value": "Tool-free"
+   },
+   {
+    "label": "Warranty",
+    "value": "2 years"
+   }
+  ],
+  "tags": [
+   "new"
+  ],
+  "reviews": [
+   {
+    "id": "r-37-0",
+    "author": "Noah T.",
+    "rating": 5,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-09-23",
+    "verified": true
+   },
+   {
+    "id": "r-37-1",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-08-20",
+    "verified": true
+   },
+   {
+    "id": "r-37-2",
+    "author": "Priya N.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-06-05",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-09-02"
+ },
+ {
+  "id": "p-038",
+  "slug": "nordvik-desk-lamp",
+  "name": "Nordvik Desk Lamp",
+  "brand": "Nordvik",
+  "categoryId": "home",
+  "shortDescription": "Home essential by Nordvik — walnut veneer, 45 x 18 x 18 cm.",
+  "description": "The Nordvik Desk Lamp blends thoughtful engineering with a refined, minimal design. Featuring material (Walnut veneer) and dimensions (45 x 18 x 18 cm), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 379.99,
+  "compareAtPrice": 424.99,
+  "rating": 4.1,
+  "reviewCount": 2280,
+  "stock": 0,
+  "sold": 3625,
+  "images": [
+   "images/products/nordvik-desk-lamp-1.svg",
+   "images/products/nordvik-desk-lamp-2.svg",
+   "images/products/nordvik-desk-lamp-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Material",
+    "value": "Walnut veneer"
+   },
+   {
+    "label": "Dimensions",
+    "value": "45 x 18 x 18 cm"
+   },
+   {
+    "label": "Light",
+    "value": "N/A"
+   },
+   {
+    "label": "Assembly",
+    "value": "Tool-free"
+   },
+   {
+    "label": "Warranty",
+    "value": "5 years"
+   }
+  ],
+  "tags": [
+   "trending",
+   "new"
+  ],
+  "reviews": [
+   {
+    "id": "r-38-0",
+    "author": "Priya N.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-08-25",
+    "verified": true
+   },
+   {
+    "id": "r-38-1",
+    "author": "Emma W.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-03-07",
+    "verified": true
+   },
+   {
+    "id": "r-38-2",
+    "author": "Kenji O.",
+    "rating": 4,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-08-09",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-04-10"
+ },
+ {
+  "id": "p-039",
+  "slug": "terra-accent-chair",
+  "name": "Terra Accent Chair",
+  "brand": "Terra",
+  "categoryId": "home",
+  "shortDescription": "Home essential by Terra — solid oak, 45 x 18 x 18 cm.",
+  "description": "The Terra Accent Chair blends thoughtful engineering with a refined, minimal design. Featuring material (Solid oak) and dimensions (45 x 18 x 18 cm), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 239.99,
+  "compareAtPrice": 304.99,
+  "rating": 4.4,
+  "reviewCount": 1268,
+  "stock": 40,
+  "sold": 2527,
+  "images": [
+   "images/products/terra-accent-chair-1.svg",
+   "images/products/terra-accent-chair-2.svg",
+   "images/products/terra-accent-chair-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Material",
+    "value": "Solid oak"
+   },
+   {
+    "label": "Dimensions",
+    "value": "45 x 18 x 18 cm"
+   },
+   {
+    "label": "Light",
+    "value": "Warm white LED"
+   },
+   {
+    "label": "Assembly",
+    "value": "Required (15 min)"
+   },
+   {
+    "label": "Warranty",
+    "value": "2 years"
+   }
+  ],
+  "tags": [
+   "featured"
+  ],
+  "reviews": [
+   {
+    "id": "r-39-0",
+    "author": "Hamza A.",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-07-06",
+    "verified": true
+   },
+   {
+    "id": "r-39-1",
+    "author": "Mei L.",
+    "rating": 4,
+    "title": "Fast delivery",
+    "comment": "Order tracking was accurate and customer support answered within an hour.",
+    "date": "2026-08-20",
+    "verified": true
+   },
+   {
+    "id": "r-39-2",
+    "author": "Priya N.",
+    "rating": 4,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-08-29",
+    "verified": true
+   },
+   {
+    "id": "r-39-3",
+    "author": "Omar S.",
+    "rating": 4,
+    "title": "Daily driver now",
+    "comment": "I use it every single day. Comfortable, reliable and looks premium.",
+    "date": "2026-04-27",
+    "verified": true
+   },
+   {
+    "id": "r-39-4",
+    "author": "Daniel R.",
+    "rating": 5,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-03-01",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-05-18"
+ },
+ {
+  "id": "p-040",
+  "slug": "aurora-smart-table-lamp",
+  "name": "Aurora Smart Table Lamp",
+  "brand": "Aurora",
+  "categoryId": "home",
+  "shortDescription": "Home essential by Aurora — solid oak, 160 x 40 x 40 cm.",
+  "description": "The Aurora Smart Table Lamp blends thoughtful engineering with a refined, minimal design. Featuring material (Solid oak) and dimensions (160 x 40 x 40 cm), it is built to keep up with demanding everyday use. Every unit is quality-checked and backed by ShopSphere's 30-day returns policy.",
+  "price": 289.99,
+  "compareAtPrice": null,
+  "rating": 4.0,
+  "reviewCount": 1774,
+  "stock": 40,
+  "sold": 1060,
+  "images": [
+   "images/products/aurora-smart-table-lamp-1.svg",
+   "images/products/aurora-smart-table-lamp-2.svg",
+   "images/products/aurora-smart-table-lamp-3.svg"
+  ],
+  "specs": [
+   {
+    "label": "Material",
+    "value": "Solid oak"
+   },
+   {
+    "label": "Dimensions",
+    "value": "160 x 40 x 40 cm"
+   },
+   {
+    "label": "Light",
+    "value": "Warm white LED"
+   },
+   {
+    "label": "Assembly",
+    "value": "Required (15 min)"
+   },
+   {
+    "label": "Warranty",
+    "value": "5 years"
+   }
+  ],
+  "tags": [
+   "trending"
+  ],
+  "reviews": [
+   {
+    "id": "r-40-0",
+    "author": "Sofia M.",
+    "rating": 3,
+    "title": "Exceeded expectations",
+    "comment": "Build quality is excellent and it arrived two days early. Would buy again.",
+    "date": "2026-07-15",
+    "verified": true
+   },
+   {
+    "id": "r-40-1",
+    "author": "Daniel R.",
+    "rating": 5,
+    "title": "Beautiful design",
+    "comment": "Photos don't do it justice. The finish and details are top notch.",
+    "date": "2026-03-31",
+    "verified": true
+   },
+   {
+    "id": "r-40-2",
+    "author": "Kenji O.",
+    "rating": 3,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-08-23",
+    "verified": false
+   },
+   {
+    "id": "r-40-3",
+    "author": "Daniel R.",
+    "rating": 4,
+    "title": "Solid, minor nitpicks",
+    "comment": "Really happy overall. The packaging could be more eco-friendly, but the product itself is great.",
+    "date": "2026-03-21",
+    "verified": true
+   },
+   {
+    "id": "r-40-4",
+    "author": "Ayesha K.",
+    "rating": 4,
+    "title": "Good but not perfect",
+    "comment": "Does what it promises. I expected a slightly better battery life.",
+    "date": "2026-10-24",
+    "verified": true
+   }
+  ],
+  "createdAt": "2026-06-25"
+ }
+]

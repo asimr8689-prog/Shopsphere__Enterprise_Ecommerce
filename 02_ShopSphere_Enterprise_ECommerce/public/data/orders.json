@@ -1,0 +1,6947 @@
+[
+ {
+  "id": "o-0004",
+  "number": "SS-2611-1003",
+  "userId": "u-656",
+  "customer": {
+   "firstName": "Liam",
+   "lastName": "Ahmed",
+   "email": "liam.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o3",
+   "label": "Home",
+   "fullName": "Liam Ahmed",
+   "line1": "766 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "88220",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-036",
+    "name": "Lumen Arc Floor Lamp",
+    "image": "images/products/lumen-arc-floor-lamp-1.svg",
+    "price": 414.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-028",
+    "name": "Nordvik Court Classic",
+    "image": "images/products/nordvik-court-classic-1.svg",
+    "price": 144.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 559.98,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 44.8,
+  "total": 619.77,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "processing",
+  "createdAt": "2026-11-14T02:12:00",
+  "estimatedDelivery": "2026-11-17",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-14T03:12:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-11-14T23:12:00",
+    "note": "Payment confirmed (demo) and order packed"
+   }
+  ]
+ },
+ {
+  "id": "o-0002",
+  "number": "SS-2611-1001",
+  "userId": "u-220",
+  "customer": {
+   "firstName": "Olivia",
+   "lastName": "Hussain",
+   "email": "olivia.hussain@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o1",
+   "label": "Home",
+   "fullName": "Olivia Hussain",
+   "line1": "258 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "65400",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-010",
+    "name": "Terra Slim 15 Laptop",
+    "image": "images/products/terra-slim-15-laptop-1.svg",
+    "price": 689.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-031",
+    "name": "Nordvik Commuter Backpack",
+    "image": "images/products/nordvik-commuter-backpack-1.svg",
+    "price": 139.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1519.97,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 121.6,
+  "total": 1666.56,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "processing",
+  "createdAt": "2026-11-13T14:57:00",
+  "estimatedDelivery": "2026-11-15",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-13T15:57:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-11-14T11:57:00",
+    "note": "Payment confirmed (demo) and order packed"
+   }
+  ]
+ },
+ {
+  "id": "o-0005",
+  "number": "SS-2611-1004",
+  "userId": "u-839",
+  "customer": {
+   "firstName": "Maria",
+   "lastName": "Brown",
+   "email": "maria.brown@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o4",
+   "label": "Home",
+   "fullName": "Maria Brown",
+   "line1": "802 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "39556",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-013",
+    "name": "Lumen Tab 11",
+    "image": "images/products/lumen-tab-11-1.svg",
+    "price": 1414.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2829.98,
+  "discount": 283.0,
+  "shipping": 0,
+  "tax": 203.76,
+  "total": 2750.74,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "pending",
+  "createdAt": "2026-11-12T01:15:00",
+  "estimatedDelivery": "2026-11-18",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-12T02:15:00",
+    "note": "Order placed"
+   }
+  ]
+ },
+ {
+  "id": "o-0003",
+  "number": "SS-2611-1002",
+  "userId": "u-758",
+  "customer": {
+   "firstName": "Maria",
+   "lastName": "Malik",
+   "email": "maria.malik@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o2",
+   "label": "Home",
+   "fullName": "Maria Malik",
+   "line1": "145 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "36073",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-008",
+    "name": "Pulse Book 13",
+    "image": "images/products/pulse-book-13-1.svg",
+    "price": 1544.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1544.99,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 123.6,
+  "total": 1693.58,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "out-for-delivery",
+  "createdAt": "2026-11-11T05:43:00",
+  "estimatedDelivery": "2026-11-13",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-11T06:43:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-11-12T02:43:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-11-12T22:43:00",
+    "note": "Handed to carrier – tracking SSX512886"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-11-13T18:43:00",
+    "note": "Out for delivery in Toronto"
+   }
+  ]
+ },
+ {
+  "id": "o-0001",
+  "number": "SS-2611-1000",
+  "userId": "u-demo",
+  "customer": {
+   "firstName": "Demo",
+   "lastName": "Customer",
+   "email": "demo@shopsphere.dev",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o0",
+   "label": "Home",
+   "fullName": "Demo Customer",
+   "line1": "816 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "12725",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-036",
+    "name": "Lumen Arc Floor Lamp",
+    "image": "images/products/lumen-arc-floor-lamp-1.svg",
+    "price": 414.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-034",
+    "name": "Vantage Tech Sling",
+    "image": "images/products/vantage-tech-sling-1.svg",
+    "price": 139.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1109.96,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 88.8,
+  "total": 1223.75,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "shipped",
+  "createdAt": "2026-11-11T00:48:00",
+  "estimatedDelivery": "2026-11-13",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-11T01:48:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-11-11T21:48:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-11-12T17:48:00",
+    "note": "Handed to carrier – tracking SSX894780"
+   }
+  ]
+ },
+ {
+  "id": "o-0006",
+  "number": "SS-2611-1005",
+  "userId": "u-421",
+  "customer": {
+   "firstName": "Zara",
+   "lastName": "Khan",
+   "email": "zara.khan@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o5",
+   "label": "Home",
+   "fullName": "Zara Khan",
+   "line1": "438 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "21994",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-019",
+    "name": "Terra Trail GPS Watch",
+    "image": "images/products/terra-trail-gps-watch-1.svg",
+    "price": 244.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-006",
+    "name": "Vantage Air 14 Laptop",
+    "image": "images/products/vantage-air-14-laptop-1.svg",
+    "price": 1509.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-003",
+    "name": "Solace Arc Bluetooth Speaker",
+    "image": "images/products/solace-arc-bluetooth-speaker-1.svg",
+    "price": 219.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 3949.94,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 316.0,
+  "total": 4290.93,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "out-for-delivery",
+  "createdAt": "2026-11-07T22:31:00",
+  "estimatedDelivery": "2026-11-09",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-07T23:31:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-11-08T19:31:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-11-09T15:31:00",
+    "note": "Handed to carrier – tracking SSX552450"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-11-10T11:31:00",
+    "note": "Out for delivery in Austin"
+   }
+  ]
+ },
+ {
+  "id": "o-0009",
+  "number": "SS-2611-1008",
+  "userId": "u-870",
+  "customer": {
+   "firstName": "Ali",
+   "lastName": "Khan",
+   "email": "ali.khan@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o8",
+   "label": "Home",
+   "fullName": "Ali Khan",
+   "line1": "832 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "87904",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-009",
+    "name": "Kestrel Workstation 17",
+    "image": "images/products/kestrel-workstation-17-1.svg",
+    "price": 1609.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-002",
+    "name": "Pulse Buds ANC",
+    "image": "images/products/pulse-buds-anc-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1959.97,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 156.8,
+  "total": 2116.77,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-11-07T10:04:00",
+  "estimatedDelivery": "2026-11-13",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-07T11:04:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-11-08T07:04:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-11-09T03:04:00",
+    "note": "Handed to carrier – tracking SSX905124"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-11-09T23:04:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-11-10T19:04:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0007",
+  "number": "SS-2611-1006",
+  "userId": "u-795",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Khan",
+   "email": "sara.khan@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o6",
+   "label": "Home",
+   "fullName": "Sara Khan",
+   "line1": "300 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "32310",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-016",
+    "name": "Pulse Watch Series 5",
+    "image": "images/products/pulse-watch-series-5-1.svg",
+    "price": 194.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 389.98,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 31.2,
+  "total": 446.17,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-11-05T14:43:00",
+  "estimatedDelivery": "2026-11-07",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-05T15:43:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-11-06T11:43:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-11-07T07:43:00",
+    "note": "Handed to carrier – tracking SSX806106"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-11-08T03:43:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-11-08T23:43:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0008",
+  "number": "SS-2611-1007",
+  "userId": "u-806",
+  "customer": {
+   "firstName": "Zara",
+   "lastName": "Lee",
+   "email": "zara.lee@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o7",
+   "label": "Home",
+   "fullName": "Zara Lee",
+   "line1": "17 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "83287",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-005",
+    "name": "Kestrel Pods Lite",
+    "image": "images/products/kestrel-pods-lite-1.svg",
+    "price": 204.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-036",
+    "name": "Lumen Arc Floor Lamp",
+    "image": "images/products/lumen-arc-floor-lamp-1.svg",
+    "price": 414.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-009",
+    "name": "Kestrel Workstation 17",
+    "image": "images/products/kestrel-workstation-17-1.svg",
+    "price": 1609.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 4459.94,
+  "discount": 445.99,
+  "shipping": 0,
+  "tax": 321.12,
+  "total": 4335.07,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-11-02T20:43:00",
+  "estimatedDelivery": "2026-11-08",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-02T21:43:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-11-03T17:43:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-11-04T13:43:00",
+    "note": "Handed to carrier – tracking SSX523491"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-11-05T09:43:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-11-06T05:43:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0010",
+  "number": "SS-2611-1009",
+  "userId": "u-198",
+  "customer": {
+   "firstName": "Ali",
+   "lastName": "Brown",
+   "email": "ali.brown@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o9",
+   "label": "Home",
+   "fullName": "Ali Brown",
+   "line1": "927 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "65116",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-013",
+    "name": "Lumen Tab 11",
+    "image": "images/products/lumen-tab-11-1.svg",
+    "price": 1414.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1414.99,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 113.2,
+  "total": 1543.18,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-11-02T05:46:00",
+  "estimatedDelivery": "2026-11-05",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-11-02T06:46:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-11-03T02:46:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-11-03T22:46:00",
+    "note": "Handed to carrier – tracking SSX654767"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-11-04T18:46:00",
+    "note": "Out for delivery in London"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-11-05T14:46:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0013",
+  "number": "SS-2610-1012",
+  "userId": "u-610",
+  "customer": {
+   "firstName": "John",
+   "lastName": "Rossi",
+   "email": "john.rossi@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o12",
+   "label": "Home",
+   "fullName": "John Rossi",
+   "line1": "628 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "32711",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-033",
+    "name": "Lumen Weekender Duffel",
+    "image": "images/products/lumen-weekender-duffel-1.svg",
+    "price": 119.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 119.99,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 9.6,
+  "total": 129.59,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-30T09:04:00",
+  "estimatedDelivery": "2026-11-05",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-30T10:04:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-31T06:04:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-11-01T02:04:00",
+    "note": "Handed to carrier – tracking SSX121352"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-11-01T22:04:00",
+    "note": "Out for delivery in London"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-11-02T18:04:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0011",
+  "number": "SS-2610-1010",
+  "userId": "u-623",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Ahmed",
+   "email": "sara.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o10",
+   "label": "Home",
+   "fullName": "Sara Ahmed",
+   "line1": "256 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "15103",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-023",
+    "name": "Vantage Vlog Camera",
+    "image": "images/products/vantage-vlog-camera-1.svg",
+    "price": 1449.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1449.99,
+  "discount": 145.0,
+  "shipping": 0,
+  "tax": 104.4,
+  "total": 1409.39,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "cancelled",
+  "createdAt": "2026-10-28T09:03:00",
+  "estimatedDelivery": "2026-11-03",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-28T09:03:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "cancelled",
+    "date": "2026-10-28T14:03:00",
+    "note": "Cancelled at customer request"
+   }
+  ]
+ },
+ {
+  "id": "o-0012",
+  "number": "SS-2610-1011",
+  "userId": "u-459",
+  "customer": {
+   "firstName": "Olivia",
+   "lastName": "Wang",
+   "email": "olivia.wang@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o11",
+   "label": "Home",
+   "fullName": "Olivia Wang",
+   "line1": "192 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "87539",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-020",
+    "name": "Solace Sleep Ring",
+    "image": "images/products/solace-sleep-ring-1.svg",
+    "price": 154.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 154.99,
+  "discount": 15.5,
+  "shipping": 14.99,
+  "tax": 11.16,
+  "total": 165.64,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-26T03:00:00",
+  "estimatedDelivery": "2026-10-29",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-26T04:00:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-27T00:00:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-27T20:00:00",
+    "note": "Handed to carrier – tracking SSX616470"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-28T16:00:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-29T12:00:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0014",
+  "number": "SS-2610-1013",
+  "userId": "u-476",
+  "customer": {
+   "firstName": "Ethan",
+   "lastName": "Smith",
+   "email": "ethan.smith@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o13",
+   "label": "Home",
+   "fullName": "Ethan Smith",
+   "line1": "581 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "25721",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-013",
+    "name": "Lumen Tab 11",
+    "image": "images/products/lumen-tab-11-1.svg",
+    "price": 1414.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2829.98,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 226.4,
+  "total": 3056.38,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-25T16:06:00",
+  "estimatedDelivery": "2026-10-31",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-25T17:06:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-26T13:06:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-27T09:06:00",
+    "note": "Handed to carrier – tracking SSX637082"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-28T05:06:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-29T01:06:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0016",
+  "number": "SS-2610-1015",
+  "userId": "u-264",
+  "customer": {
+   "firstName": "Ethan",
+   "lastName": "Garcia",
+   "email": "ethan.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o15",
+   "label": "Home",
+   "fullName": "Ethan Garcia",
+   "line1": "395 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "44809",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-038",
+    "name": "Nordvik Desk Lamp",
+    "image": "images/products/nordvik-desk-lamp-1.svg",
+    "price": 379.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-030",
+    "name": "Solace Everyday Knit",
+    "image": "images/products/solace-everyday-knit-1.svg",
+    "price": 194.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 769.97,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 61.6,
+  "total": 856.56,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-18T20:34:00",
+  "estimatedDelivery": "2026-10-20",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-18T21:34:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-19T17:34:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-20T13:34:00",
+    "note": "Handed to carrier – tracking SSX816857"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-21T09:34:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-22T05:34:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0015",
+  "number": "SS-2610-1014",
+  "userId": "u-demo",
+  "customer": {
+   "firstName": "Demo",
+   "lastName": "Customer",
+   "email": "demo@shopsphere.dev",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o14",
+   "label": "Home",
+   "fullName": "Demo Customer",
+   "line1": "845 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "53224",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-007",
+    "name": "Nordvik Creator 16 Laptop",
+    "image": "images/products/nordvik-creator-16-laptop-1.svg",
+    "price": 1054.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-019",
+    "name": "Terra Trail GPS Watch",
+    "image": "images/products/terra-trail-gps-watch-1.svg",
+    "price": 244.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-032",
+    "name": "Terra Roll-Top Pack",
+    "image": "images/products/terra-roll-top-pack-1.svg",
+    "price": 54.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1654.95,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 132.4,
+  "total": 1802.34,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-18T17:05:00",
+  "estimatedDelivery": "2026-10-21",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-18T18:05:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-19T14:05:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-20T10:05:00",
+    "note": "Handed to carrier – tracking SSX543623"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-21T06:05:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-22T02:05:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0017",
+  "number": "SS-2610-1016",
+  "userId": "u-237",
+  "customer": {
+   "firstName": "Liam",
+   "lastName": "Garcia",
+   "email": "liam.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o16",
+   "label": "Home",
+   "fullName": "Liam Garcia",
+   "line1": "731 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "50648",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-037",
+    "name": "Solace Lounge Chair",
+    "image": "images/products/solace-lounge-chair-1.svg",
+    "price": 184.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 184.99,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 14.8,
+  "total": 224.78,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-12T12:34:00",
+  "estimatedDelivery": "2026-10-14",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-12T13:34:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-13T09:34:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-14T05:34:00",
+    "note": "Handed to carrier – tracking SSX653097"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-15T01:34:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-15T21:34:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0018",
+  "number": "SS-2610-1017",
+  "userId": "u-473",
+  "customer": {
+   "firstName": "Bilal",
+   "lastName": "Ahmed",
+   "email": "bilal.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o17",
+   "label": "Home",
+   "fullName": "Bilal Ahmed",
+   "line1": "55 Market Street",
+   "city": "Karachi",
+   "state": "Sindh",
+   "postalCode": "60083",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-011",
+    "name": "Aurora One Pro Smartphone",
+    "image": "images/products/aurora-one-pro-smartphone-1.svg",
+    "price": 464.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-034",
+    "name": "Vantage Tech Sling",
+    "image": "images/products/vantage-tech-sling-1.svg",
+    "price": 139.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 744.97,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 59.6,
+  "total": 829.56,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-12T07:59:00",
+  "estimatedDelivery": "2026-10-14",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-12T08:59:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-13T04:59:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-14T00:59:00",
+    "note": "Handed to carrier – tracking SSX722766"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-14T20:59:00",
+    "note": "Out for delivery in Karachi"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-15T16:59:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0019",
+  "number": "SS-2610-1018",
+  "userId": "u-207",
+  "customer": {
+   "firstName": "Ethan",
+   "lastName": "Hussain",
+   "email": "ethan.hussain@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o18",
+   "label": "Home",
+   "fullName": "Ethan Hussain",
+   "line1": "248 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "40281",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-029",
+    "name": "Kestrel Trail Grip",
+    "image": "images/products/kestrel-trail-grip-1.svg",
+    "price": 109.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-001",
+    "name": "Aurora Studio Pro Headphones",
+    "image": "images/products/aurora-studio-pro-headphones-1.svg",
+    "price": 144.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-020",
+    "name": "Solace Sleep Ring",
+    "image": "images/products/solace-sleep-ring-1.svg",
+    "price": 154.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 554.96,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 44.4,
+  "total": 614.35,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "cancelled",
+  "createdAt": "2026-10-09T08:26:00",
+  "estimatedDelivery": "2026-10-12",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-09T08:26:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "cancelled",
+    "date": "2026-10-09T13:26:00",
+    "note": "Cancelled at customer request"
+   }
+  ]
+ },
+ {
+  "id": "o-0020",
+  "number": "SS-2610-1019",
+  "userId": "u-512",
+  "customer": {
+   "firstName": "Hina",
+   "lastName": "Brown",
+   "email": "hina.brown@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o19",
+   "label": "Home",
+   "fullName": "Hina Brown",
+   "line1": "653 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "24312",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-013",
+    "name": "Lumen Tab 11",
+    "image": "images/products/lumen-tab-11-1.svg",
+    "price": 1414.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-031",
+    "name": "Nordvik Commuter Backpack",
+    "image": "images/products/nordvik-commuter-backpack-1.svg",
+    "price": 139.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1694.97,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 135.6,
+  "total": 1845.56,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-09T06:36:00",
+  "estimatedDelivery": "2026-10-12",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-09T07:36:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-10T03:36:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-10T23:36:00",
+    "note": "Handed to carrier – tracking SSX821734"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-11T19:36:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-12T15:36:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0021",
+  "number": "SS-2610-1020",
+  "userId": "u-309",
+  "customer": {
+   "firstName": "Aisha",
+   "lastName": "Rossi",
+   "email": "aisha.rossi@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o20",
+   "label": "Home",
+   "fullName": "Aisha Rossi",
+   "line1": "276 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "39026",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-003",
+    "name": "Solace Arc Bluetooth Speaker",
+    "image": "images/products/solace-arc-bluetooth-speaker-1.svg",
+    "price": 219.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-002",
+    "name": "Pulse Buds ANC",
+    "image": "images/products/pulse-buds-anc-1.svg",
+    "price": 174.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 394.98,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 31.6,
+  "total": 426.58,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-08T05:27:00",
+  "estimatedDelivery": "2026-10-14",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-08T06:27:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-09T02:27:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-09T22:27:00",
+    "note": "Handed to carrier – tracking SSX511674"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-10T18:27:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-11T14:27:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0022",
+  "number": "SS-2610-1021",
+  "userId": "u-596",
+  "customer": {
+   "firstName": "Liam",
+   "lastName": "Brown",
+   "email": "liam.brown@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o21",
+   "label": "Home",
+   "fullName": "Liam Brown",
+   "line1": "999 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "19311",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-003",
+    "name": "Solace Arc Bluetooth Speaker",
+    "image": "images/products/solace-arc-bluetooth-speaker-1.svg",
+    "price": 219.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-005",
+    "name": "Kestrel Pods Lite",
+    "image": "images/products/kestrel-pods-lite-1.svg",
+    "price": 204.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 629.97,
+  "discount": 63.0,
+  "shipping": 0,
+  "tax": 45.36,
+  "total": 612.33,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-02T02:11:00",
+  "estimatedDelivery": "2026-10-08",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-02T03:11:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-02T23:11:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-03T19:11:00",
+    "note": "Handed to carrier – tracking SSX557035"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-04T15:11:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-05T11:11:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0023",
+  "number": "SS-2610-1022",
+  "userId": "u-116",
+  "customer": {
+   "firstName": "John",
+   "lastName": "Ahmed",
+   "email": "john.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o22",
+   "label": "Home",
+   "fullName": "John Ahmed",
+   "line1": "800 Market Street",
+   "city": "Karachi",
+   "state": "Sindh",
+   "postalCode": "23808",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-024",
+    "name": "Nordvik Instant Film Camera",
+    "image": "images/products/nordvik-instant-film-camera-1.svg",
+    "price": 709.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 709.99,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 56.8,
+  "total": 781.78,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-10-01T15:53:00",
+  "estimatedDelivery": "2026-10-04",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-10-01T16:53:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-10-02T12:53:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-10-03T08:53:00",
+    "note": "Handed to carrier – tracking SSX787232"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-10-04T04:53:00",
+    "note": "Out for delivery in Karachi"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-10-05T00:53:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0024",
+  "number": "SS-2609-1023",
+  "userId": "u-835",
+  "customer": {
+   "firstName": "Liam",
+   "lastName": "Smith",
+   "email": "liam.smith@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o23",
+   "label": "Home",
+   "fullName": "Liam Smith",
+   "line1": "130 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "21028",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-002",
+    "name": "Pulse Buds ANC",
+    "image": "images/products/pulse-buds-anc-1.svg",
+    "price": 174.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 174.99,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 14.0,
+  "total": 188.99,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-09-26T05:54:00",
+  "estimatedDelivery": "2026-10-02",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-09-26T06:54:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-09-27T02:54:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-09-27T22:54:00",
+    "note": "Handed to carrier – tracking SSX266046"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-09-28T18:54:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-09-29T14:54:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0025",
+  "number": "SS-2609-1024",
+  "userId": "u-641",
+  "customer": {
+   "firstName": "Olivia",
+   "lastName": "Ahmed",
+   "email": "olivia.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o24",
+   "label": "Home",
+   "fullName": "Olivia Ahmed",
+   "line1": "146 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "38068",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-033",
+    "name": "Lumen Weekender Duffel",
+    "image": "images/products/lumen-weekender-duffel-1.svg",
+    "price": 119.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 119.99,
+  "discount": 12.0,
+  "shipping": 14.99,
+  "tax": 8.64,
+  "total": 131.62,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "cancelled",
+  "createdAt": "2026-09-21T07:22:00",
+  "estimatedDelivery": "2026-09-24",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-09-21T07:22:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "cancelled",
+    "date": "2026-09-21T12:22:00",
+    "note": "Cancelled at customer request"
+   }
+  ]
+ },
+ {
+  "id": "o-0026",
+  "number": "SS-2609-1025",
+  "userId": "u-486",
+  "customer": {
+   "firstName": "Maria",
+   "lastName": "Brown",
+   "email": "maria.brown@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o25",
+   "label": "Home",
+   "fullName": "Maria Brown",
+   "line1": "219 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "74083",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-008",
+    "name": "Pulse Book 13",
+    "image": "images/products/pulse-book-13-1.svg",
+    "price": 1544.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1544.99,
+  "discount": 154.5,
+  "shipping": 0,
+  "tax": 111.24,
+  "total": 1501.73,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-09-16T15:56:00",
+  "estimatedDelivery": "2026-09-22",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-09-16T16:56:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-09-17T12:56:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-09-18T08:56:00",
+    "note": "Handed to carrier – tracking SSX647493"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-09-19T04:56:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-09-20T00:56:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0027",
+  "number": "SS-2609-1026",
+  "userId": "u-172",
+  "customer": {
+   "firstName": "Chen",
+   "lastName": "Khan",
+   "email": "chen.khan@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o26",
+   "label": "Home",
+   "fullName": "Chen Khan",
+   "line1": "660 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "30528",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-011",
+    "name": "Aurora One Pro Smartphone",
+    "image": "images/products/aurora-one-pro-smartphone-1.svg",
+    "price": 464.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-019",
+    "name": "Terra Trail GPS Watch",
+    "image": "images/products/terra-trail-gps-watch-1.svg",
+    "price": 244.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1419.96,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 113.6,
+  "total": 1548.55,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-09-14T23:58:00",
+  "estimatedDelivery": "2026-09-17",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-09-15T00:58:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-09-15T20:58:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-09-16T16:58:00",
+    "note": "Handed to carrier – tracking SSX551365"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-09-17T12:58:00",
+    "note": "Out for delivery in Austin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-09-18T08:58:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0028",
+  "number": "SS-2609-1027",
+  "userId": "u-391",
+  "customer": {
+   "firstName": "Olivia",
+   "lastName": "Malik",
+   "email": "olivia.malik@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o27",
+   "label": "Home",
+   "fullName": "Olivia Malik",
+   "line1": "598 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "61653",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-003",
+    "name": "Solace Arc Bluetooth Speaker",
+    "image": "images/products/solace-arc-bluetooth-speaker-1.svg",
+    "price": 219.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-018",
+    "name": "Aurora Classic Smartwatch",
+    "image": "images/products/aurora-classic-smartwatch-1.svg",
+    "price": 289.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 729.97,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 58.4,
+  "total": 788.37,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-09-13T03:14:00",
+  "estimatedDelivery": "2026-09-19",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-09-13T04:14:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-09-14T00:14:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-09-14T20:14:00",
+    "note": "Handed to carrier – tracking SSX479073"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-09-15T16:14:00",
+    "note": "Out for delivery in London"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-09-16T12:14:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0029",
+  "number": "SS-2609-1028",
+  "userId": "u-demo",
+  "customer": {
+   "firstName": "Demo",
+   "lastName": "Customer",
+   "email": "demo@shopsphere.dev",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o28",
+   "label": "Home",
+   "fullName": "Demo Customer",
+   "line1": "626 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "31848",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-022",
+    "name": "Kestrel Compact Zoom",
+    "image": "images/products/kestrel-compact-zoom-1.svg",
+    "price": 1399.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2799.98,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 224.0,
+  "total": 3038.97,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-09-08T11:24:00",
+  "estimatedDelivery": "2026-09-11",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-09-08T12:24:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-09-09T08:24:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-09-10T04:24:00",
+    "note": "Handed to carrier – tracking SSX925987"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-09-11T00:24:00",
+    "note": "Out for delivery in London"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-09-11T20:24:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0030",
+  "number": "SS-2609-1029",
+  "userId": "u-939",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Khan",
+   "email": "sara.khan@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o29",
+   "label": "Home",
+   "fullName": "Sara Khan",
+   "line1": "885 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "26708",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-026",
+    "name": "Terra Cloudrunner",
+    "image": "images/products/terra-cloudrunner-1.svg",
+    "price": 99.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-019",
+    "name": "Terra Trail GPS Watch",
+    "image": "images/products/terra-trail-gps-watch-1.svg",
+    "price": 244.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-017",
+    "name": "Kestrel Active Band",
+    "image": "images/products/kestrel-active-band-1.svg",
+    "price": 399.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1489.94,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 119.2,
+  "total": 1609.14,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-09-03T20:31:00",
+  "estimatedDelivery": "2026-09-09",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-09-03T21:31:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-09-04T17:31:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-09-05T13:31:00",
+    "note": "Handed to carrier – tracking SSX537389"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-09-06T09:31:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-09-07T05:31:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0031",
+  "number": "SS-2608-1030",
+  "userId": "u-145",
+  "customer": {
+   "firstName": "Ali",
+   "lastName": "Malik",
+   "email": "ali.malik@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o30",
+   "label": "Home",
+   "fullName": "Ali Malik",
+   "line1": "687 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "42623",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-033",
+    "name": "Lumen Weekender Duffel",
+    "image": "images/products/lumen-weekender-duffel-1.svg",
+    "price": 119.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-038",
+    "name": "Nordvik Desk Lamp",
+    "image": "images/products/nordvik-desk-lamp-1.svg",
+    "price": 379.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 999.96,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 80.0,
+  "total": 1079.96,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-08-31T14:02:00",
+  "estimatedDelivery": "2026-09-06",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-08-31T15:02:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-09-01T11:02:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-09-02T07:02:00",
+    "note": "Handed to carrier – tracking SSX689548"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-09-03T03:02:00",
+    "note": "Out for delivery in Austin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-09-03T23:02:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0032",
+  "number": "SS-2608-1031",
+  "userId": "u-682",
+  "customer": {
+   "firstName": "Hina",
+   "lastName": "Lee",
+   "email": "hina.lee@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o31",
+   "label": "Home",
+   "fullName": "Hina Lee",
+   "line1": "540 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "88449",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-037",
+    "name": "Solace Lounge Chair",
+    "image": "images/products/solace-lounge-chair-1.svg",
+    "price": 184.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-022",
+    "name": "Kestrel Compact Zoom",
+    "image": "images/products/kestrel-compact-zoom-1.svg",
+    "price": 1399.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2984.97,
+  "discount": 298.5,
+  "shipping": 0,
+  "tax": 214.92,
+  "total": 2901.39,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "cancelled",
+  "createdAt": "2026-08-30T06:58:00",
+  "estimatedDelivery": "2026-09-05",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-08-30T06:58:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "cancelled",
+    "date": "2026-08-30T11:58:00",
+    "note": "Cancelled at customer request"
+   }
+  ]
+ },
+ {
+  "id": "o-0033",
+  "number": "SS-2608-1032",
+  "userId": "u-419",
+  "customer": {
+   "firstName": "Ali",
+   "lastName": "Garcia",
+   "email": "ali.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o32",
+   "label": "Home",
+   "fullName": "Ali Garcia",
+   "line1": "200 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "75308",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-009",
+    "name": "Kestrel Workstation 17",
+    "image": "images/products/kestrel-workstation-17-1.svg",
+    "price": 1609.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-011",
+    "name": "Aurora One Pro Smartphone",
+    "image": "images/products/aurora-one-pro-smartphone-1.svg",
+    "price": 464.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-001",
+    "name": "Aurora Studio Pro Headphones",
+    "image": "images/products/aurora-studio-pro-headphones-1.svg",
+    "price": 144.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 3829.96,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 306.4,
+  "total": 4161.35,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-08-23T14:59:00",
+  "estimatedDelivery": "2026-08-25",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-08-23T15:59:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-08-24T11:59:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-08-25T07:59:00",
+    "note": "Handed to carrier – tracking SSX747769"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-08-26T03:59:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-08-26T23:59:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0034",
+  "number": "SS-2608-1033",
+  "userId": "u-215",
+  "customer": {
+   "firstName": "Bilal",
+   "lastName": "Garcia",
+   "email": "bilal.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o33",
+   "label": "Home",
+   "fullName": "Bilal Garcia",
+   "line1": "452 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "72199",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-014",
+    "name": "Kestrel Mini Phone",
+    "image": "images/products/kestrel-mini-phone-1.svg",
+    "price": 529.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-005",
+    "name": "Kestrel Pods Lite",
+    "image": "images/products/kestrel-pods-lite-1.svg",
+    "price": 204.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1469.96,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 117.6,
+  "total": 1602.55,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-08-22T13:36:00",
+  "estimatedDelivery": "2026-08-25",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-08-22T14:36:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-08-23T10:36:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-08-24T06:36:00",
+    "note": "Handed to carrier – tracking SSX273651"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-08-25T02:36:00",
+    "note": "Out for delivery in Austin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-08-25T22:36:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0035",
+  "number": "SS-2608-1034",
+  "userId": "u-136",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Ahmed",
+   "email": "sara.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o34",
+   "label": "Home",
+   "fullName": "Sara Ahmed",
+   "line1": "826 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "37527",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-024",
+    "name": "Nordvik Instant Film Camera",
+    "image": "images/products/nordvik-instant-film-camera-1.svg",
+    "price": 709.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-014",
+    "name": "Kestrel Mini Phone",
+    "image": "images/products/kestrel-mini-phone-1.svg",
+    "price": 529.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-019",
+    "name": "Terra Trail GPS Watch",
+    "image": "images/products/terra-trail-gps-watch-1.svg",
+    "price": 244.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2969.94,
+  "discount": 296.99,
+  "shipping": 14.99,
+  "tax": 213.84,
+  "total": 2901.78,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-08-15T16:50:00",
+  "estimatedDelivery": "2026-08-18",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-08-15T17:50:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-08-16T13:50:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-08-17T09:50:00",
+    "note": "Handed to carrier – tracking SSX657615"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-08-18T05:50:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-08-19T01:50:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0036",
+  "number": "SS-2608-1035",
+  "userId": "u-379",
+  "customer": {
+   "firstName": "Bilal",
+   "lastName": "Rossi",
+   "email": "bilal.rossi@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o35",
+   "label": "Home",
+   "fullName": "Bilal Rossi",
+   "line1": "771 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "74073",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-033",
+    "name": "Lumen Weekender Duffel",
+    "image": "images/products/lumen-weekender-duffel-1.svg",
+    "price": 119.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-027",
+    "name": "Pulse Velocity Trainer",
+    "image": "images/products/pulse-velocity-trainer-1.svg",
+    "price": 109.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 229.98,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 18.4,
+  "total": 263.37,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-08-14T09:52:00",
+  "estimatedDelivery": "2026-08-17",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-08-14T10:52:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-08-15T06:52:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-08-16T02:52:00",
+    "note": "Handed to carrier – tracking SSX224493"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-08-16T22:52:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-08-17T18:52:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0037",
+  "number": "SS-2608-1036",
+  "userId": "u-580",
+  "customer": {
+   "firstName": "Olivia",
+   "lastName": "Garcia",
+   "email": "olivia.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o36",
+   "label": "Home",
+   "fullName": "Olivia Garcia",
+   "line1": "109 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "73900",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-040",
+    "name": "Aurora Smart Table Lamp",
+    "image": "images/products/aurora-smart-table-lamp-1.svg",
+    "price": 289.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-024",
+    "name": "Nordvik Instant Film Camera",
+    "image": "images/products/nordvik-instant-film-camera-1.svg",
+    "price": 709.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-010",
+    "name": "Terra Slim 15 Laptop",
+    "image": "images/products/terra-slim-15-laptop-1.svg",
+    "price": 689.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2379.96,
+  "discount": 238.0,
+  "shipping": 14.99,
+  "tax": 171.36,
+  "total": 2328.31,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-08-08T14:59:00",
+  "estimatedDelivery": "2026-08-11",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-08-08T15:59:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-08-09T11:59:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-08-10T07:59:00",
+    "note": "Handed to carrier – tracking SSX696674"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-08-11T03:59:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-08-11T23:59:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0038",
+  "number": "SS-2608-1037",
+  "userId": "u-393",
+  "customer": {
+   "firstName": "John",
+   "lastName": "Rossi",
+   "email": "john.rossi@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o37",
+   "label": "Home",
+   "fullName": "John Rossi",
+   "line1": "430 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "14285",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-028",
+    "name": "Nordvik Court Classic",
+    "image": "images/products/nordvik-court-classic-1.svg",
+    "price": 144.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 289.98,
+  "discount": 29.0,
+  "shipping": 14.99,
+  "tax": 20.88,
+  "total": 296.85,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-08-06T02:40:00",
+  "estimatedDelivery": "2026-08-09",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-08-06T03:40:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-08-06T23:40:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-08-07T19:40:00",
+    "note": "Handed to carrier – tracking SSX493009"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-08-08T15:40:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-08-09T11:40:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0039",
+  "number": "SS-2607-1038",
+  "userId": "u-214",
+  "customer": {
+   "firstName": "Chen",
+   "lastName": "Brown",
+   "email": "chen.brown@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o38",
+   "label": "Home",
+   "fullName": "Chen Brown",
+   "line1": "222 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "41208",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-002",
+    "name": "Pulse Buds ANC",
+    "image": "images/products/pulse-buds-anc-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 349.98,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 28.0,
+  "total": 402.97,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-07-31T15:26:00",
+  "estimatedDelivery": "2026-08-02",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-07-31T16:26:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-08-01T12:26:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-08-02T08:26:00",
+    "note": "Handed to carrier – tracking SSX669714"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-08-03T04:26:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-08-04T00:26:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0040",
+  "number": "SS-2607-1039",
+  "userId": "u-217",
+  "customer": {
+   "firstName": "Ali",
+   "lastName": "Ahmed",
+   "email": "ali.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o39",
+   "label": "Home",
+   "fullName": "Ali Ahmed",
+   "line1": "599 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "54219",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-002",
+    "name": "Pulse Buds ANC",
+    "image": "images/products/pulse-buds-anc-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-036",
+    "name": "Lumen Arc Floor Lamp",
+    "image": "images/products/lumen-arc-floor-lamp-1.svg",
+    "price": 414.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-013",
+    "name": "Lumen Tab 11",
+    "image": "images/products/lumen-tab-11-1.svg",
+    "price": 1414.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 3594.95,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 287.6,
+  "total": 3907.54,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-07-24T00:33:00",
+  "estimatedDelivery": "2026-07-26",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-07-24T01:33:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-07-24T21:33:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-07-25T17:33:00",
+    "note": "Handed to carrier – tracking SSX116147"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-07-26T13:33:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-07-27T09:33:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0041",
+  "number": "SS-2607-1040",
+  "userId": "u-974",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Brown",
+   "email": "sara.brown@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o40",
+   "label": "Home",
+   "fullName": "Sara Brown",
+   "line1": "652 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "89994",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-032",
+    "name": "Terra Roll-Top Pack",
+    "image": "images/products/terra-roll-top-pack-1.svg",
+    "price": 54.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-023",
+    "name": "Vantage Vlog Camera",
+    "image": "images/products/vantage-vlog-camera-1.svg",
+    "price": 1449.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1504.98,
+  "discount": 150.5,
+  "shipping": 0,
+  "tax": 108.36,
+  "total": 1462.84,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-07-23T02:36:00",
+  "estimatedDelivery": "2026-07-29",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-07-23T03:36:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-07-23T23:36:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-07-24T19:36:00",
+    "note": "Handed to carrier – tracking SSX998521"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-07-25T15:36:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-07-26T11:36:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0042",
+  "number": "SS-2607-1041",
+  "userId": "u-679",
+  "customer": {
+   "firstName": "Olivia",
+   "lastName": "Lee",
+   "email": "olivia.lee@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o41",
+   "label": "Home",
+   "fullName": "Olivia Lee",
+   "line1": "785 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "68283",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-004",
+    "name": "Nordvik Fold Wireless Headphones",
+    "image": "images/products/nordvik-fold-wireless-headphones-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-019",
+    "name": "Terra Trail GPS Watch",
+    "image": "images/products/terra-trail-gps-watch-1.svg",
+    "price": 244.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-038",
+    "name": "Nordvik Desk Lamp",
+    "image": "images/products/nordvik-desk-lamp-1.svg",
+    "price": 379.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 974.96,
+  "discount": 97.5,
+  "shipping": 14.99,
+  "tax": 70.2,
+  "total": 962.65,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-07-16T09:25:00",
+  "estimatedDelivery": "2026-07-19",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-07-16T10:25:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-07-17T06:25:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-07-18T02:25:00",
+    "note": "Handed to carrier – tracking SSX773832"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-07-18T22:25:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-07-19T18:25:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0043",
+  "number": "SS-2607-1042",
+  "userId": "u-demo",
+  "customer": {
+   "firstName": "Demo",
+   "lastName": "Customer",
+   "email": "demo@shopsphere.dev",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o42",
+   "label": "Home",
+   "fullName": "Demo Customer",
+   "line1": "523 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "15923",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-019",
+    "name": "Terra Trail GPS Watch",
+    "image": "images/products/terra-trail-gps-watch-1.svg",
+    "price": 244.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-010",
+    "name": "Terra Slim 15 Laptop",
+    "image": "images/products/terra-slim-15-laptop-1.svg",
+    "price": 689.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1869.96,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 149.6,
+  "total": 2034.55,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-07-11T08:34:00",
+  "estimatedDelivery": "2026-07-14",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-07-11T09:34:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-07-12T05:34:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-07-13T01:34:00",
+    "note": "Handed to carrier – tracking SSX710502"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-07-13T21:34:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-07-14T17:34:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0044",
+  "number": "SS-2607-1043",
+  "userId": "u-822",
+  "customer": {
+   "firstName": "Aisha",
+   "lastName": "Rossi",
+   "email": "aisha.rossi@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o43",
+   "label": "Home",
+   "fullName": "Aisha Rossi",
+   "line1": "229 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "44301",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-021",
+    "name": "Lumen M7 Mirrorless Camera",
+    "image": "images/products/lumen-m7-mirrorless-camera-1.svg",
+    "price": 1594.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1594.99,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 127.6,
+  "total": 1747.58,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-07-10T00:27:00",
+  "estimatedDelivery": "2026-07-12",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-07-10T01:27:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-07-10T21:27:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-07-11T17:27:00",
+    "note": "Handed to carrier – tracking SSX646090"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-07-12T13:27:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-07-13T09:27:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0045",
+  "number": "SS-2607-1044",
+  "userId": "u-414",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Wang",
+   "email": "sara.wang@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o44",
+   "label": "Home",
+   "fullName": "Sara Wang",
+   "line1": "682 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "37401",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-024",
+    "name": "Nordvik Instant Film Camera",
+    "image": "images/products/nordvik-instant-film-camera-1.svg",
+    "price": 709.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-002",
+    "name": "Pulse Buds ANC",
+    "image": "images/products/pulse-buds-anc-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1769.96,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 141.6,
+  "total": 1911.56,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-07-03T00:35:00",
+  "estimatedDelivery": "2026-07-09",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-07-03T01:35:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-07-03T21:35:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-07-04T17:35:00",
+    "note": "Handed to carrier – tracking SSX789884"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-07-05T13:35:00",
+    "note": "Out for delivery in Austin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-07-06T09:35:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0046",
+  "number": "SS-2607-1045",
+  "userId": "u-680",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Ahmed",
+   "email": "sara.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o45",
+   "label": "Home",
+   "fullName": "Sara Ahmed",
+   "line1": "84 Market Street",
+   "city": "Karachi",
+   "state": "Sindh",
+   "postalCode": "80464",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-002",
+    "name": "Pulse Buds ANC",
+    "image": "images/products/pulse-buds-anc-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-032",
+    "name": "Terra Roll-Top Pack",
+    "image": "images/products/terra-roll-top-pack-1.svg",
+    "price": 54.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-018",
+    "name": "Aurora Classic Smartwatch",
+    "image": "images/products/aurora-classic-smartwatch-1.svg",
+    "price": 289.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1039.94,
+  "discount": 103.99,
+  "shipping": 14.99,
+  "tax": 74.88,
+  "total": 1025.82,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-07-02T21:21:00",
+  "estimatedDelivery": "2026-07-05",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-07-02T22:21:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-07-03T18:21:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-07-04T14:21:00",
+    "note": "Handed to carrier – tracking SSX774808"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-07-05T10:21:00",
+    "note": "Out for delivery in Karachi"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-07-06T06:21:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0047",
+  "number": "SS-2606-1046",
+  "userId": "u-697",
+  "customer": {
+   "firstName": "Bilal",
+   "lastName": "Ahmed",
+   "email": "bilal.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o46",
+   "label": "Home",
+   "fullName": "Bilal Ahmed",
+   "line1": "712 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "57346",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-028",
+    "name": "Nordvik Court Classic",
+    "image": "images/products/nordvik-court-classic-1.svg",
+    "price": 144.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-005",
+    "name": "Kestrel Pods Lite",
+    "image": "images/products/kestrel-pods-lite-1.svg",
+    "price": 204.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-015",
+    "name": "Pulse Note Tablet 12",
+    "image": "images/products/pulse-note-tablet-12-1.svg",
+    "price": 849.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2194.95,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 175.6,
+  "total": 2395.54,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-06-26T12:10:00",
+  "estimatedDelivery": "2026-06-28",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-06-26T13:10:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-06-27T09:10:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-06-28T05:10:00",
+    "note": "Handed to carrier – tracking SSX383634"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-06-29T01:10:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-06-29T21:10:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0048",
+  "number": "SS-2606-1047",
+  "userId": "u-987",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Lee",
+   "email": "sara.lee@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o47",
+   "label": "Home",
+   "fullName": "Sara Lee",
+   "line1": "160 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "11667",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-029",
+    "name": "Kestrel Trail Grip",
+    "image": "images/products/kestrel-trail-grip-1.svg",
+    "price": 109.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-023",
+    "name": "Vantage Vlog Camera",
+    "image": "images/products/vantage-vlog-camera-1.svg",
+    "price": 1449.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-025",
+    "name": "Aurora Full-Frame Z",
+    "image": "images/products/aurora-full-frame-z-1.svg",
+    "price": 1164.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 3999.95,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 320.0,
+  "total": 4319.95,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-06-18T23:12:00",
+  "estimatedDelivery": "2026-06-24",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-06-19T00:12:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-06-19T20:12:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-06-20T16:12:00",
+    "note": "Handed to carrier – tracking SSX410448"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-06-21T12:12:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-06-22T08:12:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0049",
+  "number": "SS-2606-1048",
+  "userId": "u-597",
+  "customer": {
+   "firstName": "Aisha",
+   "lastName": "Garcia",
+   "email": "aisha.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o48",
+   "label": "Home",
+   "fullName": "Aisha Garcia",
+   "line1": "397 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "77747",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-036",
+    "name": "Lumen Arc Floor Lamp",
+    "image": "images/products/lumen-arc-floor-lamp-1.svg",
+    "price": 414.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-002",
+    "name": "Pulse Buds ANC",
+    "image": "images/products/pulse-buds-anc-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 764.97,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 61.2,
+  "total": 851.16,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-06-15T03:25:00",
+  "estimatedDelivery": "2026-06-17",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-06-15T04:25:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-06-16T00:25:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-06-16T20:25:00",
+    "note": "Handed to carrier – tracking SSX660586"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-06-17T16:25:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-06-18T12:25:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0050",
+  "number": "SS-2606-1049",
+  "userId": "u-756",
+  "customer": {
+   "firstName": "Hina",
+   "lastName": "Hussain",
+   "email": "hina.hussain@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o49",
+   "label": "Home",
+   "fullName": "Hina Hussain",
+   "line1": "551 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "35029",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-008",
+    "name": "Pulse Book 13",
+    "image": "images/products/pulse-book-13-1.svg",
+    "price": 1544.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-032",
+    "name": "Terra Roll-Top Pack",
+    "image": "images/products/terra-roll-top-pack-1.svg",
+    "price": 54.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-039",
+    "name": "Terra Accent Chair",
+    "image": "images/products/terra-accent-chair-1.svg",
+    "price": 239.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 3679.94,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 294.4,
+  "total": 3989.33,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-06-11T03:24:00",
+  "estimatedDelivery": "2026-06-14",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-06-11T04:24:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-06-12T00:24:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-06-12T20:24:00",
+    "note": "Handed to carrier – tracking SSX476899"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-06-13T16:24:00",
+    "note": "Out for delivery in London"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-06-14T12:24:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0051",
+  "number": "SS-2606-1050",
+  "userId": "u-633",
+  "customer": {
+   "firstName": "Ethan",
+   "lastName": "Malik",
+   "email": "ethan.malik@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o50",
+   "label": "Home",
+   "fullName": "Ethan Malik",
+   "line1": "929 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "36118",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-013",
+    "name": "Lumen Tab 11",
+    "image": "images/products/lumen-tab-11-1.svg",
+    "price": 1414.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-005",
+    "name": "Kestrel Pods Lite",
+    "image": "images/products/kestrel-pods-lite-1.svg",
+    "price": 204.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 3034.97,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 242.8,
+  "total": 3292.76,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-06-07T10:26:00",
+  "estimatedDelivery": "2026-06-10",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-06-07T11:26:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-06-08T07:26:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-06-09T03:26:00",
+    "note": "Handed to carrier – tracking SSX612878"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-06-09T23:26:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-06-10T19:26:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0052",
+  "number": "SS-2605-1051",
+  "userId": "u-448",
+  "customer": {
+   "firstName": "Maria",
+   "lastName": "Garcia",
+   "email": "maria.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o51",
+   "label": "Home",
+   "fullName": "Maria Garcia",
+   "line1": "42 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "51000",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-037",
+    "name": "Solace Lounge Chair",
+    "image": "images/products/solace-lounge-chair-1.svg",
+    "price": 184.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 184.99,
+  "discount": 18.5,
+  "shipping": 14.99,
+  "tax": 13.32,
+  "total": 194.8,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-05-31T03:58:00",
+  "estimatedDelivery": "2026-06-03",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-05-31T04:58:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-06-01T00:58:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-06-01T20:58:00",
+    "note": "Handed to carrier – tracking SSX904200"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-06-02T16:58:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-06-03T12:58:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0053",
+  "number": "SS-2605-1052",
+  "userId": "u-857",
+  "customer": {
+   "firstName": "Ethan",
+   "lastName": "Brown",
+   "email": "ethan.brown@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o52",
+   "label": "Home",
+   "fullName": "Ethan Brown",
+   "line1": "763 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "79578",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-023",
+    "name": "Vantage Vlog Camera",
+    "image": "images/products/vantage-vlog-camera-1.svg",
+    "price": 1449.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-031",
+    "name": "Nordvik Commuter Backpack",
+    "image": "images/products/nordvik-commuter-backpack-1.svg",
+    "price": 139.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1589.98,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 127.2,
+  "total": 1717.18,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-05-27T20:31:00",
+  "estimatedDelivery": "2026-06-02",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-05-27T21:31:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-05-28T17:31:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-05-29T13:31:00",
+    "note": "Handed to carrier – tracking SSX287805"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-05-30T09:31:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-05-31T05:31:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0054",
+  "number": "SS-2605-1053",
+  "userId": "u-563",
+  "customer": {
+   "firstName": "Zara",
+   "lastName": "Ahmed",
+   "email": "zara.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o53",
+   "label": "Home",
+   "fullName": "Zara Ahmed",
+   "line1": "203 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "62974",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-018",
+    "name": "Aurora Classic Smartwatch",
+    "image": "images/products/aurora-classic-smartwatch-1.svg",
+    "price": 289.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 289.99,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 23.2,
+  "total": 328.18,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-05-24T21:55:00",
+  "estimatedDelivery": "2026-05-27",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-05-24T22:55:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-05-25T18:55:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-05-26T14:55:00",
+    "note": "Handed to carrier – tracking SSX623162"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-05-27T10:55:00",
+    "note": "Out for delivery in Austin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-05-28T06:55:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0055",
+  "number": "SS-2605-1054",
+  "userId": "u-217",
+  "customer": {
+   "firstName": "Zara",
+   "lastName": "Smith",
+   "email": "zara.smith@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o54",
+   "label": "Home",
+   "fullName": "Zara Smith",
+   "line1": "241 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "32755",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-013",
+    "name": "Lumen Tab 11",
+    "image": "images/products/lumen-tab-11-1.svg",
+    "price": 1414.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-009",
+    "name": "Kestrel Workstation 17",
+    "image": "images/products/kestrel-workstation-17-1.svg",
+    "price": 1609.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 3024.98,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 242.0,
+  "total": 3266.98,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-05-17T13:41:00",
+  "estimatedDelivery": "2026-05-23",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-05-17T14:41:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-05-18T10:41:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-05-19T06:41:00",
+    "note": "Handed to carrier – tracking SSX677203"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-05-20T02:41:00",
+    "note": "Out for delivery in Austin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-05-20T22:41:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0056",
+  "number": "SS-2605-1055",
+  "userId": "u-949",
+  "customer": {
+   "firstName": "Ali",
+   "lastName": "Ahmed",
+   "email": "ali.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o55",
+   "label": "Home",
+   "fullName": "Ali Ahmed",
+   "line1": "226 Market Street",
+   "city": "Karachi",
+   "state": "Sindh",
+   "postalCode": "35802",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-037",
+    "name": "Solace Lounge Chair",
+    "image": "images/products/solace-lounge-chair-1.svg",
+    "price": 184.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 369.98,
+  "discount": 37.0,
+  "shipping": 14.99,
+  "tax": 26.64,
+  "total": 374.61,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-05-14T03:05:00",
+  "estimatedDelivery": "2026-05-17",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-05-14T04:05:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-05-15T00:05:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-05-15T20:05:00",
+    "note": "Handed to carrier – tracking SSX970326"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-05-16T16:05:00",
+    "note": "Out for delivery in Karachi"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-05-17T12:05:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0057",
+  "number": "SS-2605-1056",
+  "userId": "u-demo",
+  "customer": {
+   "firstName": "Demo",
+   "lastName": "Customer",
+   "email": "demo@shopsphere.dev",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o56",
+   "label": "Home",
+   "fullName": "Demo Customer",
+   "line1": "401 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "61732",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-014",
+    "name": "Kestrel Mini Phone",
+    "image": "images/products/kestrel-mini-phone-1.svg",
+    "price": 529.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-033",
+    "name": "Lumen Weekender Duffel",
+    "image": "images/products/lumen-weekender-duffel-1.svg",
+    "price": 119.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-007",
+    "name": "Nordvik Creator 16 Laptop",
+    "image": "images/products/nordvik-creator-16-laptop-1.svg",
+    "price": 1054.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 3409.94,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 272.8,
+  "total": 3697.73,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-05-07T09:04:00",
+  "estimatedDelivery": "2026-05-10",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-05-07T10:04:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-05-08T06:04:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-05-09T02:04:00",
+    "note": "Handed to carrier – tracking SSX920487"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-05-09T22:04:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-05-10T18:04:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0058",
+  "number": "SS-2604-1057",
+  "userId": "u-939",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Garcia",
+   "email": "sara.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o57",
+   "label": "Home",
+   "fullName": "Sara Garcia",
+   "line1": "649 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "54479",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-010",
+    "name": "Terra Slim 15 Laptop",
+    "image": "images/products/terra-slim-15-laptop-1.svg",
+    "price": 689.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-002",
+    "name": "Pulse Buds ANC",
+    "image": "images/products/pulse-buds-anc-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-020",
+    "name": "Solace Sleep Ring",
+    "image": "images/products/solace-sleep-ring-1.svg",
+    "price": 154.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1349.95,
+  "discount": 135.0,
+  "shipping": 0,
+  "tax": 97.2,
+  "total": 1312.15,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-04-29T15:30:00",
+  "estimatedDelivery": "2026-05-05",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-04-29T16:30:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-04-30T12:30:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-05-01T08:30:00",
+    "note": "Handed to carrier – tracking SSX506592"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-05-02T04:30:00",
+    "note": "Out for delivery in Austin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-05-03T00:30:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0059",
+  "number": "SS-2604-1058",
+  "userId": "u-120",
+  "customer": {
+   "firstName": "Ali",
+   "lastName": "Garcia",
+   "email": "ali.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o58",
+   "label": "Home",
+   "fullName": "Ali Garcia",
+   "line1": "341 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "55322",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-004",
+    "name": "Nordvik Fold Wireless Headphones",
+    "image": "images/products/nordvik-fold-wireless-headphones-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 349.98,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 28.0,
+  "total": 377.98,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-04-28T12:21:00",
+  "estimatedDelivery": "2026-05-04",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-04-28T13:21:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-04-29T09:21:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-04-30T05:21:00",
+    "note": "Handed to carrier – tracking SSX708547"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-05-01T01:21:00",
+    "note": "Out for delivery in London"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-05-01T21:21:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0061",
+  "number": "SS-2604-1060",
+  "userId": "u-835",
+  "customer": {
+   "firstName": "Liam",
+   "lastName": "Brown",
+   "email": "liam.brown@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o60",
+   "label": "Home",
+   "fullName": "Liam Brown",
+   "line1": "811 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "10390",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-003",
+    "name": "Solace Arc Bluetooth Speaker",
+    "image": "images/products/solace-arc-bluetooth-speaker-1.svg",
+    "price": 219.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-034",
+    "name": "Vantage Tech Sling",
+    "image": "images/products/vantage-tech-sling-1.svg",
+    "price": 139.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-038",
+    "name": "Nordvik Desk Lamp",
+    "image": "images/products/nordvik-desk-lamp-1.svg",
+    "price": 379.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 739.97,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 59.2,
+  "total": 824.16,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-04-20T06:51:00",
+  "estimatedDelivery": "2026-04-22",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-04-20T07:51:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-04-21T03:51:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-04-21T23:51:00",
+    "note": "Handed to carrier – tracking SSX986084"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-04-22T19:51:00",
+    "note": "Out for delivery in Austin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-04-23T15:51:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0060",
+  "number": "SS-2604-1059",
+  "userId": "u-373",
+  "customer": {
+   "firstName": "Maria",
+   "lastName": "Khan",
+   "email": "maria.khan@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o59",
+   "label": "Home",
+   "fullName": "Maria Khan",
+   "line1": "544 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "80290",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-003",
+    "name": "Solace Arc Bluetooth Speaker",
+    "image": "images/products/solace-arc-bluetooth-speaker-1.svg",
+    "price": 219.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-029",
+    "name": "Kestrel Trail Grip",
+    "image": "images/products/kestrel-trail-grip-1.svg",
+    "price": 109.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-005",
+    "name": "Kestrel Pods Lite",
+    "image": "images/products/kestrel-pods-lite-1.svg",
+    "price": 204.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1069.94,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 85.6,
+  "total": 1170.53,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-04-18T15:28:00",
+  "estimatedDelivery": "2026-04-21",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-04-18T16:28:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-04-19T12:28:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-04-20T08:28:00",
+    "note": "Handed to carrier – tracking SSX277785"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-04-21T04:28:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-04-22T00:28:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0062",
+  "number": "SS-2604-1061",
+  "userId": "u-427",
+  "customer": {
+   "firstName": "John",
+   "lastName": "Malik",
+   "email": "john.malik@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o61",
+   "label": "Home",
+   "fullName": "John Malik",
+   "line1": "931 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "57265",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-015",
+    "name": "Pulse Note Tablet 12",
+    "image": "images/products/pulse-note-tablet-12-1.svg",
+    "price": 849.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-022",
+    "name": "Kestrel Compact Zoom",
+    "image": "images/products/kestrel-compact-zoom-1.svg",
+    "price": 1399.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 3099.97,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 248.0,
+  "total": 3362.96,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-04-14T16:52:00",
+  "estimatedDelivery": "2026-04-17",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-04-14T17:52:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-04-15T13:52:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-04-16T09:52:00",
+    "note": "Handed to carrier – tracking SSX183633"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-04-17T05:52:00",
+    "note": "Out for delivery in Austin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-04-18T01:52:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0063",
+  "number": "SS-2604-1062",
+  "userId": "u-316",
+  "customer": {
+   "firstName": "John",
+   "lastName": "Hussain",
+   "email": "john.hussain@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o62",
+   "label": "Home",
+   "fullName": "John Hussain",
+   "line1": "21 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "95807",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-030",
+    "name": "Solace Everyday Knit",
+    "image": "images/products/solace-everyday-knit-1.svg",
+    "price": 194.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 194.99,
+  "discount": 19.5,
+  "shipping": 24.99,
+  "tax": 14.04,
+  "total": 214.52,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-04-04T16:06:00",
+  "estimatedDelivery": "2026-04-06",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-04-04T17:06:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-04-05T13:06:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-04-06T09:06:00",
+    "note": "Handed to carrier – tracking SSX823969"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-04-07T05:06:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-04-08T01:06:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0064",
+  "number": "SS-2604-1063",
+  "userId": "u-893",
+  "customer": {
+   "firstName": "Liam",
+   "lastName": "Lee",
+   "email": "liam.lee@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o63",
+   "label": "Home",
+   "fullName": "Liam Lee",
+   "line1": "776 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "96702",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-032",
+    "name": "Terra Roll-Top Pack",
+    "image": "images/products/terra-roll-top-pack-1.svg",
+    "price": 54.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-034",
+    "name": "Vantage Tech Sling",
+    "image": "images/products/vantage-tech-sling-1.svg",
+    "price": 139.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 249.97,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 20.0,
+  "total": 284.96,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-04-01T00:51:00",
+  "estimatedDelivery": "2026-04-04",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-04-01T01:51:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-04-01T21:51:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-04-02T17:51:00",
+    "note": "Handed to carrier – tracking SSX777026"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-04-03T13:51:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-04-04T09:51:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0065",
+  "number": "SS-2603-1064",
+  "userId": "u-650",
+  "customer": {
+   "firstName": "Aisha",
+   "lastName": "Wang",
+   "email": "aisha.wang@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o64",
+   "label": "Home",
+   "fullName": "Aisha Wang",
+   "line1": "403 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "30529",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-012",
+    "name": "Vantage X Phone",
+    "image": "images/products/vantage-x-phone-1.svg",
+    "price": 549.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-022",
+    "name": "Kestrel Compact Zoom",
+    "image": "images/products/kestrel-compact-zoom-1.svg",
+    "price": 1399.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-031",
+    "name": "Nordvik Commuter Backpack",
+    "image": "images/products/nordvik-commuter-backpack-1.svg",
+    "price": 139.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2779.95,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 222.4,
+  "total": 3002.35,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-03-27T08:51:00",
+  "estimatedDelivery": "2026-04-02",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-03-27T09:51:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-03-28T05:51:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-03-29T01:51:00",
+    "note": "Handed to carrier – tracking SSX108439"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-03-29T21:51:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-03-30T17:51:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0066",
+  "number": "SS-2603-1065",
+  "userId": "u-396",
+  "customer": {
+   "firstName": "Liam",
+   "lastName": "Ahmed",
+   "email": "liam.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o65",
+   "label": "Home",
+   "fullName": "Liam Ahmed",
+   "line1": "720 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "23438",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-021",
+    "name": "Lumen M7 Mirrorless Camera",
+    "image": "images/products/lumen-m7-mirrorless-camera-1.svg",
+    "price": 1594.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-011",
+    "name": "Aurora One Pro Smartphone",
+    "image": "images/products/aurora-one-pro-smartphone-1.svg",
+    "price": 464.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 4119.96,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 329.6,
+  "total": 4449.56,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-03-21T04:52:00",
+  "estimatedDelivery": "2026-03-27",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-03-21T05:52:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-03-22T01:52:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-03-22T21:52:00",
+    "note": "Handed to carrier – tracking SSX315755"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-03-23T17:52:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-03-24T13:52:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0067",
+  "number": "SS-2603-1066",
+  "userId": "u-776",
+  "customer": {
+   "firstName": "Chen",
+   "lastName": "Garcia",
+   "email": "chen.garcia@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o66",
+   "label": "Home",
+   "fullName": "Chen Garcia",
+   "line1": "999 Market Street",
+   "city": "Karachi",
+   "state": "Sindh",
+   "postalCode": "30203",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-007",
+    "name": "Nordvik Creator 16 Laptop",
+    "image": "images/products/nordvik-creator-16-laptop-1.svg",
+    "price": 1054.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-021",
+    "name": "Lumen M7 Mirrorless Camera",
+    "image": "images/products/lumen-m7-mirrorless-camera-1.svg",
+    "price": 1594.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 2649.98,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 212.0,
+  "total": 2876.97,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-03-17T23:55:00",
+  "estimatedDelivery": "2026-03-20",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-03-18T00:55:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-03-18T20:55:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-03-19T16:55:00",
+    "note": "Handed to carrier – tracking SSX876766"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-03-20T12:55:00",
+    "note": "Out for delivery in Karachi"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-03-21T08:55:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0068",
+  "number": "SS-2603-1067",
+  "userId": "u-557",
+  "customer": {
+   "firstName": "Olivia",
+   "lastName": "Smith",
+   "email": "olivia.smith@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o67",
+   "label": "Home",
+   "fullName": "Olivia Smith",
+   "line1": "497 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "14871",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-023",
+    "name": "Vantage Vlog Camera",
+    "image": "images/products/vantage-vlog-camera-1.svg",
+    "price": 1449.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-035",
+    "name": "Solace Canvas Tote",
+    "image": "images/products/solace-canvas-tote-1.svg",
+    "price": 124.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-037",
+    "name": "Solace Lounge Chair",
+    "image": "images/products/solace-lounge-chair-1.svg",
+    "price": 184.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1759.97,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 140.8,
+  "total": 1925.76,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "cancelled",
+  "createdAt": "2026-03-13T00:25:00",
+  "estimatedDelivery": "2026-03-15",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-03-13T00:25:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "cancelled",
+    "date": "2026-03-13T05:25:00",
+    "note": "Cancelled at customer request"
+   }
+  ]
+ },
+ {
+  "id": "o-0069",
+  "number": "SS-2603-1068",
+  "userId": "u-346",
+  "customer": {
+   "firstName": "Aisha",
+   "lastName": "Malik",
+   "email": "aisha.malik@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o68",
+   "label": "Home",
+   "fullName": "Aisha Malik",
+   "line1": "521 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "66500",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-004",
+    "name": "Nordvik Fold Wireless Headphones",
+    "image": "images/products/nordvik-fold-wireless-headphones-1.svg",
+    "price": 174.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-008",
+    "name": "Pulse Book 13",
+    "image": "images/products/pulse-book-13-1.svg",
+    "price": 1544.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 3439.96,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 275.2,
+  "total": 3730.15,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-03-07T09:32:00",
+  "estimatedDelivery": "2026-03-10",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-03-07T10:32:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-03-08T06:32:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-03-09T02:32:00",
+    "note": "Handed to carrier – tracking SSX723537"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-03-09T22:32:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-03-10T18:32:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0070",
+  "number": "SS-2602-1069",
+  "userId": "u-144",
+  "customer": {
+   "firstName": "Bilal",
+   "lastName": "Rossi",
+   "email": "bilal.rossi@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o69",
+   "label": "Home",
+   "fullName": "Bilal Rossi",
+   "line1": "194 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "67127",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-013",
+    "name": "Lumen Tab 11",
+    "image": "images/products/lumen-tab-11-1.svg",
+    "price": 1414.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2829.98,
+  "discount": 283.0,
+  "shipping": 0,
+  "tax": 203.76,
+  "total": 2750.74,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-02-26T12:31:00",
+  "estimatedDelivery": "2026-03-04",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-02-26T13:31:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-02-27T09:31:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-02-28T05:31:00",
+    "note": "Handed to carrier – tracking SSX538703"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-03-01T01:31:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-03-01T21:31:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0071",
+  "number": "SS-2602-1070",
+  "userId": "u-demo",
+  "customer": {
+   "firstName": "Demo",
+   "lastName": "Customer",
+   "email": "demo@shopsphere.dev",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o70",
+   "label": "Home",
+   "fullName": "Demo Customer",
+   "line1": "693 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "40558",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-018",
+    "name": "Aurora Classic Smartwatch",
+    "image": "images/products/aurora-classic-smartwatch-1.svg",
+    "price": 289.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-007",
+    "name": "Nordvik Creator 16 Laptop",
+    "image": "images/products/nordvik-creator-16-laptop-1.svg",
+    "price": 1054.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2689.96,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 215.2,
+  "total": 2920.15,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-02-21T01:43:00",
+  "estimatedDelivery": "2026-02-24",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-02-21T02:43:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-02-21T22:43:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-02-22T18:43:00",
+    "note": "Handed to carrier – tracking SSX580853"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-02-23T14:43:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-02-24T10:43:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0072",
+  "number": "SS-2602-1071",
+  "userId": "u-288",
+  "customer": {
+   "firstName": "Maria",
+   "lastName": "Khan",
+   "email": "maria.khan@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o71",
+   "label": "Home",
+   "fullName": "Maria Khan",
+   "line1": "934 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "16852",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-017",
+    "name": "Kestrel Active Band",
+    "image": "images/products/kestrel-active-band-1.svg",
+    "price": 399.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-026",
+    "name": "Terra Cloudrunner",
+    "image": "images/products/terra-cloudrunner-1.svg",
+    "price": 99.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 499.98,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 40.0,
+  "total": 539.98,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-02-13T23:17:00",
+  "estimatedDelivery": "2026-02-19",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-02-14T00:17:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-02-14T20:17:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-02-15T16:17:00",
+    "note": "Handed to carrier – tracking SSX203278"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-02-16T12:17:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-02-17T08:17:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0073",
+  "number": "SS-2602-1072",
+  "userId": "u-874",
+  "customer": {
+   "firstName": "Bilal",
+   "lastName": "Ahmed",
+   "email": "bilal.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o72",
+   "label": "Home",
+   "fullName": "Bilal Ahmed",
+   "line1": "304 Market Street",
+   "city": "Berlin",
+   "state": "Berlin",
+   "postalCode": "44362",
+   "country": "Germany",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-024",
+    "name": "Nordvik Instant Film Camera",
+    "image": "images/products/nordvik-instant-film-camera-1.svg",
+    "price": 709.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 709.99,
+  "discount": 71.0,
+  "shipping": 0,
+  "tax": 51.12,
+  "total": 690.11,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-02-11T11:18:00",
+  "estimatedDelivery": "2026-02-17",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-02-11T12:18:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-02-12T08:18:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-02-13T04:18:00",
+    "note": "Handed to carrier – tracking SSX589736"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-02-14T00:18:00",
+    "note": "Out for delivery in Berlin"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-02-14T20:18:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0074",
+  "number": "SS-2601-1073",
+  "userId": "u-433",
+  "customer": {
+   "firstName": "Sara",
+   "lastName": "Malik",
+   "email": "sara.malik@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o73",
+   "label": "Home",
+   "fullName": "Sara Malik",
+   "line1": "124 Market Street",
+   "city": "Karachi",
+   "state": "Sindh",
+   "postalCode": "67633",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-031",
+    "name": "Nordvik Commuter Backpack",
+    "image": "images/products/nordvik-commuter-backpack-1.svg",
+    "price": 139.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-023",
+    "name": "Vantage Vlog Camera",
+    "image": "images/products/vantage-vlog-camera-1.svg",
+    "price": 1449.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1589.98,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 127.2,
+  "total": 1732.17,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-01-31T15:13:00",
+  "estimatedDelivery": "2026-02-03",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-01-31T16:13:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-02-01T12:13:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-02-02T08:13:00",
+    "note": "Handed to carrier – tracking SSX861180"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-02-03T04:13:00",
+    "note": "Out for delivery in Karachi"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-02-04T00:13:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0075",
+  "number": "SS-2601-1074",
+  "userId": "u-573",
+  "customer": {
+   "firstName": "Bilal",
+   "lastName": "Rossi",
+   "email": "bilal.rossi@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o74",
+   "label": "Home",
+   "fullName": "Bilal Rossi",
+   "line1": "223 Market Street",
+   "city": "Dubai",
+   "state": "Dubai",
+   "postalCode": "64850",
+   "country": "UAE",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-004",
+    "name": "Nordvik Fold Wireless Headphones",
+    "image": "images/products/nordvik-fold-wireless-headphones-1.svg",
+    "price": 174.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 174.99,
+  "discount": 17.5,
+  "shipping": 0,
+  "tax": 12.6,
+  "total": 170.09,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-01-25T20:52:00",
+  "estimatedDelivery": "2026-01-31",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-01-25T21:52:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-01-26T17:52:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-01-27T13:52:00",
+    "note": "Handed to carrier – tracking SSX294661"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-01-28T09:52:00",
+    "note": "Out for delivery in Dubai"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-01-29T05:52:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0076",
+  "number": "SS-2601-1075",
+  "userId": "u-789",
+  "customer": {
+   "firstName": "Liam",
+   "lastName": "Hussain",
+   "email": "liam.hussain@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o75",
+   "label": "Home",
+   "fullName": "Liam Hussain",
+   "line1": "295 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "14092",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-025",
+    "name": "Aurora Full-Frame Z",
+    "image": "images/products/aurora-full-frame-z-1.svg",
+    "price": 1164.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 2329.98,
+  "discount": 233.0,
+  "shipping": 0,
+  "tax": 167.76,
+  "total": 2264.74,
+  "couponCode": "SAVE10",
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-01-20T22:35:00",
+  "estimatedDelivery": "2026-01-26",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-01-20T23:35:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-01-21T19:35:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-01-22T15:35:00",
+    "note": "Handed to carrier – tracking SSX204210"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-01-23T11:35:00",
+    "note": "Out for delivery in London"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-01-24T07:35:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0077",
+  "number": "SS-2601-1076",
+  "userId": "u-216",
+  "customer": {
+   "firstName": "Zara",
+   "lastName": "Hussain",
+   "email": "zara.hussain@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o76",
+   "label": "Home",
+   "fullName": "Zara Hussain",
+   "line1": "995 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "82240",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-019",
+    "name": "Terra Trail GPS Watch",
+    "image": "images/products/terra-trail-gps-watch-1.svg",
+    "price": 244.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-040",
+    "name": "Aurora Smart Table Lamp",
+    "image": "images/products/aurora-smart-table-lamp-1.svg",
+    "price": 289.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 779.97,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 62.4,
+  "total": 842.37,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "paypal",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-01-13T12:01:00",
+  "estimatedDelivery": "2026-01-19",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-01-13T13:01:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-01-14T09:01:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-01-15T05:01:00",
+    "note": "Handed to carrier – tracking SSX147158"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-01-16T01:01:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-01-16T21:01:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0078",
+  "number": "SS-2601-1077",
+  "userId": "u-458",
+  "customer": {
+   "firstName": "Ethan",
+   "lastName": "Khan",
+   "email": "ethan.khan@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o77",
+   "label": "Home",
+   "fullName": "Ethan Khan",
+   "line1": "181 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "23059",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-011",
+    "name": "Aurora One Pro Smartphone",
+    "image": "images/products/aurora-one-pro-smartphone-1.svg",
+    "price": 464.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-027",
+    "name": "Pulse Velocity Trainer",
+    "image": "images/products/pulse-velocity-trainer-1.svg",
+    "price": 109.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-039",
+    "name": "Terra Accent Chair",
+    "image": "images/products/terra-accent-chair-1.svg",
+    "price": 239.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1389.95,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 111.2,
+  "total": 1516.14,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-01-08T12:01:00",
+  "estimatedDelivery": "2026-01-11",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-01-08T13:01:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-01-09T09:01:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-01-10T05:01:00",
+    "note": "Handed to carrier – tracking SSX411680"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-01-11T01:01:00",
+    "note": "Out for delivery in London"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-01-11T21:01:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0079",
+  "number": "SS-2601-1078",
+  "userId": "u-340",
+  "customer": {
+   "firstName": "Maria",
+   "lastName": "Lee",
+   "email": "maria.lee@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o78",
+   "label": "Home",
+   "fullName": "Maria Lee",
+   "line1": "502 Market Street",
+   "city": "London",
+   "state": "England",
+   "postalCode": "54185",
+   "country": "United Kingdom",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-014",
+    "name": "Kestrel Mini Phone",
+    "image": "images/products/kestrel-mini-phone-1.svg",
+    "price": 529.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-023",
+    "name": "Vantage Vlog Camera",
+    "image": "images/products/vantage-vlog-camera-1.svg",
+    "price": 1449.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1979.98,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 158.4,
+  "total": 2153.37,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2026-01-07T20:33:00",
+  "estimatedDelivery": "2026-01-10",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2026-01-07T21:33:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2026-01-08T17:33:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-01-09T13:33:00",
+    "note": "Handed to carrier – tracking SSX961872"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-01-10T09:33:00",
+    "note": "Out for delivery in London"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-01-11T05:33:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0080",
+  "number": "SS-2512-1079",
+  "userId": "u-665",
+  "customer": {
+   "firstName": "Hina",
+   "lastName": "Malik",
+   "email": "hina.malik@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o79",
+   "label": "Home",
+   "fullName": "Hina Malik",
+   "line1": "921 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "76224",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-007",
+    "name": "Nordvik Creator 16 Laptop",
+    "image": "images/products/nordvik-creator-16-laptop-1.svg",
+    "price": 1054.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-026",
+    "name": "Terra Cloudrunner",
+    "image": "images/products/terra-cloudrunner-1.svg",
+    "price": 99.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-011",
+    "name": "Aurora One Pro Smartphone",
+    "image": "images/products/aurora-one-pro-smartphone-1.svg",
+    "price": 464.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1719.96,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 137.6,
+  "total": 1872.55,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "cod",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2025-12-30T16:18:00",
+  "estimatedDelivery": "2026-01-02",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2025-12-30T17:18:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2025-12-31T13:18:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2026-01-01T09:18:00",
+    "note": "Handed to carrier – tracking SSX776545"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2026-01-02T05:18:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2026-01-03T01:18:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0081",
+  "number": "SS-2512-1080",
+  "userId": "u-337",
+  "customer": {
+   "firstName": "Chen",
+   "lastName": "Hussain",
+   "email": "chen.hussain@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o80",
+   "label": "Home",
+   "fullName": "Chen Hussain",
+   "line1": "779 Market Street",
+   "city": "Toronto",
+   "state": "ON",
+   "postalCode": "52910",
+   "country": "Canada",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-036",
+    "name": "Lumen Arc Floor Lamp",
+    "image": "images/products/lumen-arc-floor-lamp-1.svg",
+    "price": 414.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 829.98,
+  "discount": 0,
+  "shipping": 24.99,
+  "tax": 66.4,
+  "total": 921.37,
+  "couponCode": null,
+  "delivery": {
+   "id": "next-day",
+   "label": "Next-day delivery",
+   "price": 24.99,
+   "etaDays": 1
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2025-12-25T01:13:00",
+  "estimatedDelivery": "2025-12-27",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2025-12-25T02:13:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2025-12-25T22:13:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2025-12-26T18:13:00",
+    "note": "Handed to carrier – tracking SSX126594"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2025-12-27T14:13:00",
+    "note": "Out for delivery in Toronto"
+   },
+   {
+    "status": "delivered",
+    "date": "2025-12-28T10:13:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0082",
+  "number": "SS-2512-1081",
+  "userId": "u-446",
+  "customer": {
+   "firstName": "Ali",
+   "lastName": "Ahmed",
+   "email": "ali.ahmed@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o81",
+   "label": "Home",
+   "fullName": "Ali Ahmed",
+   "line1": "404 Market Street",
+   "city": "Karachi",
+   "state": "Sindh",
+   "postalCode": "77464",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-014",
+    "name": "Kestrel Mini Phone",
+    "image": "images/products/kestrel-mini-phone-1.svg",
+    "price": 529.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-036",
+    "name": "Lumen Arc Floor Lamp",
+    "image": "images/products/lumen-arc-floor-lamp-1.svg",
+    "price": 414.99,
+    "quantity": 2
+   }
+  ],
+  "subtotal": 1359.97,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 108.8,
+  "total": 1468.77,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2025-12-16T21:33:00",
+  "estimatedDelivery": "2025-12-22",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2025-12-16T22:33:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2025-12-17T18:33:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2025-12-18T14:33:00",
+    "note": "Handed to carrier – tracking SSX728675"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2025-12-19T10:33:00",
+    "note": "Out for delivery in Karachi"
+   },
+   {
+    "status": "delivered",
+    "date": "2025-12-20T06:33:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0083",
+  "number": "SS-2512-1082",
+  "userId": "u-133",
+  "customer": {
+   "firstName": "John",
+   "lastName": "Smith",
+   "email": "john.smith@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o82",
+   "label": "Home",
+   "fullName": "John Smith",
+   "line1": "370 Market Street",
+   "city": "Lahore",
+   "state": "Punjab",
+   "postalCode": "15752",
+   "country": "Pakistan",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-033",
+    "name": "Lumen Weekender Duffel",
+    "image": "images/products/lumen-weekender-duffel-1.svg",
+    "price": 119.99,
+    "quantity": 1
+   },
+   {
+    "productId": "p-008",
+    "name": "Pulse Book 13",
+    "image": "images/products/pulse-book-13-1.svg",
+    "price": 1544.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 1664.98,
+  "discount": 0,
+  "shipping": 14.99,
+  "tax": 133.2,
+  "total": 1813.17,
+  "couponCode": null,
+  "delivery": {
+   "id": "express",
+   "label": "Express delivery",
+   "price": 14.99,
+   "etaDays": 2
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "delivered",
+  "createdAt": "2025-12-08T13:33:00",
+  "estimatedDelivery": "2025-12-11",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2025-12-08T14:33:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "processing",
+    "date": "2025-12-09T10:33:00",
+    "note": "Payment confirmed (demo) and order packed"
+   },
+   {
+    "status": "shipped",
+    "date": "2025-12-10T06:33:00",
+    "note": "Handed to carrier – tracking SSX484119"
+   },
+   {
+    "status": "out-for-delivery",
+    "date": "2025-12-11T02:33:00",
+    "note": "Out for delivery in Lahore"
+   },
+   {
+    "status": "delivered",
+    "date": "2025-12-11T22:33:00",
+    "note": "Delivered – left at front door"
+   }
+  ]
+ },
+ {
+  "id": "o-0084",
+  "number": "SS-2512-1083",
+  "userId": "u-202",
+  "customer": {
+   "firstName": "Zara",
+   "lastName": "Malik",
+   "email": "zara.malik@example.com",
+   "phone": "+1 555 0100"
+  },
+  "shippingAddress": {
+   "id": "a-o83",
+   "label": "Home",
+   "fullName": "Zara Malik",
+   "line1": "55 Market Street",
+   "city": "Austin",
+   "state": "TX",
+   "postalCode": "27626",
+   "country": "United States",
+   "phone": "+1 555 0100",
+   "isDefault": true
+  },
+  "items": [
+   {
+    "productId": "p-020",
+    "name": "Solace Sleep Ring",
+    "image": "images/products/solace-sleep-ring-1.svg",
+    "price": 154.99,
+    "quantity": 2
+   },
+   {
+    "productId": "p-033",
+    "name": "Lumen Weekender Duffel",
+    "image": "images/products/lumen-weekender-duffel-1.svg",
+    "price": 119.99,
+    "quantity": 1
+   }
+  ],
+  "subtotal": 429.97,
+  "discount": 0,
+  "shipping": 0,
+  "tax": 34.4,
+  "total": 464.37,
+  "couponCode": null,
+  "delivery": {
+   "id": "standard",
+   "label": "Standard delivery",
+   "price": 0,
+   "etaDays": 5
+  },
+  "payment": {
+   "method": "card",
+   "label": "Demo payment – no real charge"
+  },
+  "status": "cancelled",
+  "createdAt": "2025-12-02T13:21:00",
+  "estimatedDelivery": "2025-12-08",
+  "timeline": [
+   {
+    "status": "pending",
+    "date": "2025-12-02T13:21:00",
+    "note": "Order placed"
+   },
+   {
+    "status": "cancelled",
+    "date": "2025-12-02T18:21:00",
+    "note": "Cancelled at customer request"
+   }
+  ]
+ }
+]

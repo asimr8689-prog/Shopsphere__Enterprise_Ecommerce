@@ -1,0 +1,89 @@
+<a routerLink="/account/orders" class="back"><mat-icon>arrow_back</mat-icon> All orders</a>
+
+@switch (state().status) {
+  @case ('loading') {
+    <p class="muted">Loading order…</p>
+  }
+  @case ('error') {
+    <app-error-state [message]="state().error ?? ''" (retry)="resource.retry()" />
+  }
+  @default {
+    @if (order(); as o) {
+      <header class="head">
+        <div>
+          <h1 class="page-title">Order {{ o.number }}</h1>
+          <p class="muted">Placed {{ o.createdAt | date: 'medium' }} · {{ o.items.length }} {{ o.items.length === 1 ? 'item' : 'items' }}</p>
+        </div>
+        <div class="head-actions">
+          <app-order-status-badge [status]="o.status" />
+          <button mat-stroked-button type="button" (click)="openInvoice(o)"><mat-icon>description</mat-icon> Invoice</button>
+          <button mat-stroked-button type="button" (click)="buyAgain(o)"><mat-icon>replay</mat-icon> Buy again</button>
+          @if (canCancel(o)) {
+            <button mat-stroked-button type="button" class="danger" (click)="cancel(o)"><mat-icon>cancel</mat-icon> Cancel</button>
+          }
+        </div>
+      </header>
+
+      <!-- Delivery tracking -->
+      <section class="card tracking" aria-labelledby="track-title">
+        <h2 id="track-title">Delivery tracking</h2>
+        @if (o.status === 'cancelled') {
+          <div class="cancelled"><mat-icon>cancel</mat-icon> This order was cancelled.</div>
+        } @else {
+          <p class="muted">Estimated delivery: <strong>{{ o.estimatedDelivery | date: 'EEEE, MMM d' }}</strong> via {{ o.delivery.label }}</p>
+          <ol class="tracker">
+            @for (s of steps(); track s.status) {
+              <li [class.done]="s.done" [class.current]="s.current">
+                <span class="dot"><mat-icon>{{ s.done ? s.icon : 'radio_button_unchecked' }}</mat-icon></span>
+                <strong>{{ s.label }}</strong>
+                <small>{{ s.date ? (s.date | date: 'MMM d, h:mm a') : 'Pending' }}</small>
+              </li>
+            }
+          </ol>
+        }
+        <h3>Activity</h3>
+        <ul class="timeline">
+          @for (t of timeline(); track t.date + t.status) {
+            <li><span class="t-date">{{ t.date | date: 'MMM d, h:mm a' }}</span><span><strong>{{ statusLabel(t.status) }}</strong> – {{ t.note }}</span></li>
+          }
+        </ul>
+        <p class="muted small">Tracking events are simulated for this demo store.</p>
+      </section>
+
+      <div class="grid">
+        <section class="card">
+          <h2>Items</h2>
+          <ul class="items">
+            @for (i of o.items; track i.productId) {
+              <li>
+                <img [src]="i.image" [alt]="i.name" appImgFallback width="64" height="64" />
+                <span class="name">{{ i.name }}<small>{{ i.quantity }} × {{ i.price | currency: 'USD' }}</small></span>
+                <strong>{{ i.price * i.quantity | currency: 'USD' }}</strong>
+              </li>
+            }
+          </ul>
+          <div class="summary-row"><span>Subtotal</span><span>{{ o.subtotal | currency: 'USD' }}</span></div>
+          @if (o.discount) {
+            <div class="summary-row"><span>Discount {{ o.couponCode ? '(' + o.couponCode + ')' : '' }}</span><span class="saving">−{{ o.discount | currency: 'USD' }}</span></div>
+          }
+          <div class="summary-row"><span>Shipping</span><span>{{ o.shipping ? (o.shipping | currency: 'USD') : 'Free' }}</span></div>
+          <div class="summary-row"><span>Tax</span><span>{{ o.tax | currency: 'USD' }}</span></div>
+          <div class="summary-row total"><span>Total</span><span>{{ o.total | currency: 'USD' }}</span></div>
+        </section>
+        <section class="card">
+          <h2>Shipping address</h2>
+          <p>{{ o.shippingAddress.fullName }}<br />{{ o.shippingAddress.line1 }}{{ o.shippingAddress.line2 ? ', ' + o.shippingAddress.line2 : '' }}<br />{{ o.shippingAddress.city }}, {{ o.shippingAddress.state }} {{ o.shippingAddress.postalCode }}<br />{{ o.shippingAddress.country }}<br />{{ o.shippingAddress.phone }}</p>
+          <h2>Payment</h2>
+          <p>
+            {{ o.payment.method === 'card' ? 'Card' + (o.payment.cardLast4 ? ' ending ' + o.payment.cardLast4 : '') : o.payment.method === 'paypal' ? 'PayPal (simulated)' : 'Cash on delivery' }}
+            <br /><small class="muted">{{ o.payment.label }}</small>
+          </p>
+        </section>
+      </div>
+    } @else {
+      <app-empty-state icon="receipt_long" title="Order not found" message="This order doesn't exist or belongs to another account.">
+        <a mat-flat-button routerLink="/account/orders">Back to orders</a>
+      </app-empty-state>
+    }
+  }
+}

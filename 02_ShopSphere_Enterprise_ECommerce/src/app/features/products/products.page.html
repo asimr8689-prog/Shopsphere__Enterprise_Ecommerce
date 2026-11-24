@@ -1,0 +1,101 @@
+<div class="container page">
+  <nav class="crumbs" aria-label="Breadcrumb"><a routerLink="/">Home</a> / <span>Shop</span></nav>
+
+  <header class="top">
+    <div>
+      <h1 class="page-title">{{ heading() }}</h1>
+      @if (result().data; as r) {
+        <p class="muted count" aria-live="polite">{{ r.total }} {{ r.total === 1 ? 'product' : 'products' }}</p>
+      }
+    </div>
+    <div class="toolbar">
+      <button mat-stroked-button type="button" class="filters-btn" (click)="filtersOpen.set(true)">
+        <mat-icon>tune</mat-icon> Filters
+        @if (activeFilters().length) {
+          <span class="badge coral">{{ activeFilters().length }}</span>
+        }
+      </button>
+      <mat-form-field class="sort" subscriptSizing="dynamic">
+        <mat-label>Sort by</mat-label>
+        <mat-select [value]="query().sort" (selectionChange)="update({ sort: $event.value })">
+          @for (o of sortOptions; track o.value) {
+            <mat-option [value]="o.value">{{ o.label }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </header>
+
+  @if (activeFilters().length) {
+    <mat-chip-set class="active-chips" aria-label="Active filters">
+      @for (chip of activeFilters(); track chip.label) {
+        <mat-chip (removed)="update(chip.patch)">
+          {{ chip.label }}
+          <button matChipRemove [attr.aria-label]="'Remove filter ' + chip.label"><mat-icon>cancel</mat-icon></button>
+        </mat-chip>
+      }
+      <button mat-button type="button" (click)="clearFilters()">Clear all</button>
+    </mat-chip-set>
+  }
+
+  <div class="layout">
+    @if (filtersOpen()) {
+      <div class="backdrop" (click)="filtersOpen.set(false)"></div>
+    }
+    <aside class="filters" [class.open]="filtersOpen()" aria-label="Product filters">
+      <button mat-icon-button type="button" class="close-filters" (click)="filtersOpen.set(false)" aria-label="Close filters">
+        <mat-icon>close</mat-icon>
+      </button>
+      <app-product-filters
+        [query]="query()"
+        [categories]="categories()"
+        [brands]="brands()"
+        [priceBounds]="priceBounds()"
+        [activeCount]="activeFilters().length"
+        (changed)="update($event)"
+        (clearAll)="clearFilters()"
+      />
+      <button mat-flat-button type="button" class="apply-mobile" (click)="filtersOpen.set(false)">Show results</button>
+    </aside>
+
+    <section class="results" aria-label="Products">
+      @switch (result().status) {
+        @case ('loading') {
+          <div class="grid-products results-grid">
+            @for (s of [1, 2, 3, 4, 5, 6]; track s) {
+              <app-product-card-skeleton />
+            }
+          </div>
+        }
+        @case ('error') {
+          <app-error-state title="We couldn't load products" [message]="result().error ?? ''" (retry)="retry()" />
+        }
+        @default {
+          @if (result().data; as r) {
+            @if (r.items.length) {
+              <div class="grid-products results-grid">
+                @for (p of r.items; track p.id) {
+                  <app-product-card [product]="p" [categoryName]="categoryNames()[p.categoryId] ?? ''" />
+                }
+              </div>
+              <mat-paginator
+                [length]="r.total"
+                [pageIndex]="r.page - 1"
+                [pageSize]="r.pageSize"
+                [pageSizeOptions]="pageSizeOptions"
+                (page)="onPage($event)"
+                showFirstLastButtons
+                aria-label="Select page of products"
+              />
+            } @else {
+              <app-empty-state icon="search_off" title="No products match your filters" message="Try removing a filter or searching for something else.">
+                <button mat-flat-button type="button" (click)="clearFilters()">Clear filters</button>
+                <a mat-stroked-button routerLink="/products">Browse all</a>
+              </app-empty-state>
+            }
+          }
+        }
+      }
+    </section>
+  </div>
+</div>

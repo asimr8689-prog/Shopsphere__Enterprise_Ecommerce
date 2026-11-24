@@ -1,0 +1,182 @@
+<div class="container page">
+  @switch (state().status) {
+    @case ('loading') {
+      <div class="layout skeleton" aria-busy="true" aria-label="Loading product">
+        <div class="sk-gallery"></div>
+        <div class="sk-info"><div></div><div></div><div></div><div></div></div>
+      </div>
+    }
+    @case ('error') {
+      <app-error-state title="We couldn't load this product" [message]="state().error ?? ''" (retry)="retry()" />
+    }
+    @default {
+      @if (product(); as p) {
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <a routerLink="/">Home</a> /
+          <a routerLink="/products">Shop</a> /
+          <a routerLink="/products" [queryParams]="{ category: p.categoryId }">{{ categoryMap()[p.categoryId]?.name ?? p.categoryId }}</a> /
+          <span aria-current="page">{{ p.name }}</span>
+        </nav>
+
+        <div class="layout">
+          <!-- GALLERY -->
+          <section class="gallery" aria-label="Product images">
+            <div
+              class="main-image"
+              (mousemove)="onZoomMove($event)"
+              (mouseleave)="zoom.set(null)"
+              [class.zooming]="zoom()"
+            >
+              <img
+                [src]="p.images[selectedImage()]"
+                [alt]="p.name + ' – image ' + (selectedImage() + 1)"
+                appImgFallback
+                width="600"
+                height="600"
+                [style.transform-origin]="zoom() ? zoom()!.x + '% ' + zoom()!.y + '%' : 'center'"
+              />
+              @if (p.images.length > 1) {
+                <button type="button" class="nav prev" (click)="selectImage(selectedImage() - 1)" aria-label="Previous image"><mat-icon>chevron_left</mat-icon></button>
+                <button type="button" class="nav next" (click)="selectImage(selectedImage() + 1)" aria-label="Next image"><mat-icon>chevron_right</mat-icon></button>
+              }
+              <span class="zoom-hint"><mat-icon>zoom_in</mat-icon> Hover to zoom</span>
+            </div>
+            <div class="thumbs" role="tablist" aria-label="Choose image">
+              @for (img of p.images; track img; let i = $index) {
+                <button type="button" role="tab" class="thumb" [class.active]="i === selectedImage()" [attr.aria-selected]="i === selectedImage()" (click)="selectImage(i)" [attr.aria-label]="'Show image ' + (i + 1)">
+                  <img [src]="img" alt="" appImgFallback width="96" height="96" />
+                </button>
+              }
+            </div>
+          </section>
+
+          <!-- INFO -->
+          <section class="info" aria-labelledby="product-title">
+            <span class="brand">{{ p.brand }}</span>
+            <h1 id="product-title">{{ p.name }}</h1>
+            <app-rating-stars class="rating-link" [rating]="p.rating" [count]="p.reviewCount" [showValue]="true" />
+            <app-price-tag class="price" [price]="p.price" [compareAtPrice]="p.compareAtPrice" />
+            <p class="short">{{ p.shortDescription }}</p>
+
+            <div class="stock" [class]="'stock ' + stock()">
+              <mat-icon>{{ stock() === 'out-of-stock' ? 'block' : stock() === 'low-stock' ? 'hourglass_bottom' : 'check_circle' }}</mat-icon>
+              @switch (stock()) {
+                @case ('out-of-stock') { Out of stock }
+                @case ('low-stock') { Only {{ p.stock }} left – order soon }
+                @default { In stock · ships in 1–2 business days }
+              }
+            </div>
+
+            <div class="buy">
+              <app-quantity-selector [(value)]="quantity" [max]="maxAddable() || 1" [disabled]="maxAddable() === 0" />
+              <button mat-flat-button type="button" class="add" (click)="addToCart()" [disabled]="maxAddable() === 0">
+                <mat-icon>shopping_bag</mat-icon> Add to cart
+              </button>
+              <button
+                mat-stroked-button
+                type="button"
+                class="wish"
+                [class.active]="isWishlisted()"
+                (click)="toggleWishlist()"
+                [attr.aria-pressed]="isWishlisted()"
+                [matTooltip]="isWishlisted() ? 'Remove from wishlist' : 'Save to wishlist'"
+                aria-label="Toggle wishlist"
+              >
+                <mat-icon>favorite</mat-icon>
+              </button>
+            </div>
+            <button mat-stroked-button type="button" class="buy-now" (click)="buyNow()" [disabled]="stock() === 'out-of-stock' && inCart() === 0">
+              Buy now
+            </button>
+            @if (inCart()) {
+              <p class="in-cart"><mat-icon>shopping_cart_checkout</mat-icon> {{ inCart() }} in your cart · <a routerLink="/cart">View cart</a></p>
+            }
+
+            <ul class="assurances">
+              <li><mat-icon>local_shipping</mat-icon> Free standard delivery over $99</li>
+              <li><mat-icon>autorenew</mat-icon> 30-day free returns</li>
+              <li><mat-icon>verified</mat-icon> 2-year ShopSphere warranty</li>
+            </ul>
+          </section>
+        </div>
+
+        <!-- DETAILS TABS -->
+        <section class="details" id="reviews">
+          <mat-tab-group animationDuration="200ms" mat-stretch-tabs="false">
+            <mat-tab label="Description">
+              <div class="tab-body prose">
+                <p>{{ p.description }}</p>
+                <p>Every ShopSphere order includes carbon-neutral delivery and recyclable packaging.</p>
+              </div>
+            </mat-tab>
+            <mat-tab label="Specifications">
+              <div class="tab-body">
+                <table class="specs">
+                  <tbody>
+                    <tr><th scope="row">Brand</th><td>{{ p.brand }}</td></tr>
+                    @for (s of p.specs; track s.label) {
+                      <tr><th scope="row">{{ s.label }}</th><td>{{ s.value }}</td></tr>
+                    }
+                    <tr><th scope="row">SKU</th><td>{{ p.id.toUpperCase() }}</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </mat-tab>
+            <mat-tab [label]="'Reviews (' + p.reviews.length + ')'">
+              <div class="tab-body reviews">
+                <div class="summary">
+                  <div class="big">{{ p.rating | number: '1.1-1' }}</div>
+                  <app-rating-stars [rating]="p.rating" />
+                  <span class="muted">{{ p.reviewCount | number }} ratings</span>
+                  <div class="bars">
+                    @for (b of ratingBreakdown(); track b.stars) {
+                      <div class="bar-row">
+                        <span>{{ b.stars }}★</span>
+                        <div class="bar"><div [style.width.%]="b.pct"></div></div>
+                        <span class="muted">{{ b.pct }}%</span>
+                      </div>
+                    }
+                  </div>
+                </div>
+                <div class="list">
+                  @for (r of p.reviews; track r.id) {
+                    <article class="review">
+                      <header>
+                        <app-rating-stars [rating]="r.rating" />
+                        <strong>{{ r.title }}</strong>
+                      </header>
+                      <p>{{ r.comment }}</p>
+                      <footer class="muted">
+                        {{ r.author }} · {{ r.date | date: 'mediumDate' }}
+                        @if (r.verified) {
+                          <span class="badge success"><mat-icon>verified</mat-icon> Verified purchase</span>
+                        }
+                      </footer>
+                    </article>
+                  } @empty {
+                    <p class="muted">No reviews yet.</p>
+                  }
+                </div>
+              </div>
+            </mat-tab>
+          </mat-tab-group>
+        </section>
+
+        @if (related().length) {
+          <section class="related" aria-labelledby="related-title">
+            <h2 id="related-title">You may also like</h2>
+            <div class="grid-products">
+              @for (rp of related(); track rp.id) {
+                <app-product-card [product]="rp" />
+              }
+            </div>
+          </section>
+        }
+      } @else {
+        <app-empty-state icon="search_off" title="Product not found" message="This product may have been removed or the link is incorrect.">
+          <a mat-flat-button routerLink="/products">Browse products</a>
+        </app-empty-state>
+      }
+    }
+  }
+</div>

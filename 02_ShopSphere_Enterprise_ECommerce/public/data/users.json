@@ -1,0 +1,60 @@
+[
+ {
+  "id": "u-demo",
+  "firstName": "Demo",
+  "lastName": "Customer",
+  "email": "demo@shopsphere.dev",
+  "password": "Demo@1234",
+  "phone": "+1 555 0100",
+  "role": "customer",
+  "addresses": [
+   {
+    "id": "a-1",
+    "label": "Home",
+    "fullName": "Demo Customer",
+    "line1": "221 Market Street",
+    "line2": "Apt 4B",
+    "city": "Austin",
+    "state": "TX",
+    "postalCode": "73301",
+    "country": "United States",
+    "phone": "+1 555 0100",
+    "isDefault": true
+   },
+   {
+    "id": "a-2",
+    "label": "Office",
+    "fullName": "Demo Customer",
+    "line1": "500 Congress Ave",
+    "city": "Austin",
+    "state": "TX",
+    "postalCode": "78701",
+    "country": "United States",
+    "phone": "+1 555 0101",
+    "isDefault": false
+   }
+  ],
+  "preferences": {
+   "newsletter": true,
+   "orderUpdates": true,
+   "smsAlerts": false
+  },
+  "createdAt": "2026-02-14T10:00:00"
+ },
+ {
+  "id": "u-admin",
+  "firstName": "Store",
+  "lastName": "Admin",
+  "email": "admin@shopsphere.dev",
+  "password": "Admin@1234",
+  "phone": "+1 555 0199",
+  "role": "admin",
+  "addresses": [],
+  "preferences": {
+   "newsletter": false,
+   "orderUpdates": true,
+   "smsAlerts": false
+  },
+  "createdAt": "2026-01-01T09:00:00"
+ }
+]

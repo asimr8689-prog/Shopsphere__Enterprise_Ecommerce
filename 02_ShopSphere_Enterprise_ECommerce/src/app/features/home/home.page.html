@@ -1,0 +1,196 @@
+<!-- HERO -->
+<section class="hero" aria-roledescription="carousel" aria-label="Featured promotions">
+  <div class="container">
+    <div class="hero-card" [style.backgroundImage]="'url(' + currentSlide().image + ')'">
+      @for (slide of slides; track slide.title; let i = $index) {
+        @if (i === activeSlide()) {
+          <div class="hero-content" aria-roledescription="slide" [attr.aria-label]="i + 1 + ' of ' + slides.length">
+            <div class="copy">
+              <span class="eyebrow">{{ slide.eyebrow }}</span>
+              <h1>{{ slide.title }}</h1>
+              <p>{{ slide.text }}</p>
+              <div class="cta">
+                <a mat-flat-button class="cta-primary" [routerLink]="slide.cta.link" [queryParams]="slide.cta.params">{{ slide.cta.label }}</a>
+                <a mat-stroked-button class="cta-secondary" routerLink="/products" [queryParams]="{ sale: 1 }">View all deals</a>
+              </div>
+            </div>
+            <div class="visual">
+              <img [src]="slide.productImage" alt="" appImgFallback width="420" height="420" />
+            </div>
+          </div>
+        }
+      }
+      <div class="hero-controls">
+        <button type="button" (click)="prev()" aria-label="Previous slide"><mat-icon>chevron_left</mat-icon></button>
+        @for (slide of slides; track slide.title; let i = $index) {
+          <button type="button" class="dot" [class.active]="i === activeSlide()" (click)="goTo(i)" [attr.aria-label]="'Go to slide ' + (i + 1)" [attr.aria-current]="i === activeSlide()"></button>
+        }
+        <button type="button" (click)="next()" aria-label="Next slide"><mat-icon>chevron_right</mat-icon></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="container section" aria-labelledby="cat-title">
+  <app-section-header id="cat-title" eyebrow="Browse" title="Shop by category" link="/products" linkLabel="All products" />
+  <div class="categories">
+    @for (c of categories(); track c.id) {
+      <a class="category" routerLink="/products" [queryParams]="{ category: c.id }">
+        <img [src]="c.image" alt="" appImgFallback width="120" height="120" />
+        <span class="cat-icon"><mat-icon>{{ c.icon }}</mat-icon></span>
+        <strong>{{ c.name }}</strong>
+      </a>
+    }
+  </div>
+</section>
+
+@if (sections.state(); as state) {
+  @if (state.status === 'error') {
+    <div class="container"><app-error-state [message]="state.error ?? ''" (retry)="sections.retry()" /></div>
+  } @else {
+    <!-- FEATURED -->
+    <section class="container section">
+      <app-section-header eyebrow="Hand-picked" title="Featured products" subtitle="Our editors' favourites this week" link="/products" />
+      <div class="grid-products">
+        @if (state.data; as data) {
+          @for (p of data.featured; track p.id) {
+            <app-product-card [product]="p" />
+          }
+        } @else {
+          @for (s of [1, 2, 3, 4, 5, 6, 7, 8]; track s) {
+            <app-product-card-skeleton />
+          }
+        }
+      </div>
+    </section>
+
+    <!-- PROMO BANNERS -->
+    <section class="container section promos">
+      <a class="promo promo-a" routerLink="/products" [queryParams]="{ category: 'wearables' }">
+        <span class="eyebrow">Wearables week</span>
+        <h3>Track more. Charge less.</h3>
+        <p>Smartwatches with up to 14-day battery life.</p>
+        <span class="promo-link">Shop wearables <mat-icon>arrow_forward</mat-icon></span>
+      </a>
+      <a class="promo promo-b" routerLink="/products" [queryParams]="{ category: 'home' }">
+        <span class="eyebrow">Home refresh</span>
+        <h3>Light up your living space.</h3>
+        <p>Designer lamps and lounge chairs from $79.</p>
+        <span class="promo-link">Shop home <mat-icon>arrow_forward</mat-icon></span>
+      </a>
+    </section>
+
+    <!-- TRENDING + OFFERS -->
+    <section class="container section split">
+      <div>
+        <app-section-header eyebrow="Right now" title="Trending" link="/products" [linkParams]="{ sort: 'popularity' }" />
+        <div class="grid-2">
+          @if (state.data; as data) {
+            @for (p of data.trending; track p.id) {
+              <app-product-card [product]="p" />
+            }
+          } @else {
+            @for (s of [1, 2, 3, 4]; track s) {
+              <app-product-card-skeleton />
+            }
+          }
+        </div>
+      </div>
+      <aside class="offers" aria-labelledby="offers-title">
+        <span class="eyebrow light">Limited time</span>
+        <h2 id="offers-title">Special offers</h2>
+        <p>Biggest discounts in the store, while stock lasts.</p>
+        @if (state.data; as data) {
+          @for (p of data.offers; track p.id) {
+            <a class="offer" [routerLink]="['/products', p.slug]">
+              <img [src]="p.images[0]" [alt]="p.name" appImgFallback width="72" height="72" />
+              <span class="offer-info">
+                <strong>{{ p.name }}</strong>
+                <span><s>{{ p.compareAtPrice | currency: 'USD' }}</s> {{ p.price | currency: 'USD' }}</span>
+              </span>
+              <span class="offer-pct">-{{ p | discount }}%</span>
+            </a>
+          }
+        }
+        <a mat-flat-button class="offers-cta" routerLink="/products" [queryParams]="{ sale: 1 }">See all offers</a>
+      </aside>
+    </section>
+
+    <!-- BEST SELLERS -->
+    <section class="container section">
+      <app-section-header eyebrow="Customer favourites" title="Best sellers" link="/products" [linkParams]="{ sort: 'popularity' }" />
+      <div class="grid-products">
+        @if (state.data; as data) {
+          @for (p of data.bestSellers; track p.id) {
+            <app-product-card [product]="p" />
+          }
+        } @else {
+          @for (s of [1, 2, 3, 4]; track s) {
+            <app-product-card-skeleton />
+          }
+        }
+      </div>
+    </section>
+  }
+}
+
+<!-- BRANDS -->
+<section class="container section brands" aria-label="Brands we carry">
+  @for (b of brands; track b) {
+    <a routerLink="/products" [queryParams]="{ brand: b }">{{ b }}</a>
+  }
+</section>
+
+<!-- TESTIMONIALS -->
+@if (testimonials().length) {
+  <section class="container section" aria-labelledby="reviews-title">
+    <app-section-header id="reviews-title" eyebrow="Reviews" title="Loved by shoppers" subtitle="4.8/5 average from 12,000+ verified reviews (sample data)" />
+    <div class="testimonials">
+      @for (t of testimonials(); track t.name) {
+        <figure class="testimonial">
+          <app-rating-stars [rating]="t.rating" />
+          <blockquote>“{{ t.text }}”</blockquote>
+          <figcaption><strong>{{ t.name }}</strong> · {{ t.location }}</figcaption>
+        </figure>
+      }
+    </div>
+  </section>
+}
+
+<!-- FAQ -->
+<section class="container section faq" id="faq" aria-labelledby="faq-title">
+  <app-section-header id="faq-title" eyebrow="Help" title="Frequently asked questions" />
+  <mat-accordion>
+    @for (f of faqs; track f.q) {
+      <mat-expansion-panel>
+        <mat-expansion-panel-header><mat-panel-title>{{ f.q }}</mat-panel-title></mat-expansion-panel-header>
+        <p>{{ f.a }}</p>
+      </mat-expansion-panel>
+    }
+  </mat-accordion>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="container section" id="newsletter">
+  <div class="newsletter">
+    <div>
+      <h2>Get 10% off your first order</h2>
+      <p>Join the ShopSphere newsletter for drops, deals and buying guides. Unsubscribe anytime.</p>
+    </div>
+    <form (submit)="$event.preventDefault(); subscribe()" class="nl-form" novalidate>
+      <mat-form-field>
+        <mat-label>Email address</mat-label>
+        <input matInput type="email" [formControl]="newsletterEmail" autocomplete="email" />
+        @if (newsletterEmail.hasError('required') && newsletterEmail.touched) {
+          <mat-error>Email is required</mat-error>
+        } @else if (newsletterEmail.hasError('email')) {
+          <mat-error>Enter a valid email address</mat-error>
+        }
+      </mat-form-field>
+      <button mat-flat-button type="submit" [disabled]="subscribing()">
+        {{ subscribing() ? 'Subscribing…' : subscribed() ? 'Subscribed ✓' : 'Subscribe' }}
+      </button>
+    </form>
+  </div>
+</section>

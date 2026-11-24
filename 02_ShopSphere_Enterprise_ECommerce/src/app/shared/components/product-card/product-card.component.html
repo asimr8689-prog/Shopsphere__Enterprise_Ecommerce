@@ -1,0 +1,60 @@
+<article class="card" [class.sold-out]="stock() === 'out-of-stock'">
+  <a class="media" [routerLink]="['/products', product().slug]" [attr.aria-label]="product().name">
+    <img [src]="product().images[0]" [alt]="product().name" appImgFallback width="400" height="400" />
+    @if (product().images[1]) {
+      <img class="alt" [src]="product().images[1]" alt="" aria-hidden="true" appImgFallback width="400" height="400" />
+    }
+    <div class="flags">
+      @if (product() | discount; as pct) {
+        <span class="flag sale">-{{ pct }}%</span>
+      }
+      @if (product().tags.includes('new')) {
+        <span class="flag new">New</span>
+      }
+      @if (stock() === 'out-of-stock') {
+        <span class="flag out">Sold out</span>
+      }
+    </div>
+  </a>
+
+  <button
+    mat-icon-button
+    type="button"
+    class="wish"
+    [class.active]="isWishlisted()"
+    (click)="toggleWishlist()"
+    [attr.aria-pressed]="isWishlisted()"
+    [matTooltip]="isWishlisted() ? 'Remove from wishlist' : 'Save to wishlist'"
+    [attr.aria-label]="isWishlisted() ? 'Remove ' + product().name + ' from wishlist' : 'Save ' + product().name + ' to wishlist'"
+  >
+    <mat-icon>favorite</mat-icon>
+  </button>
+
+  <div class="body">
+    <div class="meta">
+      <span class="brand">{{ product().brand }}</span>
+      @if (categoryName()) {
+        <span class="dot">•</span><span>{{ categoryName() }}</span>
+      }
+    </div>
+    <a class="name" [routerLink]="['/products', product().slug]">{{ product().name }}</a>
+    <app-rating-stars [rating]="product().rating" [count]="product().reviewCount" />
+    <div class="bottom">
+      <app-price-tag [price]="product().price" [compareAtPrice]="product().compareAtPrice" [showBadge]="false" />
+      <button
+        mat-flat-button
+        type="button"
+        class="add"
+        (click)="addToCart()"
+        [disabled]="stock() === 'out-of-stock' || inCart() >= product().stock"
+        [attr.aria-label]="'Add ' + product().name + ' to cart'"
+      >
+        <mat-icon>{{ inCart() ? 'add_shopping_cart' : 'shopping_bag' }}</mat-icon>
+        <span class="add-label">{{ inCart() ? 'Add more' : 'Add' }}</span>
+      </button>
+    </div>
+    @if (stock() === 'low-stock') {
+      <span class="low">Only {{ product().stock }} left</span>
+    }
+  </div>
+</article>

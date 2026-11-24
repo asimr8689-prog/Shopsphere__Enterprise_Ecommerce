@@ -1,0 +1,115 @@
+<div class="promo-strip">
+  <div class="container">
+    <span><mat-icon>local_shipping</mat-icon> Free standard delivery on orders over $99</span>
+    <span class="hide-sm">Use code <strong>SAVE10</strong> for 10% off · 30-day returns</span>
+  </div>
+</div>
+
+<header class="header">
+  @if (loading.isLoading()) {
+    <mat-progress-bar class="progress" mode="indeterminate" aria-label="Loading" />
+  }
+  <div class="container bar">
+    <button mat-icon-button class="menu-btn" type="button" (click)="toggleMobileMenu()" [attr.aria-expanded]="mobileMenuOpen()" aria-controls="mobile-nav" aria-label="Open menu">
+      <mat-icon>{{ mobileMenuOpen() ? 'close' : 'menu' }}</mat-icon>
+    </button>
+
+    <a routerLink="/" class="logo" aria-label="ShopSphere home">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-text">Shop<span>Sphere</span></span>
+    </a>
+
+    <form class="search" role="search" (submit)="$event.preventDefault(); submitSearch()" (appClickOutside)="suggestionsOpen.set(false)">
+      <mat-icon class="search-icon" aria-hidden="true">search</mat-icon>
+      <input
+        type="search"
+        [formControl]="search"
+        placeholder="Search headphones, laptops, sneakers…"
+        aria-label="Search products"
+        autocomplete="off"
+        (focus)="suggestionsOpen.set(true)"
+        (input)="suggestionsOpen.set(true)"
+        (keydown.escape)="suggestionsOpen.set(false)"
+      />
+      @if (search.value) {
+        <button type="button" class="clear" (click)="clearSearch()" aria-label="Clear search"><mat-icon>close</mat-icon></button>
+      }
+      <button type="submit" class="go" aria-label="Search"><mat-icon>arrow_forward</mat-icon></button>
+
+      @if (suggestionsOpen() && search.value.trim().length >= 2) {
+        <div class="suggestions" role="listbox">
+          @for (p of suggestions(); track p.id) {
+            <a class="suggestion" role="option" [routerLink]="['/products', p.slug]">
+              <img [src]="p.images[0]" alt="" appImgFallback width="44" height="44" />
+              <span class="s-name">{{ p.name }}<small>{{ p.brand }}</small></span>
+              <span class="s-price">{{ p.price | currency: 'USD' }}</span>
+            </a>
+          } @empty {
+            <div class="no-results">No quick matches – press Enter to search everything.</div>
+          }
+          @if (suggestions().length) {
+            <button type="submit" class="view-all">See all results for “{{ search.value.trim() }}”</button>
+          }
+        </div>
+      }
+    </form>
+
+    <nav class="actions" aria-label="Account and cart">
+      <button mat-icon-button type="button" [matMenuTriggerFor]="accountMenu" aria-label="Account menu">
+        <mat-icon>{{ users.isLoggedIn() ? 'account_circle' : 'person' }}</mat-icon>
+      </button>
+      <a mat-icon-button routerLink="/wishlist" aria-label="Wishlist" class="hide-sm">
+        <mat-icon [matBadge]="wishlist.count() || null" matBadgeSize="small" aria-hidden="false">favorite</mat-icon>
+      </a>
+      <a mat-icon-button routerLink="/cart" aria-label="Shopping cart">
+        <mat-icon [matBadge]="cart.count() || null" matBadgeSize="small" matBadgeColor="primary" aria-hidden="false">shopping_bag</mat-icon>
+      </a>
+    </nav>
+  </div>
+
+  <nav class="categories container" aria-label="Product categories">
+    <a routerLink="/products" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active">All products</a>
+    @for (c of categories(); track c.id) {
+      <a routerLink="/products" [queryParams]="{ category: c.id }">{{ c.name }}</a>
+    }
+    <a routerLink="/products" [queryParams]="{ sale: 1 }" class="deals">Deals</a>
+  </nav>
+</header>
+
+<mat-menu #accountMenu="matMenu" xPosition="before">
+  @if (users.user(); as user) {
+    <div class="menu-user">
+      <strong>{{ user.firstName }} {{ user.lastName }}</strong>
+      <small>{{ user.email }}</small>
+      <span class="badge info">Demo session</span>
+    </div>
+    <mat-divider />
+    <a mat-menu-item routerLink="/account"><mat-icon>person</mat-icon>My account</a>
+    <a mat-menu-item routerLink="/account/orders"><mat-icon>receipt_long</mat-icon>Orders</a>
+    <a mat-menu-item routerLink="/wishlist"><mat-icon>favorite</mat-icon>Wishlist</a>
+    @if (users.isAdmin()) {
+      <a mat-menu-item routerLink="/admin"><mat-icon>dashboard</mat-icon>Admin dashboard</a>
+    }
+    <mat-divider />
+    <button mat-menu-item type="button" (click)="users.logout()"><mat-icon>logout</mat-icon>Sign out</button>
+  } @else {
+    <a mat-menu-item routerLink="/account/login"><mat-icon>login</mat-icon>Sign in</a>
+    <a mat-menu-item routerLink="/account/register"><mat-icon>person_add</mat-icon>Create account</a>
+    <mat-divider />
+    <a mat-menu-item routerLink="/account/login" [queryParams]="{ returnUrl: '/admin', admin: 1 }"><mat-icon>admin_panel_settings</mat-icon>Admin demo</a>
+  }
+</mat-menu>
+
+@if (mobileMenuOpen()) {
+  <div class="mobile-backdrop" (click)="mobileMenuOpen.set(false)"></div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+    <a routerLink="/" class="m-link"><mat-icon>home</mat-icon>Home</a>
+    <a routerLink="/products" class="m-link"><mat-icon>storefront</mat-icon>All products</a>
+    @for (c of categories(); track c.id) {
+      <a routerLink="/products" [queryParams]="{ category: c.id }" class="m-link sub"><mat-icon>{{ c.icon }}</mat-icon>{{ c.name }}</a>
+    }
+    <a routerLink="/wishlist" class="m-link"><mat-icon>favorite</mat-icon>Wishlist ({{ wishlist.count() }})</a>
+    <a routerLink="/cart" class="m-link"><mat-icon>shopping_bag</mat-icon>Cart ({{ cart.count() }})</a>
+    <a routerLink="/account" class="m-link"><mat-icon>person</mat-icon>{{ users.isLoggedIn() ? 'My account' : 'Sign in' }}</a>
+  </nav>
+}

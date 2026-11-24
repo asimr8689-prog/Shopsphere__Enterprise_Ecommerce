@@ -1,0 +1,149 @@
+@use 'mixins' as m;
+
+.crumbs {
+  font-size: 13px;
+  color: var(--ss-text-muted);
+  margin-bottom: var(--ss-space-3);
+
+  a {
+    color: inherit;
+  }
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: var(--ss-space-6);
+  align-items: start;
+}
+
+.stepper {
+  background: var(--ss-surface);
+  border: 1px solid var(--ss-line);
+  border-radius: var(--ss-radius-lg);
+  padding: var(--ss-space-3) var(--ss-space-2);
+}
+
+.sub {
+  font-size: 1rem;
+  margin: var(--ss-space-4) 0 var(--ss-space-2);
+}
+
+.address-options,
+.delivery-options,
+.methods {
+  display: grid;
+  gap: 8px;
+  margin-bottom: var(--ss-space-4);
+}
+
+.address-option,
+.delivery-option,
+.methods mat-radio-button {
+  border: 1px solid var(--ss-line);
+  border-radius: var(--ss-radius-sm);
+  padding: 6px 10px;
+}
+
+.methods mat-icon {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.delivery-option {
+  .d-main {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  small {
+    color: var(--ss-text-muted);
+  }
+
+  .d-price {
+    margin-left: 16px;
+    font-weight: 700;
+  }
+}
+
+.demo-banner {
+  margin-bottom: var(--ss-space-4);
+}
+
+.step-actions {
+  display: flex;
+  gap: var(--ss-space-3);
+  justify-content: flex-end;
+  margin-top: var(--ss-space-4);
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--ss-space-3);
+  margin-bottom: var(--ss-space-4);
+}
+
+.review-card {
+  border: 1px solid var(--ss-line);
+  border-radius: var(--ss-radius);
+  padding: var(--ss-space-4);
+  position: relative;
+
+  h4 {
+    margin: 0 0 6px;
+    font-size: 0.95rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--ss-ink-2);
+  }
+
+  button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+  }
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ss-danger);
+  font-size: 14px;
+}
+
+.place {
+  height: 52px;
+  padding-inline: 24px;
+
+  mat-spinner {
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+}
+
+.summary {
+  position: sticky;
+  top: calc(var(--ss-header-h) + 100px);
+}
+
+@include m.down(lg) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .summary {
+    position: static;
+    order: -1;
+  }
+}
+
+@include m.down(sm) {
+  .review-grid {
+    grid-template-columns: 1fr;
+  }
+}

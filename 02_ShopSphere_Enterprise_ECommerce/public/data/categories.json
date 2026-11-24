@@ -1,0 +1,66 @@
+[
+ {
+  "id": "audio",
+  "name": "Audio",
+  "slug": "audio",
+  "icon": "headphones",
+  "description": "Headphones, earbuds and speakers tuned for detail.",
+  "image": "images/categories/audio.svg"
+ },
+ {
+  "id": "computing",
+  "name": "Laptops & Computing",
+  "slug": "computing",
+  "icon": "laptop_mac",
+  "description": "Ultrabooks and workstations for serious work.",
+  "image": "images/categories/computing.svg"
+ },
+ {
+  "id": "phones",
+  "name": "Phones & Tablets",
+  "slug": "phones",
+  "icon": "smartphone",
+  "description": "Flagship phones and tablets with brilliant displays.",
+  "image": "images/categories/phones.svg"
+ },
+ {
+  "id": "wearables",
+  "name": "Wearables",
+  "slug": "wearables",
+  "icon": "watch",
+  "description": "Smartwatches and fitness bands for every routine.",
+  "image": "images/categories/wearables.svg"
+ },
+ {
+  "id": "cameras",
+  "name": "Cameras",
+  "slug": "cameras",
+  "icon": "photo_camera",
+  "description": "Mirrorless bodies and compact cameras.",
+  "image": "images/categories/cameras.svg"
+ },
+ {
+  "id": "footwear",
+  "name": "Footwear",
+  "slug": "footwear",
+  "icon": "steps",
+  "description": "Performance runners and everyday sneakers.",
+  "image": "images/categories/footwear.svg"
+ },
+ {
+  "id": "bags",
+  "name": "Bags & Travel",
+  "slug": "bags",
+  "icon": "backpack",
+  "description": "Backpacks, totes and travel essentials.",
+  "image": "images/categories/bags.svg"
+ },
+ {
+  "id": "home",
+  "name": "Home & Living",
+  "slug": "home",
+  "icon": "chair",
+  "description": "Lighting and furniture with a modern edge.",
+  "image": "images/categories/home.svg"
+ }
+]

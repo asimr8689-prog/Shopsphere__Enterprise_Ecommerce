@@ -1,0 +1,30 @@
+[
+ {
+  "code": "SAVE10",
+  "type": "percent",
+  "value": 10,
+  "minSubtotal": 0,
+  "description": "10% off your order"
+ },
+ {
+  "code": "WELCOME20",
+  "type": "percent",
+  "value": 20,
+  "minSubtotal": 150,
+  "description": "20% off orders over $150"
+ },
+ {
+  "code": "FLAT25",
+  "type": "fixed",
+  "value": 25,
+  "minSubtotal": 200,
+  "description": "$25 off orders over $200"
+ },
+ {
+  "code": "FREESHIP",
+  "type": "shipping",
+  "value": 0,
+  "minSubtotal": 0,
+  "description": "Free delivery on any option"
+ }
+]

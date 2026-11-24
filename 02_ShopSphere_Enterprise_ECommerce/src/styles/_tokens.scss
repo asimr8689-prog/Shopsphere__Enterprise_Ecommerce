@@ -1,0 +1,63 @@
+// ShopSphere design tokens – single source of truth for colour, type, spacing and elevation.
+// Deliberately different from InsightHub (indigo SaaS): warm sand surfaces, deep ink, coral accent.
+
+:root {
+  // Brand
+  --ss-ink: #14213d;
+  --ss-ink-2: #2b3a5c;
+  --ss-coral: #ff6b3d;
+  --ss-coral-strong: #e4501f;
+  --ss-coral-soft: #ffe7dd;
+  --ss-gold: #f5b83d;
+
+  // Surfaces
+  --ss-bg: #faf7f2;
+  --ss-surface: #ffffff;
+  --ss-surface-2: #f3eee6;
+  --ss-line: #e8e1d6;
+
+  // Text
+  --ss-text: #1c2333;
+  --ss-text-muted: #667085;
+  --ss-text-inverse: #ffffff;
+
+  // Status
+  --ss-success: #16803c;
+  --ss-success-soft: #dcf5e4;
+  --ss-warning: #b45309;
+  --ss-warning-soft: #fdf0d5;
+  --ss-danger: #c0362c;
+  --ss-danger-soft: #fde4e1;
+  --ss-info: #2563eb;
+  --ss-info-soft: #e0eaff;
+
+  // Type
+  --ss-font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ss-font-display: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+
+  // Spacing scale (4px base)
+  --ss-space-1: 4px;
+  --ss-space-2: 8px;
+  --ss-space-3: 12px;
+  --ss-space-4: 16px;
+  --ss-space-5: 24px;
+  --ss-space-6: 32px;
+  --ss-space-7: 48px;
+  --ss-space-8: 64px;
+
+  // Shape & elevation
+  --ss-radius-sm: 8px;
+  --ss-radius: 14px;
+  --ss-radius-lg: 22px;
+  --ss-radius-pill: 999px;
+  --ss-shadow-sm: 0 1px 2px rgba(20, 33, 61, 0.06), 0 1px 3px rgba(20, 33, 61, 0.08);
+  --ss-shadow: 0 8px 24px -8px rgba(20, 33, 61, 0.18);
+  --ss-shadow-lg: 0 24px 48px -16px rgba(20, 33, 61, 0.28);
+
+  // Motion
+  --ss-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ss-duration: 220ms;
+
+  --ss-container: 1280px;
+  --ss-header-h: 72px;
+}

@@ -1,0 +1,47 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--ss-space-7) var(--ss-space-4);
+}
+
+.icon {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--ss-coral-soft);
+  color: var(--ss-coral-strong);
+  margin-bottom: var(--ss-space-4);
+
+  mat-icon {
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  &.error {
+    background: var(--ss-danger-soft);
+    color: var(--ss-danger);
+  }
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin-bottom: var(--ss-space-2);
+}
+
+p {
+  color: var(--ss-text-muted);
+  max-width: 420px;
+  margin: 0 0 var(--ss-space-5);
+}
+
+.actions {
+  display: flex;
+  gap: var(--ss-space-3);
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,41 @@
+@use 'sass:map';
+@use 'breakpoints' as t;
+
+@mixin up($bp) {
+  @media (min-width: map.get(t.$breakpoints, $bp)) {
+    @content;
+  }
+}
+
+@mixin down($bp) {
+  @media (max-width: (map.get(t.$breakpoints, $bp) - 1px)) {
+    @content;
+  }
+}
+
+@mixin card {
+  background: var(--ss-surface);
+  border: 1px solid var(--ss-line);
+  border-radius: var(--ss-radius);
+  box-shadow: var(--ss-shadow-sm);
+}
+
+@mixin focus-ring {
+  outline: 3px solid color-mix(in srgb, var(--ss-coral) 55%, transparent);
+  outline-offset: 2px;
+}
+
+@mixin line-clamp($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin display-heading($size) {
+  font-family: var(--ss-font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  font-size: $size;
+}

@@ -1,0 +1,79 @@
+<div class="container page">
+  <h1 class="page-title">Shopping cart</h1>
+
+  @if (cart.isEmpty()) {
+    <app-empty-state icon="shopping_bag" title="Your cart is empty" message="Looks like you haven't added anything yet. Explore our best sellers to get started.">
+      <a mat-flat-button routerLink="/products">Start shopping</a>
+      <a mat-stroked-button routerLink="/wishlist">View wishlist</a>
+    </app-empty-state>
+  } @else {
+    <p class="page-subtitle">{{ cart.count() }} {{ cart.count() === 1 ? 'item' : 'items' }} · prices include sale discounts</p>
+
+    <div class="layout">
+      <section aria-label="Cart items">
+        <ul class="items">
+          @for (item of cart.items(); track item.productId) {
+            <li class="item">
+              <a [routerLink]="['/products', item.slug]" class="img">
+                <img [src]="item.image" [alt]="item.name" appImgFallback width="120" height="120" />
+              </a>
+              <div class="info">
+                <span class="brand">{{ item.brand }}</span>
+                <a [routerLink]="['/products', item.slug]" class="name">{{ item.name }}</a>
+                <div class="unit">
+                  {{ item.price | currency: 'USD' }} each
+                  @if (item.compareAtPrice && item.compareAtPrice > item.price) {
+                    <s>{{ item.compareAtPrice | currency: 'USD' }}</s>
+                  }
+                </div>
+                @if (item.quantity >= item.maxQuantity) {
+                  <span class="limit">Maximum available quantity in cart</span>
+                }
+                <div class="links">
+                  <button mat-button type="button" (click)="saveForLater(item)"><mat-icon>favorite</mat-icon> Save for later</button>
+                  <button mat-button type="button" class="remove" (click)="remove(item)"><mat-icon>delete</mat-icon> Remove</button>
+                </div>
+              </div>
+              <div class="qty-col">
+                <app-quantity-selector
+                  [value]="item.quantity"
+                  (valueChange)="setQuantity(item, $event)"
+                  [max]="item.maxQuantity"
+                  [label]="'Quantity for ' + item.name"
+                />
+                <strong class="line-total">{{ item.price * item.quantity | currency: 'USD' }}</strong>
+              </div>
+            </li>
+          }
+        </ul>
+
+        <div class="cart-actions">
+          <a mat-button routerLink="/products"><mat-icon>arrow_back</mat-icon> Continue shopping</a>
+          <button mat-button type="button" class="remove" (click)="clearCart()"><mat-icon>remove_shopping_cart</mat-icon> Empty cart</button>
+        </div>
+
+        <section class="delivery card" aria-labelledby="delivery-title">
+          <h2 id="delivery-title">Delivery options</h2>
+          <mat-radio-group [value]="cart.deliveryOption().id" (change)="setDelivery($event.value)" aria-labelledby="delivery-title">
+            @for (d of deliveryOptions; track d.id) {
+              <mat-radio-button [value]="d.id">
+                <span class="d-label">{{ d.label }} <span class="muted">· {{ d.description }}</span></span>
+                <span class="d-price">{{ d.price | currency: 'USD' }}</span>
+              </mat-radio-button>
+            }
+          </mat-radio-group>
+          <p class="muted note">Estimated charges – the final amount is confirmed at checkout.</p>
+        </section>
+      </section>
+
+      <aside class="summary">
+        <app-order-summary>
+          <a mat-flat-button routerLink="/checkout" class="checkout-btn">
+            <mat-icon>lock</mat-icon> Proceed to checkout
+          </a>
+          <p class="secure muted"><mat-icon>verified_user</mat-icon> Demo checkout – no real payment is taken</p>
+        </app-order-summary>
+      </aside>
+    </div>
+  }
+</div>
